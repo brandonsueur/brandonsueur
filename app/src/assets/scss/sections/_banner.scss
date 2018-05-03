@@ -1,18 +1,20 @@
 section#banner{
 	h1{
 		margin-top: 2em;
+		margin-bottom: 1em;
+
 		font-size: 40px;
-		font-weight: 400;
+		font-weight: 600;
+		
 		line-height: 0;
 	}
 
 	p{
 		padding-right: 60px;
-		font-weight: 300;
-		font-size: 15px;
-		color: #333;
-		line-height: 30px;
-		text-align: justify;
+	    font-weight: 400;
+	    color: #8c8c8c;
+	    line-height: 30px;
+	    text-align: justify;
 	}
 
 	.last{
@@ -21,9 +23,7 @@ section#banner{
 	}
 
 	a{
-		font-weight: 300;
-		font-size: 15px;
-		color: #333;
+		color: #8c8c8c;
 
 		@include transition(0.3s);
 
