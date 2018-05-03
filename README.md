@@ -1,8 +1,9 @@
-# Brandon Sueur - Web Developer 
+# Brandon Sueur - Web Developer
 
 👋 My name is **Brandon Sueur** and I'm an enthusiastic developer with a big passion for the digital world and what we developers can do to make it bigger and stronger.
 
 👀 — Last version is online on https://brandonsueur.github.io
+*(The online version is that the static for the moment)*
 
 ### 😊Talk to me
 Do not hesitate, it's free !
