@@ -1,0 +1,40 @@
+section#banner{
+	h1{
+		margin-top: 2em;
+		font-size: 40px;
+		font-weight: 400;
+		line-height: 0;
+	}
+
+	p{
+		padding-right: 60px;
+		font-weight: 300;
+		font-size: 15px;
+		color: #333;
+		line-height: 30px;
+		text-align: justify;
+	}
+
+	.last{
+	    margin-bottom: 45px;
+	    margin-top: 20px;
+	}
+
+	a{
+		font-weight: 300;
+		font-size: 15px;
+		color: #333;
+
+		@include transition(0.3s);
+
+		&:hover{
+			color: $blue-dark;
+		}
+	}
+}
+
+@media screen and (max-width: 992px){
+	section#banner p{
+		padding-right: 0;
+	}
+}

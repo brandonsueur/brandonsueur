@@ -1,0 +1,21 @@
+@import "compass";
+
+/* src */
+@import "src/grid";
+@import "src/animate";
+
+/* configuration */
+@import "config/colors";
+@import "config/fonts";
+@import "config/base";
+
+/* modules */
+@import "modules/btn";
+
+/* sections */
+@import "sections/header";
+@import "sections/banner";
+@import "sections/about";
+@import "sections/projects";
+@import "sections/services";
+@import "sections/contact";
