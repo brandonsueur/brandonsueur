@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Header from './components/Header/Header'
 import Banner from './components/Banner/Banner'
+import Services from './components/Services/Services'
 
 class App extends Component {
   render() {
@@ -10,6 +11,10 @@ class App extends Component {
             <Header/>
 
             <Banner />
+
+            <hr />
+
+            <Services />
 
             <hr />
         </div>
