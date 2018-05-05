@@ -11,7 +11,7 @@ section#projects{
     .project{
         h3{
             font-size: 20px;
-            font-weight: 500;
+            font-weight: 600;
 
             a.project-name{
                 text-decoration: none;
@@ -31,11 +31,11 @@ section#projects{
         }
 
         p{
-            text-align: justify;
+            padding-right: 60px;
+            font-weight: 400;
+            color: #8c8c8c;
             line-height: 30px;
-            font-weight: 300;
-            font-size: 15px;
-            color: #333;
+            text-align: justify;
         }
 
         .tags{
@@ -44,6 +44,7 @@ section#projects{
             li{
                 display: inline-block;
                 margin-bottom: 5px;
+                margin-right: 5px;
                 padding: 5px 20px;
                 border-radius: 100px;
                 background: $blue-dark;
