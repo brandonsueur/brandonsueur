@@ -5,6 +5,7 @@ import Banner from './components/Banner/Banner'
 import Services from './components/Services/Services'
 import About from './components/About/About'
 import Projects from './components/Projects/Projects'
+import Contact from './components/Contact/Contact'
 
 class App extends Component {
   render() {
@@ -27,6 +28,8 @@ class App extends Component {
             <Projects />
 
             <hr />
+
+            <Contact />
         </div>
     );
   }

@@ -31,7 +31,7 @@ section#projects{
         }
 
         p{
-            padding-right: 60px;
+            //padding-right: 60px;
             font-weight: 400;
             color: #8c8c8c;
             line-height: 30px;
@@ -53,4 +53,12 @@ section#projects{
             }
         }
     }
+}
+
+@media screen and (min-width: 980px){
+
+    section#projects .project p{
+        padding-right: 60px;
+    }
+
 }
