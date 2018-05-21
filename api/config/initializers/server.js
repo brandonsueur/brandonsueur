@@ -14,22 +14,22 @@ import infosRouter from '../../src/infos/routes'
 const app = express()
 
 const server = {
-    start : () => {
+    start: () => {
 
         debug.msg('🎉', `Lancement du projet ${config.app.name} !`)
 
         app.use(bodyParser.json())
-        app.use(bodyParser.urlencoded({ extended: true }))
+        app.use(bodyParser.urlencoded({extended: true}))
 
         server.routes()
 
     },
 
-    routes : () => {
+    routes: () => {
 
         debug.msg('🛣', `Initialisation des routes.`)
 
-        app.use(function(req, res, next) {
+        app.use(function (req, res, next) {
             res.header("Access-Control-Allow-Origin", "*")
             res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept")
 
@@ -57,7 +57,7 @@ const server = {
 
     },
 
-    listen : () => {
+    listen: () => {
 
         app.listen(config.app.port, err => {
             if (err) throw err
@@ -72,7 +72,7 @@ const server = {
 
     errors: () => {
 
-        app.use(function(req, res, next) {
+        app.use(function (req, res, next) {
             res.header("Access-Control-Allow-Origin", "*");
             res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
 
@@ -82,7 +82,7 @@ const server = {
             next(err)
         })
 
-        app.use(function(err, req, res, next) {
+        app.use(function (err, req, res, next) {
             res.locals.message = err.message
             res.locals.error = req.app.get('env') === 'development' ? err : {}
 
@@ -93,11 +93,6 @@ const server = {
         })
 
     }
-}
-
-function isInt(num){
-    var numCopy = parseFloat(num);
-    return !isNaN(numCopy) && numCopy == numCopy.toFixed();
 }
 
 export default server
