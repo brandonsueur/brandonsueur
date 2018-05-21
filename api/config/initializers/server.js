@@ -95,4 +95,9 @@ const server = {
     }
 }
 
+function isInt(num){
+    var numCopy = parseFloat(num);
+    return !isNaN(numCopy) && numCopy == numCopy.toFixed();
+}
+
 export default server
