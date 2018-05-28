@@ -33,8 +33,6 @@ class About extends Component{
     }
 
     render() {
-        console.log(this.state.linkedin)
-
         return(
             <section id="about">
                 <div className="container">
