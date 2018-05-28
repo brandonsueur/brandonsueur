@@ -57,7 +57,7 @@ class Header extends Component{
                         <div className="col-md-10">
                             <div className="title">
                                 <h3 className="animated fadeIn">Brandon Sueur</h3>
-                                <span className="animated fadeInUp">{isSearchJob ? `À l'écoute de nouvelles opportunités.` : `Je ne suis pas à l’écoute du marché.` }</span>
+                                <span className="animated fadeInUp">{isSearchJob ? `Disponible pour des missions Freelance.` : `` }</span>
                             </div>
 
                             <Socials />
