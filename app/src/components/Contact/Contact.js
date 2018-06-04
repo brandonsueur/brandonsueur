@@ -3,6 +3,8 @@ import React, { Component } from 'react'
 
 import Socials from '../Socials'
 
+import "./Contact.css"
+
 class Contact extends Component{
     constructor(props) {
         super(props)
