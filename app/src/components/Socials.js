@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import "./Socials.css"
+
 class Socials extends Component{
     constructor(props) {
         super(props)

@@ -1,0 +1,14 @@
+ul.social-icons li .fa-dribbble { color: #ea5b93 }
+ul.social-icons li .fa-twitter { color: #4099FF }
+ul.social-icons li .fa-linkedin { color: #0067a8 }
+ul.social-icons li .fa-github { color: #1a1a1a }
+ul.social-icons li .fa-medium { color: #07e470 }
+
+ul.social-icons li a { font-size: 25px }
+ul.social-icons li a i { transition-duration: 0.5s; }
+
+ul.social-icons li a i:hover {
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+}
