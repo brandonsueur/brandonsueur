@@ -4,6 +4,8 @@ import React, { Component } from 'react'
 import pictureMe from './img/me.jpg'
 import Socials from '../Socials'
 
+import "./Header.css"
+
 class Header extends Component{
     constructor(props) {
         super(props)
