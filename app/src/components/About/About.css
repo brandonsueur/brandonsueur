@@ -1,0 +1,82 @@
+section#about { margin-bottom: 2em }
+
+section#about .head h2 {
+    line-height: 0;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+section#about .content {
+    font-weight: 500;
+    color: #8c8c8c;
+    line-height: 30px;
+    text-align: justify;
+}
+
+section#about .content a { color: #646ECB }
+
+section#about img {
+    width: 245px;
+    border-radius: 7px;
+}
+
+section#about .links { margin-top: 60px }
+
+section#about .links .bar {
+    position: absolute;
+    height: 1px;
+    width: 80px;
+    background: #daddf3;
+    margin-top: 15px;
+    margin-left: -110px;
+}
+
+section#about .links .link-malt {
+    background: #ff4967;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    box-shadow: 0px 6px 20px 0px rgba(255, 73, 102, 0.41);
+    font-weight: 600;
+    transition-duration: 0.3s;
+}
+
+section#about .links .link-malt:hover {
+    box-shadow: 0px 6px 20px 0px rgba(255, 73, 102, 0.51);
+}
+
+section#about .links .link-linkedin {
+    margin-right: 15px;
+    border: solid 1px #0077b5;
+    color: #fff;
+    border-radius: 30px;
+    background: #0077b5;
+    padding: 7px 11px 9px 12px;
+    transition-duration: 0.3s;
+}
+
+section#about .links .link-linkedin:hover { box-shadow: 0px 6px 20px 0px rgba(1, 119, 181, 0.43) }
+
+
+.link-linkedin:hover .links > .bar, .link-hopwork:hover .links > .bar {
+    background: #aab0de !important;
+}
+
+@media screen and (max-width: 992px) {
+    section#about .hobbies .hobbie { margin: 10px 0px }
+    section#about .hexagone { display: none }
+}
+
+@media screen and (max-width: 500px) {
+    section#about .skills ul.tags span {
+        width: 100% !important;
+        display: block;
+        text-align: center;
+        border-radius: 47px;
+        margin: 15px 0px;
+        font-size: 15px;
+        padding: 0;
+    }
+
+    section#about h3.first { margin-top: 50px !important }
+}

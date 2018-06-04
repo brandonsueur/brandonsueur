@@ -1,6 +1,8 @@
 
 import React, { Component } from 'react'
 
+import "./About.css"
+
 class About extends Component{
     constructor(props) {
         super(props)
@@ -54,7 +56,7 @@ class About extends Component{
 
                             <p>
                                 À côté de mon travail, je suis aussi freelance à temps partiel. Je me suis lancé dans l'aventure Freelance car
-                                j'apprécie travailler en direct avec le client. Comprendre et répondre à une problématique 
+                                j'apprécie travailler en direct avec le client. Comprendre et répondre à une problématique
                                 sont des choses très stimulantes pour moi, et je prends plaisir à m'y impliquer dans le but de livrer un produit abouti.
                             </p>
 
