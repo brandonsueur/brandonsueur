@@ -5,6 +5,8 @@ import vector from './img/vector.svg'
 import browser from './img/browser.svg'
 import coding from './img/coding.svg'
 
+import "./Services.css"
+
 class Services extends Component{
 
     render() {

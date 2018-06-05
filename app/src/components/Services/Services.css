@@ -1,0 +1,32 @@
+section#services {
+    margin: 100px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+section#services .service {
+    color: #646ECB;
+    text-align: center;
+}
+
+section#services .service img { width: 48px }
+
+section#services .service h2 {
+    margin-bottom: 15px;
+    margin-top: 40px;
+    color: black;
+}
+section#services .service p {
+    font-weight: 500;
+    color: #8c8c8c;
+    margin: 0 20px;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 892px) {
+    section#services .service {
+        color: #fff;
+        text-align: center;
+        margin-top: 50px;
+    }
+}
