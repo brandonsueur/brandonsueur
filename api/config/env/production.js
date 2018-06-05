@@ -7,14 +7,14 @@ const config = {
         description : description,
         hostname : `http://localhost`,
         version : version,
-        port : 8000,
+        port : 3001,
     },
-    
+
     db : {
-        host: 'localhost' ,
+        host: '51.38.233.x' ,
         user: 'brandon__s__r',
         password: '',
-        database: 'gity',
+        database: 'portfolio',
         port: 3306
     }
 
