@@ -2,8 +2,7 @@
 
 👋 My name is **Brandon Sueur** and I'm an enthusiastic developer with a big passion for the digital world and what we developers can do to make it bigger and stronger.
 
-👀 — Last version is online on https://brandonsueur.github.io
-*(The online version is that the static for the moment)*
+👀 — Last version is online on [http://brandonsueur.fr](http://brandonsueur.fr)!
 
 ### 😊  Talk to me
 Do not hesitate, it's free !
