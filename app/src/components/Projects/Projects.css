@@ -1,0 +1,51 @@
+section#projects { margin-bottom: 70px }
+
+section#projects h2 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 0;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+section#projects .project h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+section#projects .project h3 a.project-name {
+    text-decoration: none;
+    color: #111;
+}
+
+section#projects .project h3 a.link-github {
+    color: #bbb;
+    margin-left: 5px;
+    transition-duration: 0.3s;
+}
+
+section#projects .project h3 a.link-github:hover { color: #cacaca }
+
+section#projects .project p {
+    font-weight: 500;
+    color: #8c8c8c;
+    line-height: 30px;
+    text-align: justify;
+}
+
+section#projects .project .tags { list-style: none }
+
+section#projects .project .tags li {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 5px 20px;
+    border-radius: 100px;
+    background: #646ECB;
+    color: #fff;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 980px) {
+    section#projects .project p { padding-right: 60px }
+}
