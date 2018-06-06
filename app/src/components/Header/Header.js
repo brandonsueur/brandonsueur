@@ -7,14 +7,10 @@ import Socials from '../Socials'
 import "./Header.css"
 
 class Header extends Component{
-    constructor(props) {
-        super(props)
-
-        this.state = {
-            error: null,
-            isLoaded: false,
-            search_job: null
-        }
+    state = {
+        error: null,
+        isLoaded: false,
+        search_job: null
     }
 
     componentDidMount() {
