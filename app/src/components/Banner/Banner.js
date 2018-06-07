@@ -11,8 +11,8 @@ class Banner extends Component{
                 <div className="container">
                     <div className="col-md-7">
                         <h1>Bonjour,</h1>
-                        <p>Jeune développeur Front-End de 20 ans, actuellement <a href="https://www.malt.fr/profile/brandonsueur" target="_blank" rel="noopener noreferrer">Freelance</a> à temps partiel et salarié chez <a target="_blank" rel="noopener noreferrer" href="https://www.cgi.com/en">CGI</a>.</p>
-                        <p className="last">J'aime apprendre d'avantage de chose, réaliser des projets innovants et partager mon savoir sur diverses plate-formes telles que GitHub et Medium.</p>
+                        <p>Développeur Front-End, actuellement salarié chez <a target="_blank" rel="noopener noreferrer" href="https://www.cgi.com/en">CGI</a> et <a href="https://www.malt.fr/profile/brandonsueur" target="_blank" rel="noopener noreferrer">Freelance</a> à temps partiel.</p>
+                        <p className="last">J'aime apprendre d'avantage de chose, réaliser des projets innovants et partager mon savoir sur diverses plate-formes telles que <a href="https://github.com/brandonsueur" target="_blank" rel="noopener noreferrer">GitHub</a> et <a href="https://medium.com/" target="_blank" rel="noopener noreferrer">Medium</a>.</p>
                     </div>
 
                     <div className="col-md-5 visible-md visible-lg">
