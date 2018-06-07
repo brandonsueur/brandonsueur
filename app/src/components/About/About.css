@@ -6,19 +6,27 @@ section#about .head h2 {
     margin-top: 0;
 }
 
+section#about h2{
+  margin-top: 1.5em;
+}
+
+section#about .highlight{
+  color: #636dcb;
+  font-size: 17px;
+  font-weight: 600;
+}
+
 section#about .content {
     font-weight: 500;
     color: #8c8c8c;
     line-height: 30px;
     text-align: justify;
+    margin-top: 1.5em;
 }
+
+section#about .content span{ color: #6f6e6e; }
 
 section#about .content a { color: #646ECB }
-
-section#about img {
-    width: 245px;
-    border-radius: 7px;
-}
 
 section#about .links { margin-top: 60px }
 
