@@ -5,10 +5,8 @@ ul.social-icons li .fa-github { color: #1a1a1a }
 ul.social-icons li .fa-medium { color: #07e470 }
 
 ul.social-icons li a { font-size: 25px }
-ul.social-icons li a i { transition-duration: 0.5s; }
+ul.social-icons li a i { transition-duration: 0.2s; }
 
 ul.social-icons li a i:hover {
-    transform:rotate(360deg);
-    -ms-transform:rotate(360deg);
-    -webkit-transform:rotate(360deg);
+  transform: scale(1.2);
 }

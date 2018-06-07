@@ -36,11 +36,6 @@ section#contact ul.social-icons li {
     padding: 0 10px;
 }
 
-section#contact ul.social-icons li:first-child { padding-left: 0 }
-section#contact ul.social-icons li a { font-size: 25px }
-section#contact ul.social-icons li a i { animation-delay: 0.5s }
-section#contact ul.social-icons li a i:hover { transform: rotate(360deg) }
-
 @media screen and (min-width: 980px) {
     section#contact p {
         text-align: left !important;
