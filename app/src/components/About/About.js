@@ -2,7 +2,6 @@
 import React, { Component } from 'react'
 
 import "./About.css"
-import pictureMeFull from './img/full.jpg'
 
 class About extends Component{
   constructor(props) {
