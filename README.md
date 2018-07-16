@@ -7,7 +7,7 @@
 ### 😊  Talk to me
 Do not hesitate, it's free !
 
-- 💬  Chat : Join me on [Discord](https://discord.gg/tRse4qu)
+- 💬  Chat : Join me on [Discord](https://discord.gg/xEQxr5Q)
 - 📣  News : Follow me on [Twitter](https://twitter.com/_brandonsueur)
 
 ### 📖  License
