@@ -4,11 +4,7 @@ import "./App.css";
 
 class App extends Component {
   render() {
-    return (
-      <div className="App">
-        {/* your code ... */}
-      </div>
-    );
+    return true
   }
 }
 
