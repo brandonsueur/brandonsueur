@@ -26,3 +26,15 @@ a {
     text-decoration: none;
     transition-duration: 0.3s;
 }
+
+main{
+    position: absolute;
+
+    height: 100%;
+
+    top: 0;
+    left: 700px;
+
+    margin: 0;
+    border: 0;
+}
