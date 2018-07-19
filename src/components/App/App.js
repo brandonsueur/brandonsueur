@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Background from "../Background/Background";
-import Socials from "../Socials/Socials";
+import Menu from "../Menu/Menu";
 
 import "./App.css";
 
@@ -14,7 +14,7 @@ class App extends React.Component {
         </div>
 
         <main className="split-container">
-          <Socials />
+          <Menu />
         </main>
       </div>
     )

@@ -31,10 +31,16 @@ main{
     position: absolute;
 
     height: 100%;
+    width: calc(100% - 700px);
 
     top: 0;
     left: 700px;
 
     margin: 0;
     border: 0;
+}
+
+
+.align-right{
+    float: right;
 }

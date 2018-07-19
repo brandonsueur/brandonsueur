@@ -1,0 +1,42 @@
+nav.menu{ margin: 25px }
+
+nav.menu ul{
+    display: inline-block;
+    list-style: none;
+    padding-left: 0;
+}
+
+nav.menu ul.links li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav.menu ul.links li a {
+  display:inline-block;
+  text-decoration:none;
+  color:#000;
+  position:relative;
+  transition:all 0.5s;
+  padding:0px 5px;
+}
+
+nav.menu ul.links li a::before {
+  content:" ";
+  display:block;
+  position:absolute;
+  bottom:0px;
+  width:0%;
+  left:50%;
+  margin:0 auto;
+  transition:all 0.5s;
+  z-index:-1;
+  left:0%;
+  width:0%;
+  height:100%;
+  background-color:#FFF1CC;
+}
+
+nav.menu ul.links li a:hover::before {
+  width:100%;
+  left:0%;
+}
