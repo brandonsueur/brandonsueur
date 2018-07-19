@@ -10,7 +10,7 @@ class Menu extends React.Component {
       <nav className="menu">
         <ul className="links">
           <li><a href="#about">À propos</a></li>
-          <li><a href="#posts">Articles</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://medium.com/@brandonsueur/">Articles</a></li>
         </ul>
 
         <div className="align-right">

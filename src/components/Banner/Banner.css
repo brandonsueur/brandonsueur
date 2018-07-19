@@ -1,0 +1,49 @@
+header{
+    margin-left: 40px;
+    margin-top: 17em;
+}
+
+header .hello{
+    color: var(--colorYellow);
+
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+header h1{
+    color: #000;
+
+    font-size: 55px;
+    font-weight: 900;
+}
+
+header h1 span{
+    color: #D3D3D3;
+
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 45px;
+}
+
+header .available{
+    color: var(--colorYellow);
+
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+header .available .circle {
+    vertical-align: sub;
+    display: inline-block;
+
+    margin-right: 15px;
+    height: 8px;
+    width: 8px;
+
+    background-color: #F80;
+    border-radius: 50%;
+    border: solid 5Px #FFF1CC;
+}

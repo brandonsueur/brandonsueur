@@ -2,6 +2,7 @@ import React from 'react';
 
 import Background from "../Background/Background";
 import Menu from "../Menu/Menu";
+import Banner from "../Banner/Banner";
 
 import "./App.css";
 
@@ -15,7 +16,11 @@ class App extends React.Component {
 
         <main className="split-container">
           <Menu />
+
+          <Banner />
         </main>
+
+        <div className="circle-bottom"></div>
       </div>
     )
   }

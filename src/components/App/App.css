@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,800,900");
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:100,100i,300,300i,400,400i,600,600i,700,700i');
 
 :root {
     /* colors */
@@ -8,16 +8,20 @@
     /* fonts */
     --fontSize : 16px;
     --fontColor : black;
-    --fontFamily: 'Montserrat';
+    --fontFamily: 'Josefin Slab';
 }
 
 body {
     font-family: var(--fontFamily), sans-serif;
-    color: var(--fontColor);
     font-size: var(--fontSize);
+    
+    color: var(--fontColor);
+
     background-color: #fff;
+
     overflow-y: scroll;
     overflow-x: hidden;
+
     border: 0;
     margin: 0;
 }
@@ -40,7 +44,22 @@ main{
     border: 0;
 }
 
+.container{ margin: 40px }
 
-.align-right{
-    float: right;
+.circle-bottom{
+    z-index: -3;
+    position: fixed;
+
+    width: 800px;
+    height: 800px;
+
+    bottom: 0;
+    right: 0;
+    margin-right: -400px;
+    margin-bottom: -400px;
+    border-radius: 50%;
+
+    background: #FFF1CC;
 }
+
+.align-right{ float: right }
