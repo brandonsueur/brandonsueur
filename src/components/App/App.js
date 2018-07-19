@@ -8,7 +8,7 @@ import "./App.css";
 class App extends React.Component {
   render() {
     return (
-      <app className="wrapper">
+      <div className="wrapper">
         <div className="split-background">
           <Background />
         </div>
@@ -16,7 +16,7 @@ class App extends React.Component {
         <main className="split-container">
           <Socials />
         </main>
-      </app>
+      </div>
     )
   }
 }
