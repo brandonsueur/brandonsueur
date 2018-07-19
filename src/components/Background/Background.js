@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import me from './img/me.png';
 
 import "./Background.css";
 
-class Background extends Component {
+class Background extends React.Component {
   render() {
     return(
       <figure className="background-image">
