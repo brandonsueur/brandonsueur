@@ -13,6 +13,8 @@ nav.menu ul.links li{
 
 nav.menu ul.links li a {
   display:inline-block;
+  font-size: 15px;
+  font-weight: 300;
   text-decoration:none;
   color:#000;
   position:relative;
