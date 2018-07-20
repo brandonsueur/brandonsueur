@@ -48,3 +48,10 @@ nav.menu ul.links li a:hover::before {
     width:100%;
     left:0%;
 }
+
+@media (max-width: 574px){
+    nav.menu ul.links li{
+        display: inline-block;
+        margin: 0 5px;
+    }
+}

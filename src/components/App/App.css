@@ -14,7 +14,7 @@
 body {
     font-family: var(--fontFamily), sans-serif;
     font-size: var(--fontSize);
-    
+
     color: var(--fontColor);
 
     background-color: #fff;
@@ -59,7 +59,18 @@ main{
     margin-bottom: -400px;
     border-radius: 50%;
 
-    background: #FFF1CC;
+    background: #FFF8E6;
 }
 
 .align-right{ float: right }
+
+@media (max-width: 1350px){
+    .split-background{
+        display: none!important;
+    }
+
+    .split-container{
+        position: initial;
+        width: 100%;
+    }
+}

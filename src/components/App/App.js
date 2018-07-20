@@ -2,8 +2,9 @@ import React from 'react';
 
 import Background from "../Background/Background";
 import Menu from "../Menu/Menu";
-import Banner from "../Banner/Banner";
 
+// import Banner from "../Banner/Banner";
+import About from "../About/About";
 import "./App.css";
 
 class App extends React.Component {
@@ -17,7 +18,9 @@ class App extends React.Component {
         <main className="split-container">
           <Menu />
 
-          <Banner />
+          <About />
+
+          {/* <Banner /> */}
         </main>
 
         <div className="circle-bottom"></div>

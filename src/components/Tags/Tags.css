@@ -1,0 +1,21 @@
+ul.tags{
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.tags li{
+    display: inline-block;
+
+    margin: 0 20px 20px 0;
+    padding: 10px 30px;
+    border-radius: 3px;
+
+    background-color: #FFF1CD;
+}
+
+ul.tags li a{
+    color: var(--colorYellow);
+
+    font-weight: 900;
+    letter-spacing: 2px;
+}
