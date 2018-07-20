@@ -16,6 +16,6 @@ ul.tags li{
 ul.tags li a{
     color: var(--colorYellow);
 
-    font-weight: 900;
-    letter-spacing: 2px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
