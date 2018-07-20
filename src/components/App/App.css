@@ -55,19 +55,17 @@ main{
 
     bottom: 0;
     right: 0;
+
     margin-right: -400px;
     margin-bottom: -400px;
     border-radius: 50%;
-
     background: #FFF8E6;
 }
 
 .align-right{ float: right }
 
 @media (max-width: 1350px){
-    .split-background{
-        display: none!important;
-    }
+    .split-background{ display: none!important }
 
     .split-container{
         position: initial;
