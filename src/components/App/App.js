@@ -1,10 +1,14 @@
 import React from 'react';
+import { Router } from "@reach/router";
+import { Link } from '@reach/router'
 
+// components
 import Background from "../Background/Background";
 import Menu from "../Menu/Menu";
-
-// import Banner from "../Banner/Banner";
+import Banner from "../Banner/Banner";
 import About from "../About/About";
+
+// css
 import "./App.css";
 
 class App extends React.Component {
@@ -12,15 +16,18 @@ class App extends React.Component {
     return (
       <div className="wrapper">
         <div className="split-background">
-          <Background />
+          <Link to="/">
+            <Background />
+          </Link>
         </div>
 
         <main className="split-container">
           <Menu />
 
-          <About />
-
-          {/* <Banner /> */}
+          <Router>
+            <Banner path="/" />
+            <About path="/about" />
+          </Router>
         </main>
 
         <div className="circle-bottom"></div>
