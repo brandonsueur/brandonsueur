@@ -17,8 +17,14 @@ class Contact extends React.Component {
               C'est toujours génial de parler et de faire de nouvelles connexions.
             </p>
 
-            <p>Vous aurez une réponse dans les plus brefs délais.</p>
-            
+            <form method="POST" action="https://formspree.io/brandon.sueur@outlook.fr">
+              <input type="text" className="form" name="username" required placeholder='Votre prénom'/>
+              <input type="email" className="form" name="_replyto" required placeholder='Votre email'/>
+
+              <textarea name="content" className="form" cols="30" rows="9" required placeholder="Votre message"></textarea>
+
+              <input type="submit" className="button" required value="Envoyer"/>
+            </form>
           </div>
         </section>
       </div>

@@ -17,3 +17,19 @@ figure.background-image img{
 
     object-fit: cover;
 }
+
+@media (max-width: 1360px){
+    figure.background-image{
+        width: 400px;
+    }
+}
+
+@media (max-width: 870px){
+    figure.background-image{
+        position:inherit;
+        display: block;
+        width: 100%;
+        height: 100;
+
+    }
+}

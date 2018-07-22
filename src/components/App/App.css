@@ -64,11 +64,16 @@ main{
 
 .align-right{ float: right }
 
-@media (max-width: 1350px){
-    .split-background{ display: none!important }
+@media (max-width: 870px){
+    main{
+        position: inherit;
+        width: 100%!important;
+    }
+}
 
-    .split-container{
-        position: initial;
-        width: 100%;
+@media (max-width: 1360px){
+    main{
+        left: 400px;
+        width: calc(100% - 400px);
     }
 }

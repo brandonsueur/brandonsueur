@@ -32,8 +32,63 @@ section.contact p{
     letter-spacing: 1px;
 }
 
+section.contact form{
+
+}
+
+section.contact form input.form, textarea.form{
+
+    font-family: 'Josefin Slab', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    border-bottom: solid 1px #FFF1CC!important;
+    display: block;
+
+    margin: 30px 0;
+    padding: 15px 0px;
+    width: 500px;
+
+    border: 0;
+    resize: none;
+    outline: none;
+}
+
+section.contact form input.form:focus,textarea.form:focus{
+    border-bottom: solid 1px var(--colorYellow)!important;
+}
+
+section.contact form .button{
+    font-family: 'Josefin Slab', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+    padding: 15px 30px;
+
+    background: var(--colorYellow);
+    color: #fff;
+
+    border: 0;
+    outline: none;
+
+    transition-duration: 0.3s;
+    cursor:pointer;
+}
+
+section.contact form .button:hover{
+    color: #FFF1CC;
+}
+@media (max-width: 1360px){
+    section.contact form input.form, textarea.form{
+        width: 300px;
+    }
+}
+
 @media (max-width: 574px){
     section.contact h2::before{
         content: none;
+    }
+
+    section.contact form input.form, textarea.form{
+        width: 100%;
     }
 }

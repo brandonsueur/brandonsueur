@@ -9,7 +9,7 @@ class About extends React.Component {
     return(
       <div className="container">
         <section className="about" id="about">
-          <h2>Mon parcours en quelques lignes</h2>
+          <h2>Mon parcours</h2>
 
           <div className="content">
             <p>Développeur Front-End & Back-End, ma curiosité et ma motivation pour le monde du web font de moi quelqu'un de passionné et de travailleur.</p>

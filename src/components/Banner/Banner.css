@@ -17,6 +17,8 @@ header h1{
 
     font-size: 55px;
     font-weight: 900;
+
+    transition-duration: 0.3s;
 }
 
 header h1 span{
@@ -46,4 +48,19 @@ header .available .circle {
     background-color: #F80;
     border-radius: 50%;
     border: solid 5Px #FFF1CC;
+}
+
+@media (max-width: 870px){
+    header{
+        margin-top: 5em;
+    }
+}
+@media (max-width: 680px) {
+    header h1{
+        font-size: 30px!important;
+    }
+
+    header h1 span{
+        font-size: 20px;
+    }
 }
