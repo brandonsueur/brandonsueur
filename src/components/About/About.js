@@ -8,7 +8,7 @@ class About extends React.Component {
   render() {
     return(
       <div className="container">
-        <section className="about" id="about">
+        <section className="about">
           <h2>Mon parcours</h2>
 
           <div className="content">
