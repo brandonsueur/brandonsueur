@@ -7,6 +7,7 @@ import Background from "../Background/Background";
 import Menu from "../Menu/Menu";
 import Banner from "../Banner/Banner";
 import About from "../About/About";
+import Contact from "../Contact/Contact";
 
 // css
 import "./App.css";
@@ -27,6 +28,7 @@ class App extends React.Component {
           <Router>
             <Banner path="/" />
             <About path="/about" />
+            <Contact path="/contact" />
           </Router>
         </main>
 

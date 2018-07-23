@@ -47,7 +47,7 @@ main{
 .container{ margin: 40px }
 
 .circle-bottom{
-    z-index: -3;
+    z-index: -3000;
     position: fixed;
 
     width: 800px;

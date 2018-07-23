@@ -24,7 +24,7 @@ class About extends React.Component {
             <p>Mon ensemble de compétences est vaste et je me réjouis de tous les défis qui me sont lancés. Je n'arrêterai jamais d'apprendre, mon objectif actuel est de développer au maximum mes compétences pour couvrir n'importe quel projet. J'ai un vif intérêt pour la création de site internet rapide, beau et fonctionnelle.</p>
 
             <Tags />
-        </div>
+          </div>
         </section>
       </div>
     )
