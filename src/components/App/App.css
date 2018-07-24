@@ -65,6 +65,9 @@ main{
 .align-right{ float: right }
 
 @media (max-width: 870px){
+    .circle-bottom{
+        display: none;
+    }
     main{
         position: inherit;
         width: 100%!important;

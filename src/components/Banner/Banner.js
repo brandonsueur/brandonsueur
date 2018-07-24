@@ -6,7 +6,7 @@ class Banner extends React.Component {
   render() {
     return(
       <header>
-        <div className="hello">Salut, mon nom est</div>
+        <div className="hello">Salut, je suis</div>
 
         <h1>Brandon Sueur <span>&</span><br/>
           Je conçois de belles choses<br/>
