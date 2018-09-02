@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from '@reach/router'
+import { Link } from 'react-router-dom';
 
 import Socials from "../Socials/Socials"
 
@@ -10,8 +10,8 @@ class Menu extends React.Component {
     return(
       <nav className="menu">
         <ul className="links">
-          <li><Link to="about">À propos</Link></li>
-          <li><Link to="contact">Contact</Link></li>
+          <li><Link to={'/about'}>À propos</Link></li>
+          <li><Link to={'contact'}>Contact</Link></li>
         </ul>
 
         <div className="align-right">

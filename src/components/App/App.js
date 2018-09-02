@@ -1,6 +1,5 @@
 import React from 'react';
-import { Router } from "@reach/router";
-import { Link } from '@reach/router'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 // components
 import Background from "../Background/Background";
@@ -17,18 +16,20 @@ class App extends React.Component {
     return (
       <div className="wrapper">
         <div className="split-background">
-          <Link to="/">
             <Background />
-          </Link>
         </div>
 
         <main className="split-container">
-          <Menu />
-
           <Router>
-            <Banner path="/" />
-            <About path="/about" />
-            <Contact path="/contact" />
+            <div>
+              <Menu />
+
+              <Switch>
+                <Route exact path='/' component={Banner} />
+                <Route exact path='/about' component={About} />
+                <Route exact path='/contact' component={Contact} />
+              </Switch>
+            </div>
           </Router>
         </main>
 
