@@ -1,82 +1,82 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab:100,100i,300,300i,400,400i,600,600i,700,700i');
 
 :root {
-    /* colors */
-    --colorPurple: #6F66F4;
-    --colorYellow: #FDBB07;
+  /* colors */
+  --colorPurple: #6F66F4;
+  --colorYellow: #FDBB07;
 
-    /* fonts */
-    --fontSize : 16px;
-    --fontColor : black;
-    --fontFamily: 'Josefin Slab';
+  /* fonts */
+  --fontSize : 16px;
+  --fontColor : black;
+  --fontFamily: 'Josefin Slab';
 }
 
 body {
-    font-family: var(--fontFamily), sans-serif;
-    font-size: var(--fontSize);
+  font-family: var(--fontFamily), sans-serif;
+  font-size: var(--fontSize);
 
-    color: var(--fontColor);
+  color: var(--fontColor);
 
-    background-color: #fff;
+  background-color: #fff;
 
-    overflow-y: scroll;
-    overflow-x: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
 
-    border: 0;
-    margin: 0;
+  border: 0;
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
-    transition-duration: 0.3s;
+  text-decoration: none;
+  transition-duration: 0.3s;
 }
 
 main{
-    position: absolute;
+  position: absolute;
 
-    height: 100%;
-    width: calc(100% - 700px);
+  height: 100%;
+  width: calc(100% - 700px);
 
-    top: 0;
-    left: 700px;
+  top: 0;
+  left: 700px;
 
-    margin: 0;
-    border: 0;
+  margin: 0;
+  border: 0;
 }
 
 .container{ margin: 40px }
 
 .circle-bottom{
-    z-index: -3000;
-    position: fixed;
+  z-index: -3000;
+  position: fixed;
 
-    width: 800px;
-    height: 800px;
+  width: 800px;
+  height: 800px;
 
-    bottom: 0;
-    right: 0;
+  bottom: 0;
+  right: 0;
 
-    margin-right: -400px;
-    margin-bottom: -400px;
-    border-radius: 50%;
-    background: #FFF8E6;
+  margin-right: -400px;
+  margin-bottom: -400px;
+  border-radius: 50%;
+  background: #FFF8E6;
 }
 
 .align-right{ float: right }
 
 @media (max-width: 870px){
-    .circle-bottom{
-        display: none;
-    }
-    main{
-        position: inherit;
-        width: 100%!important;
-    }
+  .circle-bottom{
+    display: none;
+  }
+  main{
+    position: inherit;
+    width: 100%!important;
+  }
 }
 
 @media (max-width: 1360px){
-    main{
-        left: 400px;
-        width: calc(100% - 400px);
-    }
+  main{
+    left: 400px;
+    width: calc(100% - 400px);
+  }
 }

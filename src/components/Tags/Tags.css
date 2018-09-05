@@ -1,21 +1,21 @@
 ul.tags{
-    list-style: none;
-    padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 ul.tags li{
-    display: inline-block;
+  display: inline-block;
 
-    margin: 0 20px 20px 0;
-    padding: 10px 30px;
-    border-radius: 3px;
+  margin: 0 20px 20px 0;
+  padding: 10px 30px;
+  border-radius: 3px;
 
-    background-color: #FFF1CD;
+  background-color: #FFF1CD;
 }
 
 ul.tags li a{
-    color: var(--colorYellow);
+  color: var(--colorYellow);
 
-    font-weight: 600;
-    letter-spacing: 1px;
+  font-weight: 600;
+  letter-spacing: 1px;
 }

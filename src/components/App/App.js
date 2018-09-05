@@ -17,24 +17,21 @@ class App extends React.Component {
       <div className="wrapper">
         <Router>
           <div>
-          <div className="split-background">
-            <Link to={'/'}>
-              <Background />
-            </Link>
-          </div>
+            <div className="split-background">
+              <Link to={'/'}>
+                <Background />
+              </Link>
+            </div>
 
-          <main className="split-container">
+            <main className="split-container">
+              <Menu />
 
-
-                <Menu />
-
-                <Switch>
-                  <Route exact path='/' component={Banner} />
-                  <Route exact path='/about' component={About} />
-                  <Route exact path='/contact' component={Contact} />
-                </Switch>
-
-          </main>
+              <Switch>
+                <Route exact path='/' component={Banner} />
+                <Route exact path='/about' component={About} />
+                <Route exact path='/contact' component={Contact} />
+              </Switch>
+            </main>
           </div>
         </Router>
 
