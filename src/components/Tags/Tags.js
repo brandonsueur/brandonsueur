@@ -25,7 +25,7 @@ const Tags = () => (
   <ul className="tags">
     {tags.map((tag, i) => (
       <li key={tag.name}>
-        <a target="_blank" rel="noopener noreferrer" href={tag.url}>
+        <a target="_blank" rel="noopener noreferrer" title={tag.name} href={tag.url}>
           {tag.name}
         </a>
       </li>

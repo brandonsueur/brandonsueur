@@ -1,21 +1,33 @@
+/*
+  background : #FFF1CD
+  color: var(--colorYellow)
+*/
+
 ul.tags{
-  list-style: none;
-  padding-left: 0;
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
 }
 
 ul.tags li{
-  display: inline-block;
-
-  margin: 0 20px 20px 0;
-  padding: 10px 30px;
-  border-radius: 3px;
-
-  background-color: #FFF1CD;
+	float: left;
 }
 
 ul.tags li a{
-  color: var(--colorYellow);
+	position: relative;
+	display: inline-block;
 
-  font-weight: 600;
-  letter-spacing: 1px;
+	height: 26px;
+	padding: 5px 30px;
+	margin: 0 15px 15px 0;
+
+	border-radius: 3px;
+	line-height: 26px;
+
+	background: #FFF1CD;
+	color: var(--colorYellow);
+
+	font-size: 16px;
+	font-weight: 600;
 }
