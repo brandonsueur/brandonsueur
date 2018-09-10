@@ -20,7 +20,7 @@ class Contact extends React.Component {
               <a href="mailto:brandon.sueur@outlook.fr">brandon.sueur@outlook.fr</a>
             </div>
 
-            <h2>Prestations de service</h2>
+            <h2>Prestations de services</h2>
 
             <div className="content">
               <p>
