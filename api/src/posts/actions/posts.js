@@ -1,8 +1,6 @@
 const posts = {
   read: (req, res) => {
-    res.status(200).json({
-      code: 200
-    })
+    // your code... 
   }
 }
 
