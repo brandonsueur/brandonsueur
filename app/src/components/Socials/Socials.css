@@ -1,0 +1,17 @@
+ul.socials{
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.socials li{
+  display: inline-block;
+  margin: 0 13px;
+}
+
+ul.socials li a{
+  font-size: 17px;
+  color: #000;
+}
+
+ul.socials li a i{ transition-duration: 0.2s }
+ul.socials li a i:hover{ transform: scale(1.2) }

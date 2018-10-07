@@ -1,0 +1,39 @@
+section.about{
+  margin-top: 5em;
+}
+
+section.about h2{
+  font-weight: 800;
+  font-size: 35px;
+  margin-top: 1em;
+  margin-bottom: 1.2em;
+}
+
+section.about h2:before{
+  content: ' ';
+
+  position: absolute;
+  margin-top: 50px;
+
+  width: 100px;
+  height: 2px;
+
+  background: var(--colorYellow);
+}
+
+section.about p{
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+
+  margin-bottom: 35px;
+
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 574px){
+  section.about h2::before{
+    content: none;
+  }
+}

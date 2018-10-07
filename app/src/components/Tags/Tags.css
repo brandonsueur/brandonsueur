@@ -1,0 +1,28 @@
+ul.tags{
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+ul.tags li{
+	float: left;
+}
+
+ul.tags li a{
+	position: relative;
+	display: inline-block;
+
+	height: 26px;
+	padding: 5px 30px;
+	margin: 0 15px 15px 0;
+
+	border-radius: 3px;
+	line-height: 26px;
+
+	background: #FFF1CD;
+	color: var(--colorYellow);
+
+	font-size: 17px;
+	font-weight: 600;
+}
