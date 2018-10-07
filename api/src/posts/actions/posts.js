@@ -1,9 +1,14 @@
-import post form "../model/user"
+import post from "../model/post"
 
 const posts = {
   read: (req, res) => {
-    // your code...
-  }
+    post.get(results => {
+      res.status(200).json({
+        code: 200,
+        posts: results
+      })
+    })
+  },
 }
 
 export default posts
