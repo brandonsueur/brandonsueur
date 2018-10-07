@@ -8,6 +8,6 @@ router.route('/posts')
   .get(post.read)
 
 router.route('/posts/:uuid')
-  .get(profile.read)
+  .get(post.read)
 
 export default router

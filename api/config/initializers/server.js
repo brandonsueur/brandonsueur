@@ -1,13 +1,12 @@
 'use strict'
 
 import express from 'express'
-import expressJwt from 'express-jwt'
 import bodyParser from 'body-parser'
 import config from '../config'
 
 import log from '../../src/helpers/log'
 
-import authRouter from '../../src/auth/routes'
+import postsRouter from '../../src/posts/routes'
 
 const app = express()
 
@@ -47,13 +46,6 @@ const server = {
 
     log.msg('🛣', `Initialisation des routes.`)
 
-    app.use(expressJwt({ secret: config.app.secret }).unless({
-      path: [
-        '/',
-        '/auth/login',
-        '/auth/register'
-      ]
-    }));
     app.use(function(req, res, next) {
       res.header("Access-Control-Allow-Origin", "*")
       res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept")
@@ -73,7 +65,7 @@ const server = {
       })
     })
 
-    app.use('/auth', authRouter)
+    app.use('/', postsRouter)
 
     server.listen()
 
