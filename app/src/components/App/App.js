@@ -6,6 +6,7 @@ import Background from "../Background/Background";
 import Menu from "../Menu/Menu";
 import Banner from "../Banner/Banner";
 import About from "../About/About";
+import Post from "../Post/Post";
 import Contact from "../Contact/Contact";
 
 // css
@@ -30,6 +31,7 @@ class App extends React.Component {
                 <Route exact path='/' component={Banner} />
                 <Route exact path='/about' component={About} />
                 <Route exact path='/contact' component={Contact} />
+                <Route exact path='/articles/:slug' component={Post} />
               </Switch>
             </main>
           </div>
