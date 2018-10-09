@@ -1,33 +1,35 @@
-import React from 'react';
+import React from 'react'
+import { api } from '../../api.js'
 
-import "./Socials.css";
+import "./Socials.css"
 
-const socials = [
-  {
-    name: "linkedin",
-    icon: "fab fa-linkedin-in",
-    url: "https://www.linkedin.com/in/brandonsueur/"
-  },{
-    name: "Twitter",
-    icon: "fab fa-twitter",
-    url: "https://twitter.com/_brandonsueur"
-  },{
-    name: "YouTube",
-    icon: "fab fa-youtube",
-    url: "https://www.youtube.com/channel/UCk3deqZbjdsTN3k3GComLCg"
+class Socials extends React.Component {
+  state = {
+    socials: []
   }
-];
 
-const Socials = () => (
-  <ul className="socials">
-    {socials.map((social, i) => (
-      <li key={social.name}>
-        <a target="_blank" rel="noopener noreferrer" href={social.url}>
-          <i className={social.icon}></i>
-        </a>
-      </li>
-    ))}
-  </ul>
-)
+  componentDidMount() {
+    api.get('/socials')
+      .then(res =>
+        this.setState({ socials : res.data.socials})
+      )
+  }
 
-export default Socials;
+  render() {
+    const { socials } = this.state
+
+    return (
+      <ul className="socials">
+        {socials.map((social, i) => (
+          <li key={social.name}>
+            <a target="_blank" rel="noopener noreferrer" href={social.url}>
+              <i className={social.icon}></i>
+            </a>
+          </li>
+        ))}
+      </ul>
+    )
+  }
+}
+
+export default Socials
