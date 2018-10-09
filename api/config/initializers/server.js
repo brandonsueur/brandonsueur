@@ -7,6 +7,7 @@ import config from '../config'
 import log from '../../src/helpers/log'
 
 import postsRouter from '../../src/posts/routes'
+import socialsRouter from '../../src/socials/routes'
 
 const app = express()
 
@@ -66,6 +67,7 @@ const server = {
     })
 
     app.use('/', postsRouter)
+    app.use('/', socialsRouter)
 
     server.listen()
 
