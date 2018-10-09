@@ -11,7 +11,7 @@ const posts = {
   },
 
   read: (req, res) => {
-    post.findOneByUUID([req.params.uuid], result => {
+    post.findOneBySLUG([req.params.slug], result => {
       res.status(200).json({
         code: 200,
         post: result

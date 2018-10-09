@@ -13,8 +13,8 @@ const post = {
     })
   },
 
-  findOneByUUID: (data, cb) => {
-    database.query(`SELECT * FROM ${table} WHERE uuid = ? LIMIT 1`, data, (error, result) => {
+  findOneBySLUG: (data, cb) => {
+    database.query(`SELECT * FROM ${table} WHERE slug = ? LIMIT 1`, data, (error, result) => {
         if(error) throw error
 
         if (result.length === 0) {

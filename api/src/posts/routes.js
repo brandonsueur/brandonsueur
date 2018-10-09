@@ -7,7 +7,7 @@ const router = Router()
 router.route('/posts')
   .get(posts.readAll)
 
-router.route('/posts/:uuid')
+router.route('/posts/:slug')
   .get(posts.read)
 
 export default router
