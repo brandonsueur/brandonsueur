@@ -50,12 +50,18 @@ nav.menu ul.links li a:hover::before {
 }
 
 @media (max-width: 574px){
-  nav.menu ul.links li a{
-    font-size: 16px;
-  }
-
   nav.menu ul.links li{
     display: inline-block;
     margin: 0 5px;
+  }
+}
+
+@media (max-width: 670px){
+  nav.menu ul.links{
+    width: 100%;
+  }
+
+  .align-right{
+    display: none;
   }
 }

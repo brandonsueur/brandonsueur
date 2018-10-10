@@ -53,3 +53,13 @@ section.posts .posts-list span.date{
   font-size: 18px;
   color: var(--colorYellow);
 }
+
+
+@media (max-width: 670px){
+  section.posts .posts-list .post{
+    margin-bottom: 3em;
+  }
+  section.posts .posts-list h3{
+    margin-bottom: 1.6em
+  }
+}
