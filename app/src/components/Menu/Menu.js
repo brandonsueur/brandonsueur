@@ -10,7 +10,8 @@ class Menu extends React.Component {
     return(
       <nav className="menu">
         <ul className="links">
-          <li><Link to={'/about'}>À propos</Link></li>
+          <li><Link to={'/a-propos'}>À propos</Link></li>
+          <li><Link to={'/articles'}>Articles</Link></li>
           <li><Link to={'/contact'}>Contact</Link></li>
         </ul>
 

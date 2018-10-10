@@ -1,0 +1,36 @@
+section.posts{
+  margin-top: 5em;
+}
+
+section.posts h2{
+  font-weight: 800;
+  font-size: 35px;
+  margin-top: 1.7em;
+  margin-bottom: 1em;
+}
+
+section.posts h2:before{
+  content: ' ';
+
+  position: absolute;
+  margin-top: 50px;
+
+  width: 100px;
+  height: 2px;
+
+  background: var(--colorYellow);
+}
+
+section.posts p{
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+section.posts a{
+  text-decoration: none;
+  color: #111;
+}
