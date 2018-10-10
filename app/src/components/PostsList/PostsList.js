@@ -1,11 +1,11 @@
 import React from 'react'
-import Markdown from 'react-remarkable'
 
 import { format } from 'date-fns'
+import frLocale from 'date-fns/locale/fr'
+
 import { api } from '../../api.js'
 
 import "./PostsList.css"
-import { link } from 'fs';
 
 class PostsList extends React.Component {
   state = {
@@ -39,8 +39,6 @@ class PostsList extends React.Component {
     const { error, isLoaded } = this.state;
     const posts = this.state.posts
 
-    const date = format(posts.created_at, 'MM/DD/YYYY')
-
     if (error) {
       return <div>Error: {error.message}</div>;
     } else if (!isLoaded) {
@@ -51,17 +49,26 @@ class PostsList extends React.Component {
           </section>
         </div>
       )
-    } else {
+    } else {      
       return (
         <div className="container">
           <section className="posts">
             <h2>Articles</h2>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem eos obcaecati molestiae iusto odit est voluptas pariatur,
-              suscipit ullam modi optio sequi alias ex ratione non! Nesciunt aliquid amet ut.</p>        
+            <p>Je partage avec vous mon expérience, mes ambitions et quelques conseils à travers mes articles.</p>        
 
             <div className="posts-list">
-              {/* your list */}
+              {posts.map((post, i) => (
+                <div key={post.uuid} className="post">
+                  <h3>
+                    <a rel="noopener noreferrer" href={window.location.href + '/' + post.slug}>
+                      {post.title}
+                    </a>
+                  </h3>
+
+                  <span className="date">Créé le {format(post.created_at, 'DD MMMM YYYY', { locale: frLocale })}</span>
+                </div>
+              ))}
             </div>
           </section>
         </div>
