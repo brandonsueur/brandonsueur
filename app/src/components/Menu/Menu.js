@@ -1,17 +1,9 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import Socials from "../Socials/Socials"
 
 import "./Menu.css";
-
-const oddEvent = (match, location) => {
-  if (!match) {
-    return false
-  }
-  const eventID = parseInt(match.params.eventID)
-  return !isNaN(eventID) && eventID % 2 === 1
-}
 
 class Menu extends React.Component {
   render() {
