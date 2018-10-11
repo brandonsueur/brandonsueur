@@ -44,6 +44,21 @@ nav.menu ul.links li a::before {
   background-color:#FFF1CC;
 }
 
+nav.menu ul.links li a.active::before {
+  z-index:-1;
+  position:absolute;
+  display:block;
+
+  content:" ";
+
+  margin:0 auto;
+  height:100%;
+  width:100%;
+  bottom:0px;
+
+  background-color:#FFF1CC;
+}
+
 nav.menu ul.links li a:hover::before {
   width:100%;
   left:0%;
