@@ -1,14 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
-// components
 import Background from "../Background/Background";
 import Menu from "../Menu/Menu";
 import Banner from "../Banner/Banner";
 import About from "../About/About";
 import Contact from "../Contact/Contact";
 
-// css
 import "./App.css";
 
 class App extends React.Component {
