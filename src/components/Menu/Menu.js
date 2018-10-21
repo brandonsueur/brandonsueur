@@ -11,7 +11,6 @@ class Menu extends React.Component {
       <nav className="menu">
         <ul className="links">
           <li><NavLink activeClassName="active" to={'/a-propos'}>À propos</NavLink></li>
-          <li><NavLink activeClassName="active" to={'/articles'}>Articles</NavLink></li>
           <li><NavLink activeClassName="active" to={'/contact'}>Contact</NavLink></li>
         </ul>
 
