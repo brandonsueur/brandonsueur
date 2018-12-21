@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab:100,100i,300,300i,400,400i,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,600,600i,700,700i');
 
 :root {
   /* colors */
@@ -6,7 +7,7 @@
   --colorYellow: #FDBB07;
 
   /* fonts */
-  --fontSize : 16px;
+  --fontSize : 17px;
   --fontColor : black;
   --fontFamily: 'Josefin Slab';
 }
