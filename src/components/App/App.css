@@ -80,3 +80,9 @@ main{
     width: calc(100% - 400px);
   }
 }
+
+@media (min-width: 1200px){
+  .container{
+    margin: 40px 165px;
+  }
+}

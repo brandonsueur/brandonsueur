@@ -80,3 +80,9 @@ nav.menu ul.links li a:hover::before {
     display: none;
   }
 }
+
+@media (min-width: 1200px){
+  nav.menu{
+    margin: 25px 150px;
+  }
+}
