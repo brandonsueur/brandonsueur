@@ -1,25 +1,18 @@
-import React from 'react';
+import React from 'react'
 
-import "./Banner.css";
+// css
+import './Banner.css'
 
-class Banner extends React.Component {
-  render() {
-    return(
-      <header>
-        <div className="hello">Salut, je suis</div>
+const Banner = () => (
+  <header>
+    <span className="hello">Bonjour,</span>
+    <h1>
+      Je suis Brandon,
+      Développeur web
+    </h1>
 
-        <h1>Brandon Sueur <span>&</span><br/>
-          Je conçois de belles choses<br/>
-          puis j'écris du beau code.
-        </h1>
+    <p>Ma curiosité et ma motivation pour le monde du web font de moi quelqu'un de passionné et de travailleur.</p>
+  </header>
+)
 
-        <div className="available">
-          <div className="circle"></div>
-          Disponible pour des missions freelance à temps partiel.
-        </div>
-      </header>
-    )
-  }
-}
-
-export default Banner;
+export default Banner

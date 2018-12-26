@@ -7,7 +7,7 @@ class Contact extends React.Component {
     return(
       <div className="container">
         <section className="contact" id="contact">
-          <h2>Entrer en contact</h2>
+          <h2 className="title">Entrer en contact</h2>
 
           <div className="content">
             <p>
@@ -15,12 +15,10 @@ class Contact extends React.Component {
               vous aimeriez que je parle ? Ou voulez juste dire bonjour ? Vous pouvez me contacter par email ci-dessous ou me retrouver en ligne sur mes différents réseaux sociaux.
               C'est toujours génial de parler et de faire de nouvelles connexions.
             </p>
+            
+            <a href="mailto:brandon.sueur@outlook.fr">brandon.sueur@outlook.fr</a>
 
-            <div className="mail">
-              <a href="mailto:brandon.sueur@outlook.fr">brandon.sueur@outlook.fr</a>
-            </div>
-
-            <h2>Prestations de services</h2>
+            <h2 className="title">Prestations de services</h2>
 
             <div className="content">
               <p>
@@ -40,6 +38,8 @@ class Contact extends React.Component {
                 entreprise et que les avantages seront supérieurs à l'argent que vous dépensez.
               </p>
             </div>
+
+            <a target="_blank" href="https://www.malt.fr/profile/brandonsueur">Mon profil Malt</a>
           </div>
         </section>
 

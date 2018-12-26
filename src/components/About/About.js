@@ -9,7 +9,7 @@ class About extends React.Component {
     return(
       <div className="container">
         <section className="about">
-          <h2>Mon parcours</h2>
+          <h2 className="title">Mon parcours</h2>
 
           <div className="content">
             <p>Développeur Front-End & Back-End, ma curiosité et ma motivation pour le monde du web font de moi quelqu'un de passionné et de travailleur.</p>
@@ -18,7 +18,7 @@ class About extends React.Component {
             <p>A temps partiel, je suis toujours Freelance en étant Auto-Entrepeneur. Je fais principalement du Front-End. J'intègre avec précision les maquettes que l'on me fournit et je mets en place les fonctionnalités qui leur sont liées. Je réalise également leur version responsive en prenant en compte les contraintes d'accessibilité et d'ergonomie, et je n'hésite pas à apporter mes conseils en la matière.</p>
           </div>
 
-          <h2>Mes comptétences</h2>
+          <h2 className="title">Mes comptétences</h2>
 
           <div className="content">
             <p>Mon ensemble de compétences est vaste et je me réjouis de tous les défis qui me sont lancés. Je n'arrêterai jamais d'apprendre, mon objectif actuel est de développer au maximum mes compétences pour couvrir n'importe quel projet. J'ai un vif intérêt pour la création de site internet rapide, beau et fonctionnelle.</p>

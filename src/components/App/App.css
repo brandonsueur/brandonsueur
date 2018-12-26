@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab:100,100i,300,300i,400,400i,600,600i,700,700i');
-@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,600,600i,700,700i');
 
 :root {
   /* colors */
@@ -27,6 +26,17 @@ body {
   margin: 0;
 }
 
+p{
+  margin-bottom: 35px;
+
+  font-size: 20px;
+  font-weight: 500;
+  text-align: justify;
+
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+
 a {
   text-decoration: none;
   transition-duration: 0.3s;
@@ -43,6 +53,25 @@ main{
 
   margin: 0;
   border: 0;
+}
+
+h2.title{
+    font-weight: 800;
+    font-size: 35px;
+    margin-bottom: 1.2em;
+    margin-top: 2em;
+}
+
+h2.title:before{
+    content: ' ';
+
+    position: absolute;
+    margin-top: 50px;
+
+    width: 100px;
+    height: 2px;
+
+    background: var(--colorYellow);
 }
 
 .container{ margin: 40px }
@@ -66,9 +95,8 @@ main{
 .align-right{ float: right }
 
 @media (max-width: 870px){
-  .circle-bottom{
-    display: none;
-  }
+  .circle-bottom{ display: none }
+  
   main{
     position: inherit;
     width: 100%!important;
@@ -83,7 +111,5 @@ main{
 }
 
 @media (min-width: 1200px){
-  .container{
-    margin: 40px 165px;
-  }
+  .container{ margin: 40px 165px }
 }
