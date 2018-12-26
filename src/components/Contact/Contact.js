@@ -39,7 +39,7 @@ class Contact extends React.Component {
               </p>
             </div>
 
-            <a target="_blank" href="https://www.malt.fr/profile/brandonsueur">Mon profil Malt</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.malt.fr/profile/brandonsueur">Mon profil Malt</a>
           </div>
         </section>
 
