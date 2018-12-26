@@ -2,6 +2,7 @@ header{
   margin-left: 40px;
   margin-top: 14em;
   margin-right: 2.5em;
+  margin-bottom: 5em;
 }
 
 header .hello{
@@ -22,19 +23,34 @@ header h1{
   transition-duration: 0.3s;
 }
 
+header p{
+  margin-bottom: 50px;
+}
+
+header a{
+  margin-top: 2em;
+  /* padding: 15px 35px; */
+
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--colorYellow);
+  
+  /* background: #fff8e6; */
+  border-radius: 5px;
+}
+
+header a:hover{
+  margin-left: 10px;
+}
+
+
 @media (max-width: 870px){
-  header{
-    margin-top: 5em;
-  }
+  header{ margin-top: 5em }
 }
 @media (max-width: 680px) {
-  header h1{
-    font-size: 30px!important;
-  }
+  header h1{ font-size: 30px }
 
-  header h1 span{
-    font-size: 20px;
-  }
+  header h1 span{ font-size: 20px }
 }
 
 
@@ -44,7 +60,5 @@ header h1{
     margin-left: 165px;
   }
 
-  header p{
-    max-width: 19em;
-  }
+  header p{ max-width: 19em }
 }

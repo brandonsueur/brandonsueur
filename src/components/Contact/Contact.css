@@ -16,10 +16,6 @@ section.contact a:hover{
     margin-left: 10px;
 }
 
-section.contact a:hover{
-    margin-left: 15px;
-}
-
 @media (max-width: 574px){
     section.contact h2::before{
         content: none;
