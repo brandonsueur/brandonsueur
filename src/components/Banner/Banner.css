@@ -29,20 +29,13 @@ header p{
 
 header a{
   margin-top: 2em;
-  /* padding: 15px 35px; */
 
   font-size: 19px;
   font-weight: 600;
   color: var(--colorYellow);
   
-  /* background: #fff8e6; */
   border-radius: 5px;
 }
-
-header a:hover{
-  margin-left: 10px;
-}
-
 
 @media (max-width: 870px){
   header{ margin-top: 5em }
