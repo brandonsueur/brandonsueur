@@ -6,9 +6,9 @@
   --colorDots: '#E2E2E2';
 
   /* fonts */
-  --fontSize: 17px;
+  --fontSize: 16px;
   --fontColor: black;
-  --fontFamily: 'Arial';
+  --fontFamily: Roboto;
 }
 
 body {
@@ -16,4 +16,23 @@ body {
   font-size: var(--fontSize);
 
   color: var(--fontColor);
+}
+
+p {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 300;
+
+  letter-spacing: 0.5px;
+  line-height: 2;
+
+  color: #7787a0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Cocogoose';
+  font-weight: 800;
 }

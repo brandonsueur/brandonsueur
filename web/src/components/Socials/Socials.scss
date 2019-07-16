@@ -1,0 +1,36 @@
+a.social {
+  font-family: 'Poppins';
+  font-size: 16px;
+
+  letter-spacing: 0.5px;
+  line-height: 2;
+
+  text-decoration: none;
+  margin-right: 30px;
+
+  > svg {
+    margin-right: 5px;
+  }
+}
+
+.socials {
+  a.social {
+    color: #9a9eac;
+
+    > svg {
+      vertical-align: sub !important;
+      fill: #9a9eac;
+    }
+  }
+}
+
+.socials-white {
+  a.social {
+    color: black;
+
+    > svg {
+      vertical-align: sub !important;
+      fill: black;
+    }
+  }
+}
