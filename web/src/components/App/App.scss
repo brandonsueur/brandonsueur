@@ -1,0 +1,19 @@
+:root {
+  /* colors */
+  --colorPrimary: '#000000';
+  --colorSecondary: '#999EAB';
+  --colorBackground: '#FCFCFC';
+  --colorDots: '#E2E2E2';
+
+  /* fonts */
+  --fontSize: 17px;
+  --fontColor: black;
+  --fontFamily: 'Arial';
+}
+
+body {
+  font-family: var(--fontFamily), sans-serif;
+  font-size: var(--fontSize);
+
+  color: var(--fontColor);
+}
