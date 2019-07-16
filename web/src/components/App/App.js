@@ -1,11 +1,11 @@
 import React from 'react';
 
+import './App.scss';
+
 export default function App() {
   return (
-    <div>
-      <p>
-        Hello World !
-      </p>
+    <div className="container">
+      <h1>Welcome!</h1>
     </div>
   );
 }
