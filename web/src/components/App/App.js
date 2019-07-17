@@ -11,6 +11,7 @@ export default function App() {
   return (
     <div className="app">
       <Header />
+      <Socials darked />
 
       <Tags />
       <div className="container">

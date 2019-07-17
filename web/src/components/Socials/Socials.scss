@@ -7,29 +7,23 @@ a.social {
   text-decoration: none;
   margin-right: 30px;
 
+  color: #9a9eac;
+
   > svg {
+    fill: #9a9eac;
     margin-right: 5px;
+    vertical-align: text-bottom !important;
   }
 }
 
 .socials {
-  a.social {
-    color: #9a9eac;
+  &-white {
+    a.social {
+      color: black;
 
-    > svg {
-      vertical-align: text-bottom !important;
-      fill: #9a9eac;
-    }
-  }
-}
-
-.socials-white {
-  a.social {
-    color: black;
-
-    > svg {
-      vertical-align: text-bottom !important;
-      fill: black;
+      > svg {
+        fill: black;
+      }
     }
   }
 }

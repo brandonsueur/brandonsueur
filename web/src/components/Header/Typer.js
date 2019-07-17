@@ -18,9 +18,11 @@ class Typer extends React.Component {
       'Briocolo',
       'Amusant',
       'Sportif',
+      'Freelance',
       'Curieux',
       'Passionné',
-      'Geek'
+      'Geek',
+      'Perspicace'
     ];
     const { isDeleting, loopNum, text, typingSpeed } = this.state;
     const i = loopNum % dataText.length;
