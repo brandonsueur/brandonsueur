@@ -1,14 +1,14 @@
 :root {
   /* colors */
   --colorPrimary: #000000;
-  --colorSecondary: #959AA8;
-  --colorBackground: #FCFCFC;
+  --colorSecondary: #959aa8;
+  --colorBackground: #fcfcfc;
   --colorDots: #e2e2e2;
 
   /* fonts */
   --fontSize: 15px;
   --fontColor: black;
-  --fontFamily: Roboto;
+  --fontFamily: 'Poppins';
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 
   color: var(--fontColor);
 
-  border:0;
+  border: 0;
   margin: 0;
   padding: 0;
 }
@@ -39,4 +39,9 @@ h3,
 h4 {
   font-family: 'Cocogoose';
   font-weight: 800;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }

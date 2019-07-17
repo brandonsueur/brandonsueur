@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '../Header/Header';
 import Button from '../Button/Button';
 import Socials from '../Socials/Socials';
+import Tags from '../Tags/Tags';
 
 import './App.scss';
 
@@ -11,6 +12,7 @@ export default function App() {
     <div className="app">
       <Header />
 
+      <Tags />
       <div className="container">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Est fuga
         reprehenderit ratione optio qui eum, minus non! Sed labore commodi et
