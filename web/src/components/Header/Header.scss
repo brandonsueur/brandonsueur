@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  margin-top: 60px;
+
+  .username {
+    h4 {
+      line-height: 15px;
+      margin: 0px;
+    }
+
+    p.me {
+      font-family: 'Poppins';
+      font-weight: 300;
+      color: var(--colorSecondary);
+
+      letter-spacing: 0.5px;
+      line-height: 2;
+
+      margin: 5px 0 0;
+    }
+  }
+}

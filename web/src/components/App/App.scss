@@ -1,12 +1,12 @@
 :root {
   /* colors */
-  --colorPrimary: '#000000';
-  --colorSecondary: '#999EAB';
-  --colorBackground: '#FCFCFC';
-  --colorDots: '#E2E2E2';
+  --colorPrimary: #000000;
+  --colorSecondary: #959aa8;
+  --colorBackground: #fcfcfc;
+  --colorDots: #e2e2e2;
 
   /* fonts */
-  --fontSize: 16px;
+  --fontSize: 15px;
   --fontColor: black;
   --fontFamily: Roboto;
 }
@@ -20,7 +20,6 @@ body {
 
 p {
   font-family: 'Poppins';
-  font-size: 16px;
   font-weight: 300;
 
   letter-spacing: 0.5px;
