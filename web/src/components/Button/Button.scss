@@ -1,12 +1,17 @@
-.button {
-  border-radius: 3px;
+a.button {
+  display: inline-block;
   padding: 15px 30px;
+
+  font-family: 'Poppins';
+  font-weight: 500;
+  text-decoration: none;
   background: #000;
   color: #fff;
 
-  font-family: 'Poppins';
-  font-weight: 400;
-  text-decoration: none;
+  border-radius: 3px;
+  white-space: nowrap;
+
+  cursor: pointer;
 
   transition: 0.3s;
 
