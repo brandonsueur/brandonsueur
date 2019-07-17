@@ -1,8 +1,8 @@
 :root {
   /* colors */
   --colorPrimary: #000000;
-  --colorSecondary: #959aa8;
-  --colorBackground: #fcfcfc;
+  --colorSecondary: #959AA8;
+  --colorBackground: #FCFCFC;
   --colorDots: #e2e2e2;
 
   /* fonts */
@@ -12,10 +12,15 @@
 }
 
 body {
+  background: var(--colorBackground);
   font-family: var(--fontFamily), sans-serif;
   font-size: var(--fontSize);
 
   color: var(--fontColor);
+
+  border:0;
+  margin: 0;
+  padding: 0;
 }
 
 p {
