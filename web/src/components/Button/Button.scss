@@ -1,0 +1,31 @@
+.button {
+  border-radius: 3px;
+  padding: 15px 30px;
+  background: #000;
+  color: #fff;
+
+  font-family: 'Poppins';
+  font-weight: 400;
+  text-decoration: none;
+
+  transition: 0.3s;
+
+  > svg {
+    transition: margin 0.3s ease-in-out;
+    margin-left: 15px;
+    vertical-align: middle;
+  }
+
+  &:hover {
+    box-shadow: 0px 4px 5px #e2e0e0;
+
+    > svg {
+      margin-left: 20px;
+      margin-right: -5px;
+    }
+  }
+
+  &:focus {
+    box-shadow: 0px 0px 0px #e2e0e0;
+  }
+}
