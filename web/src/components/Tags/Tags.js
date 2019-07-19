@@ -22,7 +22,7 @@ const tags = [
 
 const Tags = () => (
   <ul className="tags">
-    {tags.map((tag, i) => (
+    {tags.map(tag => (
       <li>{tag}</li>
     ))}
   </ul>
