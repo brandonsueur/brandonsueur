@@ -13,9 +13,17 @@ a.social {
     fill: #9a9eac;
     margin-right: 5px;
     vertical-align: text-bottom !important;
+    transition-duration: 0.2s;
+  }
+
+  &:hover{
+    > svg{
+      transform: scale(1.1)
+    }
   }
 }
 
+ul.socials li a
 .socials {
   &-white {
     a.social {
