@@ -2,6 +2,18 @@ import React from 'react';
 
 class Typer extends React.Component {
   state = {
+    words: [
+      'Designer',
+      'Briocolo',
+      'Amusant',
+      'Sportif',
+      'Freelance',
+      'Curieux',
+      'Passionné',
+      'Geek',
+      'Perspicace',
+      'Ambitieux'
+    ],
     text: '',
     isDeleting: false,
     loopNum: 0,
@@ -13,20 +25,9 @@ class Typer extends React.Component {
   }
 
   handleType = () => {
-    const dataText = [
-      'Designer',
-      'Briocolo',
-      'Amusant',
-      'Sportif',
-      'Freelance',
-      'Curieux',
-      'Passionné',
-      'Geek',
-      'Perspicace'
-    ];
-    const { isDeleting, loopNum, text, typingSpeed } = this.state;
-    const i = loopNum % dataText.length;
-    const fullText = dataText[i];
+    const { isDeleting, loopNum, text, words, typingSpeed } = this.state;
+    const i = loopNum % words.length;
+    const fullText = words[i];
 
     this.setState({
       text: isDeleting
