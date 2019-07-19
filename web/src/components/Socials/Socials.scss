@@ -7,10 +7,10 @@ a.social {
   text-decoration: none;
   margin-right: 30px;
 
-  color: #9a9eac;
+  color: var(--colorSecondary);
 
   > svg {
-    fill: #9a9eac;
+    fill: var(--colorSecondary);
     margin-right: 5px;
     vertical-align: text-bottom !important;
     transition-duration: 0.2s;
