@@ -13,6 +13,8 @@ export default function App() {
       <Header />
       <Socials darked />
 
+      <Button text="Salut tout le monde" link="http://google.fr" />
+
       <Tags />
       <div className="container">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Est fuga

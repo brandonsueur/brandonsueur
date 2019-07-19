@@ -3,9 +3,14 @@ import React from 'react';
 import './Button.scss';
 
 const Button = props => {
-  const { text, link } = props;
+  const { text, link, newTab } = props;
   return (
-    <a className="button" href={link}>
+    <a
+      className="button"
+      href={link}
+      target={newTab ? '_blank' : '_self'}
+      rel="noopener noreferrer"
+    >
       {text}
 
       <svg width="29" height="13">
