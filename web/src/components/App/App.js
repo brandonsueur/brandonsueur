@@ -11,7 +11,7 @@ export default function App() {
   return (
     <div className="app">
       <Header />
-      <Socials darked />
+      <Socials />
 
       <Button text="Salut tout le monde" link="http://google.fr" />
 

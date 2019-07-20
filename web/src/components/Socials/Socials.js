@@ -7,7 +7,7 @@ class Socials extends React.PureComponent {
     const { darked } = this.props;
 
     return (
-      <div className={darked ? 'socials-white' : 'socials'}>
+      <div className={darked ? 'socials-darked' : 'socials-lighted'}>
         <a
           className="social"
           href="https://dribbble.com/brandonsueur"

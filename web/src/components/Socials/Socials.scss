@@ -7,31 +7,28 @@ a.social {
   text-decoration: none;
   margin-right: 30px;
 
-  color: var(--colorSecondary);
+  color: var(--colorPrimary);
 
   > svg {
-    fill: var(--colorSecondary);
+    fill: var(--colorPrimary);
     margin-right: 5px;
     vertical-align: text-bottom !important;
     transition-duration: 0.2s;
   }
 
-  &:hover{
-    > svg{
-      transform: scale(1.1)
+  &:hover {
+    > svg {
+      transform: scale(1.1);
     }
   }
 }
 
-ul.socials li a
-.socials {
-  &-white {
-    a.social {
-      color: black;
+.socials-lighted {
+  a.social {
+    color: var(--colorSecondary) !important;
 
-      > svg {
-        fill: black;
-      }
+    > svg {
+      fill: var(--colorSecondary);
     }
   }
 }
