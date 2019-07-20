@@ -16,7 +16,7 @@ class Socials extends React.PureComponent {
           rel="noopener noreferrer"
         >
           <svg
-            width={20}
+            width={22}
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 64 64"
           >
@@ -33,7 +33,7 @@ class Socials extends React.PureComponent {
           rel="noopener noreferrer"
         >
           <svg
-            width={20}
+            width={22}
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >

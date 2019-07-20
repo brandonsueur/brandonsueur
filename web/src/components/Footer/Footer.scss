@@ -1,0 +1,26 @@
+footer {
+  margin-top: 13em;
+  padding: 8em 0 5em;
+  background-color: #000;
+
+  .top {
+    width: 100%;
+
+    a {
+      font-family: 'Poppins';
+      font-weight: 600;
+      color: #fff;
+      text-decoration: none;
+      font-size: 2em;
+    }
+  }
+
+  p {
+    color: var(--colorSecondary);
+    line-height: 0;
+  }
+
+  .socials-lighted {
+    float: right;
+  }
+}

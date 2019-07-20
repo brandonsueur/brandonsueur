@@ -5,9 +5,12 @@ a.social {
   line-height: 2;
 
   text-decoration: none;
-  margin-right: 30px;
 
   color: var(--colorPrimary);
+
+  &:first-child {
+    margin-right: 30px;
+  }
 
   > svg {
     fill: var(--colorPrimary);
