@@ -1381,7 +1381,6 @@
 .container-fluid:after,
 .row:before,
 .row:after {
-  content: ' ';
   display: table;
 }
 .clearfix:after,
