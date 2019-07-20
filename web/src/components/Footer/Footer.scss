@@ -3,16 +3,45 @@ footer {
   padding: 8em 0 5em;
   background-color: #000;
 
-  .top {
-    width: 100%;
-
-    a {
-      font-family: 'Poppins';
-      font-weight: 600;
-      color: #fff;
-      text-decoration: none;
-      font-size: 2em;
+  .title {
+    span {
+      font-weight: 500;
+      color: var(--colorSecondary);
     }
+    h1 {
+      color: #fff;
+    }
+  }
+
+  a.mail {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 2em;
+
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 2em;
+
+    color: #fff;
+
+    text-decoration: none;
+
+    box-sizing: border-box;
+    box-shadow: inset 0 -20px 0 rgba(83, 85, 93, 0.4);
+
+    transition: 0.4s;
+
+    &:hover {
+      box-shadow: inset 0 -100px 0 rgba(83, 85, 93, 0.4);
+
+      transition: 0.2s;
+    }
+  }
+
+  .bottom {
+    margin-top: 7em;
+
+    width: 100%;
   }
 
   p {
@@ -22,5 +51,21 @@ footer {
 
   .socials-lighted {
     float: right;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    p {
+      display: none;
+    }
+    .socials-lighted {
+      margin-top: 2em;
+      float: left;
+    }
+
+    .bottom {
+      margin-top: 3em;
+    }
   }
 }
