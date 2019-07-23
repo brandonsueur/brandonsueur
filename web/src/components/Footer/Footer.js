@@ -38,7 +38,7 @@ export default function Footer() {
         <div className="bottom">
           <div className="row">
             <div className="col-xs-12 col-sm-6 col-md-6">
-              <p>
+              <p className="hello">
                 Passez une bonne journée !{' '}
                 <span role="img" aria-label="hello">
                   👋🏻

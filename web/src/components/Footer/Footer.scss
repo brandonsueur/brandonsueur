@@ -53,9 +53,10 @@ footer {
 
 @media screen and (max-width: 768px) {
   footer {
-    p {
+    .bottom .hello {
       display: none;
     }
+
     .socials-lighted {
       margin-top: 2em;
       float: left;
