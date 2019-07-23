@@ -1,0 +1,45 @@
+section.quotes {
+  margin-top: 5em;
+
+  .title {
+    span {
+      font-weight: 500;
+      color: var(--colorSecondary);
+    }
+    h1 {
+      color: var(--colorPrimary);
+    }
+  }
+}
+
+.comments {
+  margin-top: 1em;
+
+  .comment {
+    margin-top: 1em;
+    background-color: #fff;
+    padding: 3em;
+    border-radius: 5px;
+
+    &.darked {
+      background-color: black;
+
+      span {
+        color: #fff;
+      }
+    }
+
+    svg {
+      width: 22px;
+    }
+
+    p {
+      color: var(--colorSecondary);
+    }
+
+    span {
+      color: var(--colorPrimary);
+      font-weight: 500;
+    }
+  }
+}

@@ -30,7 +30,7 @@ p {
   letter-spacing: 0.5px;
   line-height: 2;
 
-  color: #7787a0;
+  color: var(--colorSecondary);
 }
 
 h1,
@@ -44,4 +44,8 @@ h4 {
 ul {
   list-style: none;
   padding: 0;
+}
+
+.bold {
+  font-weight: 500;
 }
