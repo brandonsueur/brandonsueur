@@ -67,3 +67,12 @@ footer {
     }
   }
 }
+
+
+@media screen and(max-width: 475px){
+  footer{
+    a.mail{
+      font-size: 1.5em;
+    }
+  }
+}
