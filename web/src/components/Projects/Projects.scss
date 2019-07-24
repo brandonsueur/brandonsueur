@@ -1,3 +1,14 @@
-section#projects {
-  background: var(--colorPrimary);
+section.projects {
+  background-color: var(--colorPrimary);
+  padding: 6em 0 5em;
+
+  .title {
+    span {
+      font-weight: 500;
+      color: var(--colorSecondary);
+    }
+    h1 {
+      color: #fff;
+    }
+  }
 }
