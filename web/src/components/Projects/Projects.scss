@@ -1,6 +1,7 @@
 section.projects {
   background-color: var(--colorPrimary);
   padding: 6em 0 5em;
+  margin-top: 13em;
 
   .title {
     span {
@@ -9,6 +10,12 @@ section.projects {
     }
     h1 {
       color: #fff;
+    }
+  }
+
+  p {
+    strong {
+      font-weight: 600;
     }
   }
 }

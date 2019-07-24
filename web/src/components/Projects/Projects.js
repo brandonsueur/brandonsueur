@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Button from '../Button/Button';
+
 import './Projects.scss';
 
 const Projects = () => {
@@ -17,23 +19,25 @@ const Projects = () => {
                 </span>
               </h1>
             </div>
+
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-              quam fugit veritatis, eius temporibus nisi explicabo ipsam veniam
-              sapiente ex dolorum sed accusamus quos quae repellat pariatur
-              excepturi in deserunt.
+              Après quelques mois d'entreprenariat j'ai appris une chose. Il
+              faut savoir décrocher, écrire et réaliser.
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Veritatis, fuga earum ipsa animi laudantium minus optio est
-              deleniti reiciendis ipsam tenetur officiis commodi. Quia quas non
-              et voluptatibus quis distinctio.
+              Les projets, permettent d’<strong>apprendre</strong>, d’
+              <strong>échanger</strong> et <strong>performer</strong> ! C’est
+              pour moi une façon d’évacuer mes « idées » qui me passe par la
+              tête(même si c’est nul, j’en ai besoin), d’apprendre des nouvelles
+              technologies mais aussi d’échanger avec énormément de personne sur
+              mes idées et de les améliorer.
             </p>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Cupiditate autem in dolore, nihil vero sapiente nostrum voluptates
-              beatae laudantium laborum debitis culpa voluptatum quo natus quod
-              ratione fuga eum doloremque!
+              Avoir l’idée c’est simple, la développer, maintenir et sortir le
+              produit ça l’ai beaucoup moins. Ca demande du temps, de la
+              réfléxion mais aussi un soutiens ! C’est pour cela que je rends au
+              maximum maintenant mes projets open-source, que j’échange au
+              maximum mes projets sur les réseaux sociaux.
             </p>
           </div>
         </div>
