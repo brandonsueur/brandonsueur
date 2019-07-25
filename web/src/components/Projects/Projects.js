@@ -40,7 +40,13 @@ const Projects = () => {
               maximum mes projets sur les réseaux sociaux.
             </p>
 
-            <a href="https://github.com/brandonsueur">Découvrir mon GitHub</a>
+            <a
+              href="https://github.com/brandonsueur"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Découvrir mon GitHub
+            </a>
           </div>
 
           <div className="col-xs-12 col-sm-12 col-md-5 col-md-offset-1 col-lg-5">
