@@ -43,7 +43,7 @@ const Projects = () => {
             <a href="https://github.com/brandonsueur">Découvrir mon GitHub</a>
           </div>
 
-          <div className="col-xs-12 col-sm-12 col-md-5 col-lg-offset-1 col-lg-5">
+          <div className="col-xs-12 col-sm-12 col-md-5 col-md-offset-1 col-lg-5">
             <div className="projects row">
               <div className="col-xs-12 col-sm-6 col-md-12">
                 <div className="project pull-right">
