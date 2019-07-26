@@ -36,7 +36,7 @@ const Posts = () => {
                 alt=""
               />
 
-              <h3>J'ai arrêté les cours à 18 ans</h3>
+              <h3>Pourquoi j'aime les produits Apple !</h3>
               <span className="date">03 décembre 2018</span>
             </div>
           </div>

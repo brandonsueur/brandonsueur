@@ -23,8 +23,14 @@ section.posts {
       border-radius: 5px;
       margin-bottom: 1em;
     }
+
     h3 {
-      line-height: 0;
+      margin: 0em;
+      width: 100%;
+      overflow: hidden;
+      display: inline-block;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
     span {
       color: var(--colorSecondary);
