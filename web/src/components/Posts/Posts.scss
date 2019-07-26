@@ -1,0 +1,35 @@
+section.posts {
+  margin-top: 5em;
+
+  .title {
+    span {
+      font-weight: 500;
+      color: var(--colorSecondary);
+    }
+    h1 {
+      color: var(--colorPrimary);
+    }
+  }
+
+  .button {
+    float: right;
+    margin-top: 10px;
+  }
+
+  .post {
+    margin-top: 3em;
+    img {
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 1em;
+    }
+    h3 {
+      line-height: 0;
+    }
+    span {
+      color: var(--colorSecondary);
+      font-weight: 400;
+      font-size: 14px;
+    }
+  }
+}
