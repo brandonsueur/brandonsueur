@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './Posts.scss';
-import Button from '../Button/Button';
 
 const Posts = () => {
   return (

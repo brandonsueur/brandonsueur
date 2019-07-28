@@ -1,0 +1,22 @@
+section.strategy {
+  background-color: var(--colorPrimary);
+  padding: 6em 0 5em;
+  margin-top: 7em;
+
+  .title {
+    span {
+      font-weight: 500;
+      color: var(--colorSecondary);
+    }
+    h1 {
+      color: #fff;
+    }
+  }
+
+  .block {
+    background: #fff;
+    padding: 1em 1.5em;
+    border-radius: 5px;
+    min-height: 325px;
+  }
+}
