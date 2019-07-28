@@ -53,3 +53,36 @@ ul {
 .right {
   float: right;
 }
+
+// dots
+.dots-projects-1 {
+  width: 250px;
+  height: 100px;
+  z-index: -1;
+  margin-top: 25px;
+  position: absolute;
+  right: 0;
+}
+.dots-projects-2 {
+  width: 415px;
+  height: 70px;
+  z-index: -1;
+  margin-top: 15px;
+  position: absolute;
+  left: 0;
+}
+
+.dots-footer {
+  width: 880px;
+  height: 100px;
+  z-index: -1;
+  margin-top: 95px;
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (max-width: 1110px) {
+  .dots-footer {
+    width: 300px;
+  }
+}

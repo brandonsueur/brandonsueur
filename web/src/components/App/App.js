@@ -9,6 +9,7 @@ import Strategy from '../Strategy/Strategy';
 import About from '../About/About';
 
 import './App.scss';
+import Dots from '../Dots/Dots';
 
 export default function App() {
   return (
@@ -18,8 +19,20 @@ export default function App() {
       <About />
       <Strategy />
       <Posts />
+
+      <div className="dots-projects-1">
+        <Dots />
+      </div>
       <Projects />
+      <div className="dots-projects-2">
+        <Dots />
+      </div>
+
       <Quotes />
+
+      <div className="dots-footer">
+        <Dots />
+      </div>
       <Footer />
     </div>
   );
