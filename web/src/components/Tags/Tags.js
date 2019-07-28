@@ -4,10 +4,8 @@ import './Tags.scss';
 
 const tags = [
   'PHP',
-  'Autonome',
   'MySQL',
   'Git',
-  'Rigoureux',
   'React',
   'Docker',
   'Vue.js',
@@ -16,7 +14,6 @@ const tags = [
   'Sketch',
   'Laravel 5',
   'JavaScript',
-  'Polyvalent',
   'Node.js'
 ];
 

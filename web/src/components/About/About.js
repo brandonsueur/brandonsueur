@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Skills from './Skills/Skills';
+
 import './About.scss';
 
 const About = () => {
@@ -16,7 +18,7 @@ const About = () => {
         </div>
 
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-sm-6 col-md-6">
             <p>
               J’adore apprendre, chaque jour j’essaye d’apprendre au moins une
               chose, dans n’importe quel domaine mais au moins apprendre une
@@ -27,13 +29,19 @@ const About = () => {
               </strong>
             </p>
           </div>
-          <div className="col-md-6">
+          <div className="col-sm-6 col-md-6">
             <p>
               Une fois inspiré par ce que je fais, je peux proposer mes services
               à des prospects. Après avoir compris fonctionnellement l’objectif
               du projet, je me permet de faire mon maximum concernant mon
               inspiration, c’est là que pour moi ça a le plus d’impact.
             </p>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-md-6">
+            <Skills />
           </div>
         </div>
       </div>
