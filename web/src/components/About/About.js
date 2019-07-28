@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Skills from './Skills/Skills';
+import Experiences from './Experiences/Experiences';
 
 import './About.scss';
 
@@ -40,8 +41,11 @@ const About = () => {
         </div>
 
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-xs-12 col-sm-6 col-md-6">
             <Skills />
+          </div>
+          <div className="col-xs-12 col-sm-6 col-md-6">
+            <Experiences />
           </div>
         </div>
       </div>

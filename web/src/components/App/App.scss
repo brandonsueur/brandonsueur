@@ -24,7 +24,7 @@ body {
 }
 
 p {
-  font-family: 'Poppins';
+  font-family: var(--fontFamily);
   font-weight: 300;
 
   letter-spacing: 0.5px;

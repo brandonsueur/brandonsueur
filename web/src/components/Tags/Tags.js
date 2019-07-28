@@ -11,6 +11,7 @@ const tags = [
   'Vue.js',
   'Adobe xd',
   'MVC',
+  'SEO',
   'Sketch',
   'Laravel 5',
   'JavaScript',
