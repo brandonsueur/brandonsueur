@@ -1,0 +1,18 @@
+section.about {
+  padding: 6em 0 5em;
+  margin-top: 7em;
+
+  .title {
+    span {
+      font-weight: 500;
+      color: var(--colorSecondary);
+    }
+    h1 {
+      color: #000;
+    }
+  }
+
+  strong {
+    font-weight: 500;
+  }
+}
