@@ -17,6 +17,10 @@ export default function App() {
       <Header />
 
       <About />
+
+      <div className="dots-strategy">
+        <Dots />
+      </div>
       <Strategy />
       <Posts />
 
