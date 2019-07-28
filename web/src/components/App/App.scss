@@ -55,6 +55,17 @@ ul {
 }
 
 // dots
+
+.dots-banner {
+  width: 400px;
+  height: 200px;
+  z-index: -1;
+  margin-top: -100px;
+  margin-left: 270px;
+  position: absolute;
+  left: 0;
+}
+
 .dots-strategy {
   width: 250px;
   height: 100px;

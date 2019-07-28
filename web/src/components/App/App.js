@@ -10,11 +10,14 @@ import About from '../About/About';
 
 import './App.scss';
 import Dots from '../Dots/Dots';
+import Banner from '../Banner/Banner';
 
 export default function App() {
   return (
     <div className="app">
       <Header />
+
+      <Banner />
 
       <About />
 
