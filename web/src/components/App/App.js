@@ -27,11 +27,11 @@ export default function App() {
       <Strategy />
       <Posts />
 
-      <div className="dots-projects-1">
+      <div className="dots-projects-before">
         <Dots />
       </div>
       <Projects />
-      <div className="dots-projects-2">
+      <div className="dots-projects-after">
         <Dots />
       </div>
 

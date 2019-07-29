@@ -15,15 +15,18 @@ const Banner = () => {
         <div className="banner">
           <div className="col-xs-12 col-sm-8 col-md-6">
             <h1>
-              Je conçois de jolis sites web
-              <br />
-              pour agences et particuliers !
+              Je conçois de jolis sites web pour agences et particuliers !
             </h1>
 
             <p>
               Ma curiosité et ma motivation pour le monde du web font de moi
               quelqu’un de passioné et de travailleur.
             </p>
+
+            <Button
+              text="Découvrir mes articles"
+              link="https://medium.com/@brandonsueur"
+            />
 
             <Socials darked />
           </div>
