@@ -1426,6 +1426,7 @@
 /* Poppins */
 @font-face {
   font-family: 'Poppins';
+  font-display: swap;
   font-style: normal;
   font-weight: 300;
   src: local('Poppins Light'), local('Poppins-Light'),
@@ -1434,6 +1435,7 @@
 
 @font-face {
   font-family: 'Poppins';
+  font-display: swap;
   font-style: normal;
   font-weight: 400;
   src: local('Poppins Regular'), local('Poppins-Regular'),
@@ -1442,6 +1444,7 @@
 
 @font-face {
   font-family: 'Poppins';
+  font-display: swap;
   font-style: normal;
   font-weight: 500;
   src: local('Poppins Medium'), local('Poppins-Medium'),
@@ -1450,6 +1453,7 @@
 
 @font-face {
   font-family: 'Poppins';
+  font-display: swap;
   font-style: normal;
   font-weight: 600;
   src: local('Poppins SemiBold'), local('Poppins-SemiBold'),
@@ -1458,6 +1462,7 @@
 
 @font-face {
   font-family: 'Poppins';
+  font-display: swap;
   font-style: normal;
   font-weight: 700;
   src: local('Poppins Bold'), local('Poppins-Bold'),
@@ -1466,6 +1471,7 @@
 
 @font-face {
   font-family: 'Poppins';
+  font-display: swap;
   font-style: normal;
   font-weight: 800;
   src: local('Poppins ExtraBold'), local('Poppins-ExtraBold'),
@@ -1476,6 +1482,7 @@
 
 @font-face {
   font-family: 'Cocogoose';
+  font-display: swap;
   font-style: normal;
   font-weight: 400;
   src: local('Cocogoose Pro Thin'), local('Cocogoose-Pro-Thin'),
@@ -1483,6 +1490,7 @@
 }
 @font-face {
   font-family: 'Cocogoose';
+  font-display: swap;
   font-style: normal;
   font-weight: 500;
   src: local('Cocogoose Pro Light'), local('Cocogoose-Pro-Light'),
@@ -1491,6 +1499,7 @@
 
 @font-face {
   font-family: 'Cocogoose';
+  font-display: swap;
   font-style: normal;
   font-weight: 600;
   src: local('Cocogoose Pro UltraLight'), local('Cocogoose-Pro-UltraLight'),
@@ -1499,6 +1508,7 @@
 
 @font-face {
   font-family: 'Cocogoose';
+  font-display: swap;
   font-style: normal;
   font-weight: 700;
   src: local('Cocogoose Pro SemiLight'), local('Poppins-SemiLight'),
@@ -1507,6 +1517,7 @@
 
 @font-face {
   font-family: 'Cocogoose';
+  font-display: swap;
   font-style: normal;
   font-weight: 800;
   src: local('Cocogoose'), url('fonts/Cocogoose.ttf') format('truetype');

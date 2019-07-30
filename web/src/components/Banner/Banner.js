@@ -6,7 +6,7 @@ import Dots from '../Dots/Dots';
 
 import './Banner.scss';
 
-import imageMe from './img/me.png';
+import imageMe from './img/me.jpg';
 
 const Banner = () => {
   return (
