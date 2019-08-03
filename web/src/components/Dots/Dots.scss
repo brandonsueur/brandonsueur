@@ -1,0 +1,72 @@
+.dots {
+  display: block;
+  animation: fadeIn 0.4s;
+}
+
+.dots-banner {
+  width: 400px;
+  height: 200px;
+  z-index: -1;
+  margin-top: -100px;
+  margin-left: 270px;
+  position: absolute;
+  left: 0;
+}
+
+.dots-strategy {
+  width: 250px;
+  height: 100px;
+  z-index: -1;
+  margin-top: 25px;
+  position: absolute;
+  left: 0;
+}
+
+.dots-projects-before {
+  width: 250px;
+  height: 100px;
+  z-index: -1;
+  margin-top: 25px;
+  position: absolute;
+  right: 0;
+}
+.dots-projects-after {
+  width: 415px;
+  height: 70px;
+  z-index: -1;
+  margin-top: 15px;
+  position: absolute;
+  left: 0;
+}
+
+.dots-footer {
+  width: 880px;
+  height: 100px;
+  z-index: -1;
+  margin-top: 95px;
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (max-width: 1110px) {
+  .dots-footer {
+    width: 300px;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

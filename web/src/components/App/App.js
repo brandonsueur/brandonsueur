@@ -21,25 +21,17 @@ export default function App() {
 
       <About />
 
-      <div className="dots-strategy">
-        <Dots />
-      </div>
+      <Dots name="strategy" />
       <Strategy />
       <Posts />
 
-      <div className="dots-projects-before">
-        <Dots />
-      </div>
+      <Dots name="projects-before" />
       <Projects />
-      <div className="dots-projects-after">
-        <Dots />
-      </div>
+      <Dots name="projects-after" />
 
       <Quotes />
 
-      <div className="dots-footer">
-        <Dots />
-      </div>
+      <Dots name="footer" />
       <Footer />
     </div>
   );
