@@ -33,9 +33,7 @@ const Banner = () => {
 
           <div className="col-sm-6 col-md-6 img">
             <img src={imageMe} width="100%" alt="Me" />
-            <div className="dots-banner">
-              <Dots />
-            </div>
+            <Dots name="banner" />
           </div>
         </div>
       </div>
