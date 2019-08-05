@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class Posts extends Migration
+class CreatePostsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -17,12 +17,13 @@ class Posts extends Migration
             $table->uuid('id');
 
             $table->string('title')->unique();
+            $table->string('image')->unique();
             $table->longText('content');
             $table->boolean('display');
             $table->boolean('draft');
 
-            $table->timestamps('created_at');
-            $table->timestamps('updated_at');
+            $table->dateTime('created_at');
+            $table->dateTime('updated_at');
         });
     }
 
