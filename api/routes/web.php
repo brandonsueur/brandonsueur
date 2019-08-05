@@ -15,4 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/posts', 'PostsController@index');
+Route::group(['middleware' => ['cors']], function () {
+    Route::get('/posts', 'PostsController@index');
+});
+
