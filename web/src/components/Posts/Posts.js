@@ -23,7 +23,7 @@ class Posts extends Component {
         console.log(res.data.data);
 
         this.setState({
-          posts: res.data.data,
+          posts: res.data.data.slice(0, 6),
           loading: false
         });
       })
@@ -44,7 +44,9 @@ class Posts extends Component {
               style={{ backgroundImage: `url(${image})` }}
             />
 
-            <h3>{title}</h3>
+            <a href="https://google.fr">
+              <h3>{title}</h3>
+            </a>
             <span className="date">
               <Moment to="2015-04-19">{created_at}</Moment>
             </span>
