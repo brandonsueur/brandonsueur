@@ -36,18 +36,20 @@ class Post extends Component {
     const { post } = this.state;
 
     return (
-      <div className="post container">
-        <div className="post-header">
-          <h1>{post.title}</h1>
+      <div className="post">
+        <div className="container">
+          <div className="post-header">
+            <h1>{post.title}</h1>
 
-          <p>
-            <Moment to={post.created_at}>{now}</Moment>
-          </p>
+            <p>
+              <Moment to={post.created_at}>{now}</Moment>
+            </p>
 
-          <img src={post.image} alt={post.title} />
+            <img src={post.image} alt={post.title} />
+          </div>
+
+          <div className="post-content">{ReactHtmlParser(post.content)}</div>
         </div>
-
-        <div className="post-content">{ReactHtmlParser(post.content)}</div>
       </div>
     );
   }
