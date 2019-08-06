@@ -3,6 +3,11 @@
   margin-top: 60px;
 
   .username {
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+
     h4 {
       line-height: 15px;
       margin: 0px;

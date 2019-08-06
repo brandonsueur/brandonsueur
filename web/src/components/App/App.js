@@ -37,9 +37,9 @@ const Components = () => {
 export default function App() {
   return (
     <div className="app">
-      <Header />
-
       <Router>
+        <Header />
+
         <Switch>
           <Route exact path="/" component={Components} />
           <Route exact path="/articles" component={Posts} />
@@ -47,10 +47,10 @@ export default function App() {
             <Post />
           </Route>
         </Switch>
-      </Router>
 
-      <Dots name="footer" />
-      <Footer />
+        <Dots name="footer" />
+        <Footer />
+      </Router>
     </div>
   );
 }

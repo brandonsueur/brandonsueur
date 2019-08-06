@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Typer from './Typer';
 
@@ -9,7 +10,9 @@ const Header = () => {
     <div className="container">
       <div className="header">
         <div className="username">
-          <h4>Brandon Sueur</h4>
+          <Link to="/">
+            <h4>Brandon Sueur</h4>
+          </Link>
           <p className="me">
             Développeur & <Typer />
           </p>

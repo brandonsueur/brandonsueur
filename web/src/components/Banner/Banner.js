@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Socials from '../Socials/Socials';
 import Button from '../Button/Button';
@@ -23,10 +24,9 @@ const Banner = () => {
               quelqu’un de passioné et de travailleur.
             </p>
 
-            <Button
-              text="Découvrir mes articles"
-              link="https://medium.com/@brandonsueur"
-            />
+            <Link to="/articles">
+              <Button text="Découvrir mes articles" />
+            </Link>
 
             <Socials darked />
           </div>
