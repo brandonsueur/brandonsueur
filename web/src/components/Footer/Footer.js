@@ -21,7 +21,7 @@ export default function Footer() {
             </div>
 
             <div className="col-md-6 end-md right">
-              <a className="mail" href="http://google.Fr/">
+              <a className="mail" href="mailto:brandon.sueur@outlook.fr">
                 contact@brandonsueur.fr
               </a>
 
