@@ -17,5 +17,6 @@ Route::get('/', function () {
 
 Route::group(['middleware' => ['cors']], function () {
     Route::get('/posts', 'PostsController@index');
+    Route::get('/posts/{id}', 'PostsController@show');
 });
 
