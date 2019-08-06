@@ -82,6 +82,14 @@
   }
 }
 
+.notfound {
+  margin: 8em;
+
+  .button {
+    margin-top: 4em;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .post.container {
     width: 800px;

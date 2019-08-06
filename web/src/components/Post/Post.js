@@ -7,6 +7,8 @@ import ReactHtmlParser from 'react-html-parser';
 
 import 'moment/locale/fr';
 
+import Button from '../Button/Button';
+
 import './Post.scss';
 
 class Post extends Component {
@@ -14,7 +16,8 @@ class Post extends Component {
     super(props);
 
     this.state = {
-      post: []
+      post: [],
+      notFound: false
     };
   }
 
@@ -29,11 +32,42 @@ class Post extends Component {
           post: res.data.data
         });
       })
-      .catch(err => console.log(err));
+      .catch(err => {
+        this.setState({ notFound: true });
+      });
   }
 
   render() {
-    const { post } = this.state;
+    const { post, notFound } = this.state;
+
+    if (notFound) {
+      return (
+        <div className="notfound" style={{ textAlign: 'center' }}>
+          <h1>
+            Oops! La page que vous recherchez n'existe pas.{' '}
+            <span role="img" aria-label="sad">
+              🥺
+            </span>
+          </h1>
+          <p>
+            En tapant{' '}
+            <strong style={{ fontWeight: 500 }}>
+              {window.location.pathname}
+            </strong>{' '}
+            vous avez peut-être <br />
+            mal saisi l'adresse ou la page a été déplacée.
+            <span style={{ fontSize: '20px' }} role="img" aria-label="lel">
+              {' '}
+              🤷‍♂️
+            </span>
+          </p>
+
+          <Link to="/">
+            <Button text="Retourner à l'accueil" />
+          </Link>
+        </div>
+      );
+    }
 
     return (
       <div className="post">
