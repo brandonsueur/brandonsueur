@@ -1,5 +1,8 @@
+/* eslint-disable camelcase */
 import React, { Component } from 'react';
+import Moment from 'react-moment';
 import axios from 'axios';
+import 'moment/locale/fr';
 
 import './Posts.scss';
 
@@ -31,7 +34,6 @@ class Posts extends Component {
     const { posts } = this.state;
 
     return posts.map(post => {
-      // eslint-disable-next-line camelcase
       const { title, image, created_at } = post;
 
       return (
@@ -40,7 +42,9 @@ class Posts extends Component {
             <img src={image} alt="" />
 
             <h3>{title}</h3>
-            <span className="date">26 février 2019</span>
+            <span className="date">
+              <Moment to="2015-04-19">{created_at}</Moment>
+            </span>
           </div>
         </div>
       );
