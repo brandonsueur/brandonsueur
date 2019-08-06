@@ -18,10 +18,14 @@ section.posts {
 
   .post {
     margin-top: 3em;
-    img {
-      width: 100%;
+
+    .post-img {
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 240px;
+      max-width: 100%;
+      margin-bottom: 2em;
       border-radius: 5px;
-      margin-bottom: 1em;
     }
 
     h3 {
