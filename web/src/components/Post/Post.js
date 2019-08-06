@@ -14,8 +14,7 @@ class Post extends Component {
     super(props);
 
     this.state = {
-      post: [],
-      isLoading: false
+      post: []
     };
   }
 
@@ -23,25 +22,18 @@ class Post extends Component {
     const url = window.location.pathname;
     const uuid = url.replace('/articles/', '');
 
-    this.setState({ isLoading: true });
-
     axios
       .get(`http://localhost:8000/posts/${uuid}`)
       .then(res => {
         this.setState({
-          post: res.data.data,
-          isLoading: false
+          post: res.data.data
         });
       })
       .catch(err => console.log(err));
   }
 
   render() {
-    const { post, isLoading } = this.state;
-
-    if (isLoading) {
-      return <p>Loading ...</p>;
-    }
+    const { post } = this.state;
 
     return (
       <div className="post container">
