@@ -4,6 +4,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
 {
+
+    protected $primaryKey = 'id';
+    protected $keyType = 'string';
+    public $incrementing = false;
+
     /**
      * The attributes that are mass assignable.
      *
