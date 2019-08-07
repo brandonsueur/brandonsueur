@@ -12,7 +12,7 @@ class PostsController extends Controller{
      */
     public function index()
     {
-        $posts = Post::all();
+        $posts = Post::orderBy('created_at','desc')->get();
         $data = $posts->toArray();
 
         $response = [
@@ -20,6 +20,7 @@ class PostsController extends Controller{
             'data' => $data,
             'message' => 'Posts retrieved successfully.'
         ];
+
         return response()->json($response, 200);
     }
 
