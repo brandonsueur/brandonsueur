@@ -40,12 +40,12 @@ class Posts extends Component {
       return (
         <div className="col-xs-12 col-sm-6 col-md-4">
           <div className="post">
-            <div
-              className="post-img"
-              style={{ backgroundImage: `url(${image})` }}
-            />
-
             <Link to={`/articles/${id}`}>
+              <div
+                className="post-img"
+                style={{ backgroundImage: `url(${image})` }}
+              />
+
               <h3>{title}</h3>
             </Link>
             <span className="date">

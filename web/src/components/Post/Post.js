@@ -1,9 +1,9 @@
 /* eslint-disable camelcase */
 import React, { Component } from 'react';
 import axios from 'axios';
+import ReactMarkdown from 'react-markdown';
 import Moment, { now } from 'react-moment';
 import { Link } from 'react-router-dom';
-import ReactHtmlParser from 'react-html-parser';
 
 import 'moment/locale/fr';
 
@@ -82,7 +82,9 @@ class Post extends Component {
             <img src={post.image} alt={post.title} />
           </div>
 
-          <div className="post-content">{ReactHtmlParser(post.content)}</div>
+          <div className="post-content">
+            <ReactMarkdown source={post.content} />
+          </div>
         </div>
       </div>
     );
