@@ -14,6 +14,11 @@ import './App.scss';
 import Dots from '../Dots/Dots';
 import Banner from '../Banner/Banner';
 
+const ScrollToTop = () => {
+  window.scrollTo(0, 0);
+  return null;
+};
+
 const Components = () => {
   return (
     <React.Fragment>
@@ -39,6 +44,8 @@ export default function App() {
     <div className="app">
       <Router>
         <Header />
+
+        <Route component={ScrollToTop} />
 
         <Switch>
           <Route exact path="/" component={Components} />
