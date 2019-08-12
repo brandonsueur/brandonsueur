@@ -27,7 +27,7 @@ const Strategy = () => {
             </p>
 
             <a
-              href="https://github.com/brandonsueur"
+              href="https://www.malt.fr/profile/brandonsueur"
               target="_blank"
               rel="noopener noreferrer"
             >
