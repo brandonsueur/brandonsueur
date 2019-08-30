@@ -12,11 +12,10 @@ export default function Quotes() {
         </div>
 
         <p>
-          Il y a déjà 13 personnes qui me recommandes, toi aussi{' '}
-          <span role="img" aria-label="like">
-            👍
+          Tu trouveras uniquement des mots gentils{' '}
+          <span role="img" aria-label="heart">
+            🥰
           </span>{' '}
-          ?
         </p>
 
         <div className="row">
