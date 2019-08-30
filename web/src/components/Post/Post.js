@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 
 import 'moment/locale/fr';
 
+import Loading from '../Loading/Loading';
 import Button from '../Button/Button';
 
 import './Post.scss';
@@ -17,7 +18,8 @@ class Post extends Component {
 
     this.state = {
       post: [],
-      notFound: false
+      notFound: false,
+      loading: false
     };
   }
 
@@ -25,21 +27,25 @@ class Post extends Component {
     const url = window.location.pathname;
     const uuid = url.replace('/articles/', '');
 
-    axios
-      .get(`http://localhost:8000/posts/${uuid}`)
-      .then(res => {
-        this.setState({
-          post: res.data.data
+    this.setState({ loading: true }, () => {
+      axios
+        .get(`http://localhost:8000/posts/${uuid}`)
+        .then(res => {
+          this.setState({
+            loading: false,
+            post: res.data.data
+          });
+        })
+        .catch(err => {
+          this.setState({ notFound: true });
         });
-      })
-      .catch(err => {
-        this.setState({ notFound: true });
-      });
+    });
   }
 
   render() {
-    const { post, notFound } = this.state;
+    const { post, notFound, loading } = this.state;
 
+    if (loading) return <Loading />;
     if (notFound) {
       return (
         <div className="notfound" style={{ textAlign: 'center' }}>

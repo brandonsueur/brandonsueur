@@ -7,28 +7,33 @@ import axios from 'axios';
 import 'moment/locale/fr';
 
 import './Posts.scss';
+import Loading from '../Loading/Loading';
 
 class Posts extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      posts: []
+      posts: [],
+      loading: false
     };
   }
 
   componentDidMount() {
-    axios
-      .get('http://localhost:8000/posts')
-      .then(res => {
-        // get just lasts posts
-        const hasPosts = window.location.pathname === '/articles';
+    this.setState({ loading: true }, () => {
+      axios
+        .get('http://localhost:8000/posts')
+        .then(res => {
+          // get just lasts posts
+          const hasPosts = window.location.pathname === '/articles';
 
-        this.setState({
-          posts: hasPosts ? res.data.data : res.data.data.slice(0, 6)
-        });
-      })
-      .catch(err => console.log(err));
+          this.setState({
+            posts: hasPosts ? res.data.data : res.data.data.slice(0, 6),
+            loading: false
+          });
+        })
+        .catch(err => console.log(err));
+    });
   }
 
   renderPosts = () => {
@@ -58,6 +63,8 @@ class Posts extends Component {
   };
 
   render() {
+    const { loading } = this.state;
+
     return (
       <section className="posts">
         <div className="container">
@@ -70,7 +77,9 @@ class Posts extends Component {
             </h1>
           </div>
 
-          <div className="row">{this.renderPosts()}</div>
+          <div className="row">
+            {loading ? <Loading /> : this.renderPosts()}
+          </div>
         </div>
       </section>
     );
