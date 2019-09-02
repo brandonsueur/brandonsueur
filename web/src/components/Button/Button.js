@@ -15,7 +15,6 @@ const Button = props => {
 
       <svg width="29" height="13">
         <g
-          stroke="#FFF"
           strokeWidth="2"
           fill="none"
           fillRule="evenodd"
