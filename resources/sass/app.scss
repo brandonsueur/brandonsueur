@@ -1,0 +1,226 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import "mixins";
+
+// fonts__
+@include font-face("DM Serif Text", '../fonts/DMSerifDisplay-Regular', 400, null, ttf);
+@include font-face("DM Serif Text", '../fonts/DMSerifDisplay-Italic', 400, italic, ttf);
+
+@include font-face("Poppins", '../fonts/Poppins-Regular', 400, null, ttf);
+@include font-face("Poppins", '../fonts/Poppins-Thin', 500, null, ttf);
+
+// global
+body{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    color: #000;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    font-family: "DM Serif Text";
+    letter-spacing: .3px;
+    font-weight: 600;
+}
+
+.logo, .back{
+    font-family: "DM Serif Text";
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: .3px
+}
+
+.back span{ vertical-align: middle }
+
+.icon-hover svg{ transition: transform 0.2s }
+.icon-hover:hover svg { transform: scale(1.1) }
+
+.menu-sidebar{
+    position: fixed;
+    width: 400px;
+
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    background: #000;
+
+    .container{ margin-left: 4em }
+
+    nav{
+        a{ transition: margin-left 0.2s }
+        a:hover{ margin-left: 10px}
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .menu-sidebar{
+        width: 800px;
+
+        .container{ margin-left: 10em }
+    }
+}
+
+@media screen and (max-width: 720px){
+    .menu-sidebar{
+        width: 400px;
+
+        .container{ margin-left: 4em }
+    }
+}
+
+.link{
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 600;
+
+    text-decoration: none;
+    color: #fff;
+
+    box-sizing: border-box;
+    box-shadow: inset 0 -10px 0 rgba(83,85,93,.4);
+
+    transition: box-shadow .3s ease-in-out;
+
+    &:hover{
+        box-shadow: inset 0 -100px 0 rgba(83,85,93,.4);
+    }
+}
+
+.link-dark{
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 600;
+
+    text-decoration: none;
+    color: black;
+
+    box-sizing: border-box;
+    box-shadow: inset 0 -10px 0 rgba(83, 85, 93, 0.3);
+
+    transition: box-shadow .3s ease-in-out;
+
+    &:hover{
+        box-shadow: inset 0 -100px 0 rgba(83,85,93,.4);
+    }
+}
+
+.mail{
+    display: inline;
+
+    margin: 2em 0 2em;
+
+    font-size: 2em;
+    font-family: 'DM Serif Text';
+    font-weight: 600;
+
+    text-decoration: none;
+    color: #fff;
+
+    box-sizing: border-box;
+    box-shadow: inset 0 -10px 0 rgba(83,85,93,.4);
+
+    transition: box-shadow .3s ease-in-out;
+
+    &:hover{
+        box-shadow: inset 0 -100px 0 rgba(83,85,93,.4);
+    }
+}
+
+/* POST */
+@media screen and (min-width: 1000px){
+    article{
+        width: 700px;
+        margin: 0 auto;
+    }
+}
+
+.post-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 230px;
+    margin-bottom: 2em;
+    border-radius: 5px;
+}
+
+.post-title{
+    margin: 0em;
+    width: 100%;
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.post-content{
+    strong { font-weight: 600 }
+    img { width: 100% }
+
+    p{
+        margin-top: 2em;
+        font-weight: 400;
+        line-height: 2;
+        letter-spacing: 0.025em;
+        text-align: justify;
+    }
+
+    ul{ margin-top: 2em }
+    ul > li{
+        font-weight: 400;
+        line-height: 2;
+        letter-spacing: 0.025em;
+        text-align: justify;
+    }
+
+    a {
+        color: #000;
+        text-decoration: none;
+        font-weight: 300;
+    }
+
+    h1,h2,h3,h4 {
+        font-family: "DM Serif Text";
+        letter-spacing: .3px;
+        font-weight: 600;
+
+        color: black;
+
+        margin: 0;
+        margin-top: 3em;
+        margin-bottom: -1em;
+    }
+
+    h1{ font-size: 2.5em }
+    h2{ font-size: 2em }
+    h3{ font-size: 1.6em }
+
+    em {
+        display: block;
+        margin: 2em 0;
+    }
+
+    blockquote {
+        padding: 10px;
+        padding-left: 40px;
+        margin: 0;
+        color: #989dab;
+        font-size: 21px;
+        font-weight: 100;
+        font-style: italic;
+
+        p { color: #292a2d }
+        em { margin: 0 }
+    }
+
+    ul {
+        list-style: unset;
+        padding-left: 40px;
+        color: var(--colorSecondary);
+        font-weight: 300;
+    }
+}
