@@ -78,7 +78,7 @@ const App = ({ Component, pageProps }) => {
         <title>{title || `Brandon Sueur`}</title>
       </Head>
 
-      <Component {...pageProps} />
+      <Component />
     </>
   );
 };
