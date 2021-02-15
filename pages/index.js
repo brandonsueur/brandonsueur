@@ -8,7 +8,7 @@ const Homepage = (props) => {
 
   console.log(data);
   return (
-    <div className="container mx-auto">
+    <>
       <Banner />
 
       <h2 className="font-semibold mb-8 tracking-tight text-2xl text-black dark:text-white">
@@ -18,17 +18,21 @@ const Homepage = (props) => {
       <div>
         {data.map((post) => {
           const url = `/writing/${post.slug}`;
+          const { title, date } = post.header;
 
           return (
-            <Link href={url}>
-              <a className="text-lg text-indigo-600 border-b-2 border-white hover:border-indigo-600">
-                {post.header.title}
-              </a>
-            </Link>
+            <>
+              <Link href={url}>
+                <a className="text-lg text-indigo-600 border-b-2 border-white hover:border-indigo-600">
+                  {title}
+                </a>
+              </Link>
+              {date}
+            </>
           );
         })}
       </div>
-    </div>
+    </>
   );
 };
 

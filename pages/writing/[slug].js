@@ -20,16 +20,15 @@ const Post = (props) => {
   return (
     post && (
       <>
-        <h1 className="mt-32 text-center leading-tight mb-20 font-black xl:text-6xl lg:text-6xl text-4xl tracking-tight text-black dark:text-white">
+        <h1 className="mt-32 mb-20 text-center tracking-tight font-bold xl:text-5xl lg:text-4xl md:text-5xl text-4xl">
           {post.header.title}
         </h1>
-        <div className="xl:w-7/12 lg:w-9/12 mx-auto">
-          <p className="mb-6 text-sm text-gray-400 dark:text-gray-700">
-            {post.header.date}
-          </p>
 
-          <ReactMarkdown source={post.content} />
-        </div>
+        <p className="mb-6 text-sm text-gray-400 dark:text-gray-700">
+          {post.header.date}
+        </p>
+
+        <ReactMarkdown source={post.content} />
       </>
     )
   );

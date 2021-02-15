@@ -78,7 +78,9 @@ const App = ({ Component, pageProps }) => {
         <title>{title || `Brandon Sueur`}</title>
       </Head>
 
-      <Component />
+      <div className="container mx-auto">
+        <Component />
+      </div>
     </>
   );
 };
