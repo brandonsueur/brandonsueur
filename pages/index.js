@@ -21,14 +21,13 @@ const Homepage = (props) => {
           const { title, date } = post.header;
 
           return (
-            <>
+            <div className="flex my-5">
               <Link href={url}>
                 <a className="text-lg text-indigo-600 border-b-2 border-white hover:border-indigo-600">
                   {title}
                 </a>
               </Link>
-              {date}
-            </>
+            </div>
           );
         })}
       </div>
