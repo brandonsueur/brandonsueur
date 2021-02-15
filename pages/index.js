@@ -10,31 +10,35 @@ const Homepage = (props) => {
     <>
       <Banner />
 
-      <h2 className="font-semibold mb-8 tracking-tight text-2xl text-black dark:text-white">
-        Mes articles
-      </h2>
+      {!loading && data.length >= 1 && (
+        <>
+          <h2 className="font-semibold mb-8 tracking-tight text-2xl text-black dark:text-white">
+            Mes articles
+          </h2>
 
-      <div>
-        {data.map((post, i) => {
-          const { title } = post.header;
+          <div>
+            {data.map((post, i) => {
+              const { title } = post.header;
 
-          return (
-            <div className="flex my-5" key={i}>
-              <Link
-                href={{
-                  pathname: "/writing/[slug]",
-                  query: { slug: post.slug },
-                }}
-                key={i}
-              >
-                <a className="text-xl leading-relaxed text-indigo-600 border-b-2 border-white hover:border-indigo-600">
-                  {title}
-                </a>
-              </Link>
-            </div>
-          );
-        })}
-      </div>
+              return (
+                <div className="flex my-5" key={i}>
+                  <Link
+                    href={{
+                      pathname: "/writing/[slug]",
+                      query: { slug: post.slug },
+                    }}
+                    key={i}
+                  >
+                    <a className="text-xl leading-relaxed text-indigo-600 border-b-2 border-white hover:border-indigo-600">
+                      {title}
+                    </a>
+                  </Link>
+                </div>
+              );
+            })}
+          </div>
+        </>
+      )}
     </>
   );
 };
