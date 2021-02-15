@@ -1,10 +1,12 @@
 import React from "react";
-import matter from "gray-matter";
+import Link from "next/link";
 import Banner from "../components/Banner";
+import usePosts from "../utils/getPosts";
 
-function Homepage({ posts }) {
-  console.log(posts);
+const Homepage = (props) => {
+  const { data, loading } = usePosts();
 
+  console.log(data);
   return (
     <div className="container mx-auto">
       <Banner />
@@ -14,53 +16,20 @@ function Homepage({ posts }) {
       </h2>
 
       <div>
-        <a
-          className="text-lg text-indigo-600 border-b-2 border-white hover:border-indigo-600"
-          href="/"
-        >
-          Ca c mon premier article de ouf
-        </a>
+        {data.map((post) => {
+          const url = `/writing/${post.slug}`;
+
+          return (
+            <Link href={url}>
+              <a className="text-lg text-indigo-600 border-b-2 border-white hover:border-indigo-600">
+                {post.header.title}
+              </a>
+            </Link>
+          );
+        })}
       </div>
     </div>
   );
-}
-
-Homepage.getInitialProps = async (ctx) => {
-  let posts = null;
-
-  try {
-    const getPosts = ((context) => {
-      const keys = context.keys();
-      const values = keys.map(context);
-
-      const data = keys.map((key, index) => {
-        // Create slug from filename
-        const slug = key
-          .replace(/^.*[\\\/]/, "")
-          .split(".")
-          .slice(0, -1)
-          .join(".");
-        const value = values[index];
-        // Parse yaml metadata & markdownbody in document
-        const document = matter(value.default);
-        return {
-          frontmatter: document.data,
-          markdownBody: document.content,
-          slug,
-        };
-      });
-
-      return data;
-    })(require.context("../content", true, /\.md$/));
-
-    console.log(getPosts);
-  } catch (err) {
-    console.log(err);
-  }
-
-  return {
-    posts,
-  };
 };
 
 export default Homepage;

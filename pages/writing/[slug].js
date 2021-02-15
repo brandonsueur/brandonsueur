@@ -1,6 +1,6 @@
 import React from "react";
 import matter from "gray-matter";
-import ReactMarkdown from "react-markdown";
+// import ReactMarkdown from "react-markdown";
 
 function Post({ content, data }) {
   const { title, date } = data;
