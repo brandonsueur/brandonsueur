@@ -1,0 +1,90 @@
+@import url("https://use.typekit.net/cyw3eir.css");
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+
+:root {
+  --primary-color: #0070f4;
+  --secondary-color: #09ded8;
+  --dark-grey: #666;
+  --text-color: #000;
+  --background-color: #fff;
+  --hr-color: #ddd;
+  --article-text-color: #374151;
+  --uses-secondary-color: #bbb;
+}
+
+.writing-container h1,
+.writing-container h2,
+.writing-container h3,
+.writing-container h4,
+.writing-container h5,
+.writing-container h6 {
+  letter-spacing: -1px;
+}
+
+.writing-container p strong {
+  color: #161e2e;
+}
+
+.writing-container img {
+  width: 100%;
+}
+
+.writing-container ul {
+  margin: 0;
+  padding: 0 0 30px 20px;
+  list-style: circle;
+}
+
+.writing-container ul li {
+  padding: 4px 0;
+  line-height: 1.8em;
+  font-size: 20px;
+  color: var(--article-text-color);
+}
+
+.writing-container blockquote {
+  border-left: 5px var(--primary-color) solid;
+  font-style: italic;
+  margin: 0;
+  padding: 0px 30px;
+}
+
+.writing-container p,
+.reviews-description {
+  line-height: 1.8em;
+  margin-bottom: 40px;
+  font-size: 21px;
+  color: var(--article-text-color);
+}
+
+.writing-container > p:first-child::first-letter {
+  float: left;
+  margin: 2px 0 0 -2px;
+  padding: 10px 10px 0 0;
+  font-weight: 800;
+  font-size: 5.5rem;
+}
+
+.writing-container *:not(pre) > code {
+  color: #7174f2;
+}
+
+hr {
+  border: none;
+  width: 100%;
+  text-align: center;
+  margin: 30px auto;
+}
+
+hr:before {
+  content: "∿∿∿";
+  font-size: 30px;
+  color: var(--hr-color);
+}
+
+.writing-container a {
+  color: var(--text-color);
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
+  text-decoration-thickness: 4px;
+}

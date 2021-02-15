@@ -1,6 +1,6 @@
 import Head from "next/head";
 import "../styles/globals.css";
-
+import "../styles/markdown-styles.css";
 const App = ({ Component, pageProps }) => {
   const og = pageProps.data?.og;
   const title = pageProps.data?.title;

@@ -20,7 +20,7 @@ const Post = (props) => {
 
   return (
     post && (
-      <>
+      <div className="writing-container">
         <h1 className="mt-32 mb-20 text-center tracking-tight font-bold xl:text-5xl lg:text-4xl md:text-5xl text-4xl">
           {post.header.title}
         </h1>
@@ -33,6 +33,13 @@ const Post = (props) => {
           source={post.content}
           escapeHtml={false}
           renderers={{
+            inlineCode: ({ value }) => {
+              return (
+                <div className="inline-block text-indigo-600 text-xl">
+                  `{value}`
+                </div>
+              );
+            },
             code: CodeBlock,
             link: (props) => {
               if (!props.href.startsWith("http")) {
@@ -55,7 +62,7 @@ const Post = (props) => {
             },
           }}
         />
-      </>
+      </div>
     )
   );
 };
