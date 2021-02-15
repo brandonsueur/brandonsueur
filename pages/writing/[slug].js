@@ -24,7 +24,7 @@ const Post = (props) => {
           {post.header.title}
         </h1>
 
-        <p className="mb-6 text-sm text-gray-400 dark:text-gray-700">
+        <p className="mt-5 text-xl text-gray-500 leading-relaxed">
           {post.header.date}
         </p>
 
