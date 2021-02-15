@@ -1,18 +1,24 @@
 import React from "react";
 import Link from "next/link";
-import Layout from "../components/Layout";
+import Banner from "../components/Banner";
 
 function Homepage(props) {
-  console.log(props);
-
   return (
-    <div className="">
-      <h1>Welcome to the Homepage!</h1>
-      <img
-        width={130}
-        src="https://brandonsueur.fr/the-most-beautiful-person-its-me.jpg"
-        className="mt-12 rounded-full block mb-8 border-4 p-1 border-indigo-500 dark:border-yellow-300"
-      />
+    <div className=" container mx-auto ">
+      <Banner />
+
+      <h2 className="font-semibold mb-8 tracking-tight text-2xl text-black dark:text-white">
+        Mes articles
+      </h2>
+
+      <div>
+        <a
+          className="text-lg text-indigo-600 border-b-2 border-white hover:border-indigo-600"
+          href="/"
+        >
+          Ca c mon premier article de ouf
+        </a>
+      </div>
     </div>
   );
 }

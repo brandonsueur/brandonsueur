@@ -4,9 +4,6 @@ date: "2020-04-24"
 og:
   description: "Developers don't know everything, and that's OK."
   image: "https://telmo.im/og/youdontsuck.png"
-author:
-  twitter: "telmo"
-  name: "Telmo Goncalves"
 ---
 
 I've been noticing that one of the biggest issues with new developers is that they think they need to know **EVERYTHING**.
