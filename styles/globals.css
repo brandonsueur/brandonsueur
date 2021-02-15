@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h2 {
+  @apply text-xl;
+  @apply font-black mt-24 mb-4;
+}
+
+h3 {
+  @apply text-lg;
+}
