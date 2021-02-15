@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
+import CodeBlock from "../../components/CodeBlock";
 
 const Post = (props) => {
   const [post, setPost] = useState(null);
@@ -28,7 +29,32 @@ const Post = (props) => {
           {post.header.date}
         </p> */}
 
-        <ReactMarkdown source={post.content} />
+        <ReactMarkdown
+          source={post.content}
+          escapeHtml={false}
+          renderers={{
+            code: CodeBlock,
+            link: (props) => {
+              if (!props.href.startsWith("http")) {
+                return (
+                  <a href={props.href} rel="nofollow noreferrer noopener">
+                    {props.children}
+                  </a>
+                );
+              }
+
+              return (
+                <a
+                  href={props.href}
+                  rel="nofollow noreferrer noopener"
+                  target="_blank"
+                >
+                  {props.children}
+                </a>
+              );
+            },
+          }}
+        />
       </>
     )
   );
