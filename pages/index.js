@@ -4,7 +4,7 @@ import Banner from "../components/Banner";
 
 function Homepage(props) {
   return (
-    <div className=" container mx-auto ">
+    <div className="container mx-auto">
       <Banner />
 
       <h2 className="font-semibold mb-8 tracking-tight text-2xl text-black dark:text-white">

@@ -7,8 +7,14 @@ module.exports = {
       screens: {
         sm: "100%",
         md: "100%",
-        lg: "80px",
+        lg: "800px",
         xl: "900px",
+      },
+      padding: {
+        DEFAULT: "1rem",
+        sm: "2rem",
+        lg: "0rem",
+        xl: "0rem",
       },
     },
   },
