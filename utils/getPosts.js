@@ -37,8 +37,6 @@ const usePosts = () => {
         setData(getPosts);
         setLoading(false);
       }
-
-      console.log("get posts", getPosts);
     } catch (e) {
       setError(true);
       setLoading(false);

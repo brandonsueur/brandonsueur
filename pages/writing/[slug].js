@@ -24,9 +24,9 @@ const Post = (props) => {
           {post.header.title}
         </h1>
 
-        <p className="mt-5 text-xl text-gray-500 leading-relaxed">
+        {/* <p className="mt-5 text-xl text-gray-500 leading-relaxed">
           {post.header.date}
-        </p>
+        </p> */}
 
         <ReactMarkdown source={post.content} />
       </>

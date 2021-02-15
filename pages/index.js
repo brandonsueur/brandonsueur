@@ -6,7 +6,6 @@ import usePosts from "../utils/getPosts";
 const Homepage = (props) => {
   const { data, loading } = usePosts();
 
-  console.log(data);
   return (
     <>
       <Banner />
@@ -28,7 +27,7 @@ const Homepage = (props) => {
                 }}
                 key={i}
               >
-                <a className="text-lg text-indigo-600 border-b-2 border-white hover:border-indigo-600">
+                <a className="text-xl leading-relaxed text-indigo-600 border-b-2 border-white hover:border-indigo-600">
                   {title}
                 </a>
               </Link>
