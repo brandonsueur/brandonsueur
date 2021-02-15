@@ -4,6 +4,7 @@ import Banner from "../components/Banner";
 
 function Homepage({ posts }) {
   console.log(posts);
+
   return (
     <div className="container mx-auto">
       <Banner />
@@ -25,32 +26,40 @@ function Homepage({ posts }) {
 }
 
 Homepage.getInitialProps = async (ctx) => {
-  const posts = ((context) => {
-    const keys = context.keys();
-    const values = keys.map(context);
+  let posts = null;
 
-    const data = keys.map((key, index) => {
-      // Create slug from filename
-      const slug = key
-        .replace(/^.*[\\\/]/, "")
-        .split(".")
-        .slice(0, -1)
-        .join(".");
-      const value = values[index];
-      // Parse yaml metadata & markdownbody in document
-      const document = matter(value.default);
-      return {
-        frontmatter: document.data,
-        markdownBody: document.content,
-        slug,
-      };
-    });
+  try {
+    const getPosts = ((context) => {
+      const keys = context.keys();
+      const values = keys.map(context);
 
-    return data;
-  })(require.context("../content", true, /\.md$/));
+      const data = keys.map((key, index) => {
+        // Create slug from filename
+        const slug = key
+          .replace(/^.*[\\\/]/, "")
+          .split(".")
+          .slice(0, -1)
+          .join(".");
+        const value = values[index];
+        // Parse yaml metadata & markdownbody in document
+        const document = matter(value.default);
+        return {
+          frontmatter: document.data,
+          markdownBody: document.content,
+          slug,
+        };
+      });
+
+      return data;
+    })(require.context("../content", true, /\.md$/));
+
+    console.log(getPosts);
+  } catch (err) {
+    console.log(err);
+  }
 
   return {
-    posts: [...posts],
+    posts,
   };
 };
 
