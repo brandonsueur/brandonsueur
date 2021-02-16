@@ -1,5 +1,5 @@
 ---
-title: "J'ai déménagé, mon nouvel environnement de travail"
+title: "J'ai déménagé ! Mon nouvel environnement de travail"
 date: "2021-02-16"
 og:
   description: "J'ai déménagé, mon nouvel environnement de travail"
