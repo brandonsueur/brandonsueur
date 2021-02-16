@@ -67,8 +67,9 @@ const Post = (props) => {
           <p
             style={{
               borderTop: "1px solid #e2e8f0",
-              marginTop: "2em",
-              paddingTop: "1em",
+              marginTop: "3em",
+              marginBottom: "3em",
+              paddingTop: "2em",
             }}
           >
             Merci de m'avoir lu jusqu'au bout ! 😊 N'hésitez pas à partager

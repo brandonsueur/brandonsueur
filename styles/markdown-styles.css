@@ -13,7 +13,8 @@
 .writing-container ul {
   margin: 0;
   padding: 0 0 30px 20px;
-  list-style: circle;
+  list-style: disc;
+  color: #697281;
 }
 
 .writing-container ul li {
