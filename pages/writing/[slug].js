@@ -35,9 +35,9 @@ const Post = (props) => {
           renderers={{
             inlineCode: ({ value }) => {
               return (
-                <div className="inline-block text-indigo-600 text-xl">
+                <span className="inline-block text-indigo-600 text-xl">
                   `{value}`
-                </div>
+                </span>
               );
             },
             code: CodeBlock,

@@ -12,7 +12,7 @@ const Homepage = (props) => {
 
       {!loading && data.length >= 1 && (
         <>
-          <h2 className="font-semibold mb-8 tracking-tight text-2xl text-black dark:text-white">
+          <h2 className="font-semibold mb-8 tracking-tight text-2xl text-black">
             Mes articles
           </h2>
 

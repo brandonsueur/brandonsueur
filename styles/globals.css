@@ -3,8 +3,17 @@
 @tailwind utilities;
 
 h2 {
-  @apply text-xl;
-  @apply font-black mt-24 mb-4;
+  font-size: 1.6em;
+  @apply font-semibold mb-8 mt-24;
+  @apply tracking-tight;
+  @apply text-black;
+}
+
+h1 {
+  @apply text-2xl;
+  @apply font-semibold mb-8 mt-24;
+  @apply tracking-tight;
+  @apply text-black;
 }
 
 h3 {
