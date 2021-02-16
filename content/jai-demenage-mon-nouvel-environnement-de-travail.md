@@ -12,7 +12,7 @@ Le fait de ne pas avoir un espace dédié à mon activité, d'être dans mon sal
 
 Suite au deuxième confinement, j'étais moi-même confiné... Ma conjointe travaillée dans un hôpital en contact avec les patients ayant les suspicions du covid-19. C'est donc à partir de là, que j'ai vraiment disjoncté et voulu changé d'appartement.
 
-## J'ai fait un léger Burn-Out
+## J'ai fait une pause
 
 Je travaillé avec un client depuis plusieurs mois et j'étais la plus-part du temps en présentiel à Paris. Cependant, avec les événements et étant loin de Paris, beaucoup d'imprévus, des trains qui ne passez simplement pas(toujours aucune explication à l'heure actuelle) et en novembre 2020, j'ai appris deux mauvaises nouvelles qui m'a obligé de ne plus être opérationnel dans mon travail. Après deux/trois semaines d'arrêts, j'ai repris le boulot en remote(à distance) et arriva la goûte qui fait déborder le vase.
 
