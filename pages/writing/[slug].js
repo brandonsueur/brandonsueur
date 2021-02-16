@@ -21,7 +21,7 @@ const Post = (props) => {
   return (
     post && (
       <div className="writing-container">
-        <h1 className="mt-32 mb-20 text-center tracking-tight font-bold xl:text-5xl lg:text-4xl md:text-5xl text-4xl">
+        <h1 className="mt-32 mb-32 text-center leading-loose font-bold xl:text-6xl lg:text-4xl md:text-5xl text-4xl">
           {post.header.title}
         </h1>
 

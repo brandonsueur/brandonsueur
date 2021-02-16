@@ -52,12 +52,15 @@
   color: #b9b8cc !important;
 }
 
-.writing-container p,
-.reviews-description {
-  line-height: 1.8em;
+.writing-container img {
+  border-radius: 5px;
+}
+
+.writing-container p {
+  line-height: 1.9em;
   margin-bottom: 40px;
   font-size: 21px;
-  color: var(--article-text-color);
+  color: #697281;
 }
 
 .writing-container > p:first-child::first-letter {

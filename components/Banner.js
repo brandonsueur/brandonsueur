@@ -17,7 +17,7 @@ const Banner = () => (
       Entrepreneur, développeur et designer.
     </h1>
 
-    <p className="mt-5 text-xl text-gray-500 leading-relaxed">
+    <p className="mt-5 text-xl text-gray-500 leading-8">
       J'écris principalement sur <Langage lang="JavaScript" />,{" "}
       <Langage lang="React.js" />, <Langage lang="Next.js" /> et{" "}
       <Langage lang="TailwindCSS" />. Si tu souhaites me suivre, tu peux me
