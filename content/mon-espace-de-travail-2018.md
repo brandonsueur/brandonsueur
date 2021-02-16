@@ -1,0 +1,46 @@
+---
+title: "Mon espace de travail en 2018"
+date: "2018-03-11"
+---
+
+![](https://cdn-images-1.medium.com/max/2000/1*zUH78H6xsjt68o_v5foExw.jpeg)
+
+**Oui ! J’ai ce que je voulais depuis des années, un confort, une envie débordante de travailler grâce à mon espace de travail !**
+
+Maintenant que j’ai mon espace de travail au complet, je me dois de vous le présenter afin d’éviter les questions :
+
+- “C’est quoi ton MacBook Pro ?”
+- “Tu as quoi comme ordinateur pour bosser chez toi ?”
+- “Pourquoi tu as choisi les AirPods ?”
+
+### MacBook Pro 13"
+
+Il y a moins d’un an et demi, j’ai changé de bord, non pas sexuellement mais d’OS, j’ai quitté Windows pour macOS High Sierra ! J’ai du coup revendu ma tour et j’ai gardé mon MacBook Pro 13" pour 3 raisons :
+
+- **La portabilité**, j’ai envie d’aller dans un café, je peux !
+- **Le trackpad**, les gestes pour faire des actions, je m’en passe plus !
+- **Le retina**, tu as beau dire, l’écran du MacBook est juste magnifique.
+
+### MacBook Pro 15"
+
+Après avoir acheté un **MacBook pro 13"**_(8go ram, i5 2,6 ghz)_ j’ai acheté dernièrement le **MacBook Pro 15"**_(16go ram, i7 2,8ghz) et clairement, c’est de la frappe !_
+
+La durée de la batterie, l’écran et la touch-bar c’est un pur bonheur ! Je ne le regrette absolument pas et c’est clairement pas un souci pour ma part passant plus de 2 heures et demi chaque jour dans les transports en commun.
+
+### Apple Watch series 3
+
+Ne m’en veux pas ! J’avais pas ma Watch quand j’ai pris la photo… Mais une chose est sûr, c’est le meilleur achat que j’ai pu faire après l’acquisition de mon iPhone 7 plus ! Elle est rapide, reste 2 jours en autonomie. Elle passe avec tout, elle est légère et elle me va bien. Que demander de plus ! 😄
+
+![](https://image.ibb.co/duwsdp/1_hq_Mxg_Ka_Wzot_Xo_CYI9_NDung.jpg)
+
+### iPhone 7 plus
+
+Comme Smartphone, j’ai un iPhone 7 plus. C’est grâce à lui que je réalise de superbes photos, que je tweets et que je regarde des belles filles sur Instagram grâce à son écran incroyable 🙄 (même si celui de l’iPhone X est plus beau ‍‍‍‍‍‍‍‍️😍) !
+
+### AirPods
+
+Alors oui, j’ai hésité à les acheter pendant plusieurs mois ! Et bordel de merde, **j’ai attendu quoi** ! 🤦‍ C’est les meilleurs écouteurs sans-fil selon moi ! Je les ai acheté il y a deux jours maintenant et je ne les regrette pas, ils tiennent bien, j’ai du bon son et en plus de ça j’ai plus aucun fil qui me casse les pieds quand je ferme ma doudoune. 😇
+
+Maintenant que vous savez ce que j’ai comme espace de travail, je peux ouvrir mon éditeur Atom et faire des licornes en ascii !
+
+🦄
