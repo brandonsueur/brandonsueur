@@ -1,5 +1,8 @@
 import React from "react";
 import Link from "next/link";
+
+import { parseISO, formatDistance } from "date-fns";
+import { fr } from "date-fns/locale";
 import Banner from "../components/Banner";
 import usePosts from "../utils/getPosts";
 
@@ -20,8 +23,10 @@ const Homepage = (props) => {
             {data.map((post, i) => {
               const { title } = post.header;
 
+              console.log(post.header.date);
+
               return (
-                <div className="flex my-5" key={i}>
+                <div className="grid my-5" key={i}>
                   <Link
                     href={{
                       pathname: "/writing/[slug]",
@@ -29,10 +34,17 @@ const Homepage = (props) => {
                     }}
                     key={i}
                   >
-                    <a className="text-xl leading-relaxed text-indigo-600 border-b-2 border-white hover:border-indigo-600">
+                    <a className="text-xl leading-relaxed text-indigo-600 border-b-2 border-white hover:border-indigo-600 w-max">
                       {title}
                     </a>
                   </Link>
+
+                  <span className="text-gray-500 text-base">
+                    Il y a{" "}
+                    {formatDistance(parseISO(post.header.date), new Date(), {
+                      locale: fr,
+                    })}
+                  </span>
                 </div>
               );
             })}

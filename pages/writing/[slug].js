@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from "react";
+import { parseISO, formatDistance } from "date-fns";
+import { fr } from "date-fns/locale";
+
 import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
 import CodeBlock from "../../components/CodeBlock";
@@ -21,9 +24,17 @@ const Post = (props) => {
   return (
     post && (
       <>
-        <h1 className="mt-32 mb-32 text-center leading-loose font-bold xl:text-6xl lg:text-4xl md:text-5xl text-4xl">
-          {post.header.title}
-        </h1>
+        <header className="mt-32 mb-32 text-center">
+          <h1 className="mb-6 leading-loose font-bold xl:text-6xl lg:text-4xl md:text-5xl text-4xl">
+            {post.header.title}
+          </h1>
+          <span className="text-gray-500 text-base">
+            Il y a{" "}
+            {formatDistance(parseISO(post.header.date), new Date(), {
+              locale: fr,
+            })}
+          </span>
+        </header>
 
         {/* <p className="mt-5 text-xl text-gray-500 leading-relaxed">
           {post.header.date}
