@@ -42,7 +42,7 @@ Depuis plusieurs années, je voulais ce bureau, je me disais "je vais attendre, 
 
 **Ça change radicalement, mais pas tant que ça.** Tu t'amuses 5 minutes avec et tu essayes de prouver à t'es proches que c'est un bon investissement alors que tu as mal en dessous de t'es pieds et à t'es genoux depuis deux jours. 😂
 
-Sincèrement, je pense que c'est un bon investissement pour des personnes qui passe énormément de temps sur un ordinateur, assis dans son fauteuil. J'ai énormément discuté avec d'autres personnes qui ont ce bureau et il faut en tirer un truc : **ce n'est pas fait pour être debout 9h par jour.** Ce bureau est fait pour alterner nos positions**.**
+Sincèrement, je pense que c'est un bon investissement pour des personnes qui passe énormément de temps sur un ordinateur, assis dans son fauteuil. J'ai énormément discuté avec d'autres personnes qui ont ce bureau et il faut en tirer un truc : **ce n'est pas fait pour être debout 9h par jour.** Ce bureau est fait pour alterner nos positions.
 
 ### Tabouret ergonomique
 
