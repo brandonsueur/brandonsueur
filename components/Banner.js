@@ -1,12 +1,14 @@
 import Link from "./Link";
+import Image from "next/image";
 
 const Langage = ({ lang }) => <span className="text-gray-700">{lang}</span>;
 
 const Banner = () => (
   <div className="mt-24 mb-28">
-    <img
+    <Image
       width={70}
-      src="https://brandonsueur.fr/the-most-beautiful-person-its-me.jpg"
+      height={70}
+      src="/favicon/apple-icon.png"
       className="mt-12 mb-10"
       style={{
         borderRadius: 20,
