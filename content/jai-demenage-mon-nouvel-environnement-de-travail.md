@@ -3,7 +3,7 @@ title: "J'ai déménagé ! Mon nouvel environnement de travail"
 date: "2021-02-16"
 og:
   description: "J'ai déménagé, mon nouvel environnement de travail"
-  image: https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4e68afc7-1e8b-4ca5-aa6b-43f08d0d06ec/IMG_1977.jpg
+  image: https://raw.githubusercontent.com/brandonsueur/brandonsueur.fr/master/public/images/IMG_1977.JPG
 ---
 
 Il y a moins de deux mois, avec ma conjointe, nous recherchions désespérément un appartement pour avoir quelque chose de plus grand, mais surtout pour avoir ma pièce dédiée à mon travail.
@@ -32,7 +32,7 @@ Nous avons eu les clefs il y a maintenant une semaine, le 8 février 2021 et je 
 
 Comme dit ci-dessus, le pré-requis, c'était d'avoir ma pièce. 11m² avec une petite cheminée décorative, une petite armoire intégrée dans un des murs. Ce dont je voulais depuis des mois !
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4e68afc7-1e8b-4ca5-aa6b-43f08d0d06ec/IMG_1977.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4e68afc7-1e8b-4ca5-aa6b-43f08d0d06ec/IMG_1977.jpg)
+![https://raw.githubusercontent.com/brandonsueur/brandonsueur.fr/master/public/images/IMG_1977.JPG](https://raw.githubusercontent.com/brandonsueur/brandonsueur.fr/master/public/images/IMG_1977.JPG)
 
 _Énormément de choses doivent encore arriver(meuble, fleurs et décorations)_
 
