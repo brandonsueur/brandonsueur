@@ -10,15 +10,29 @@ h2 {
 }
 
 h1 {
-  @apply text-2xl;
+  @apply text-4xl;
   @apply font-semibold mb-8 mt-24;
   @apply tracking-tight;
   @apply text-black;
 }
 
 h2 {
-  @apply text-xl;
+  @apply text-3xl;
   @apply font-semibold mb-8 mt-24;
+  @apply tracking-tight;
+  @apply text-black;
+}
+
+h3 {
+  @apply text-2xl;
+  @apply font-semibold mb-4 mt-20;
+  @apply tracking-tight;
+  @apply text-black;
+}
+
+h4 {
+  @apply text-xl;
+  @apply font-semibold mb-4 mt-20;
   @apply tracking-tight;
   @apply text-black;
 }

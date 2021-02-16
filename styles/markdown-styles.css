@@ -1,28 +1,9 @@
 @import url("https://use.typekit.net/cyw3eir.css");
 @import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
 
-:root {
-  --primary-color: #0070f4;
-  --secondary-color: #09ded8;
-  --dark-grey: #666;
-  --text-color: #000;
-  --background-color: #fff;
-  --hr-color: #ddd;
-  --article-text-color: #374151;
-  --uses-secondary-color: #bbb;
-}
-
-.writing-container h1,
-.writing-container h2,
-.writing-container h3,
-.writing-container h4,
-.writing-container h5,
-.writing-container h6 {
-  letter-spacing: -1px;
-}
-
 .writing-container p strong {
-  color: #161e2e;
+  color: #111827;
+  font-weight: 600;
 }
 
 .writing-container img {
@@ -43,13 +24,13 @@
 }
 
 .writing-container blockquote {
-  border-left: 3px #b9b8cc solid;
+  border-left: 3px #e5e7eb solid;
   font-style: italic;
   margin: 0;
-  padding: 0px 30px;
+  padding: 0px 20px;
 }
 .writing-container blockquote p {
-  color: #b9b8cc !important;
+  color: #141b29 !important;
 }
 
 .writing-container img {
@@ -61,14 +42,6 @@
   margin-bottom: 40px;
   font-size: 21px;
   color: #697281;
-}
-
-.writing-container > p:first-child::first-letter {
-  float: left;
-  margin: 2px 0 0 -2px;
-  padding: 10px 10px 0 0;
-  font-weight: 800;
-  font-size: 5.5rem;
 }
 
 .writing-container *:not(pre) > code {
