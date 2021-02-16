@@ -75,7 +75,9 @@ const App = ({ Component, pageProps }) => {
           content={og ? og.image : `https://telmo.im/og/default.png`}
         />
 
-        <title>{title || `Brandon Sueur`}</title>
+        <title>
+          {(title && title + " • Brandon Sueur") || `Brandon Sueur`}
+        </title>
       </Head>
 
       <div className="container mx-auto">
