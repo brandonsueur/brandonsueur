@@ -43,10 +43,13 @@
 }
 
 .writing-container blockquote {
-  border-left: 5px var(--primary-color) solid;
+  border-left: 3px #b9b8cc solid;
   font-style: italic;
   margin: 0;
   padding: 0px 30px;
+}
+.writing-container blockquote p {
+  color: #b9b8cc !important;
 }
 
 .writing-container p,
@@ -83,8 +86,7 @@ hr:before {
 }
 
 .writing-container a {
-  color: var(--text-color);
-  text-decoration: underline;
-  text-decoration-color: var(--primary-color);
-  text-decoration-thickness: 4px;
+  @apply text-indigo-600;
+  @apply border-b-2;
+  @apply hover:border-indigo-600;
 }

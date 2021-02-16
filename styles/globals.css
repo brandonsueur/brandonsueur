@@ -16,6 +16,9 @@ h1 {
   @apply text-black;
 }
 
-h3 {
-  @apply text-lg;
+h2 {
+  @apply text-xl;
+  @apply font-semibold mb-8 mt-24;
+  @apply tracking-tight;
+  @apply text-black;
 }

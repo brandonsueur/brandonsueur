@@ -22,40 +22,40 @@ function isOdd(num) {
 }
 ```
 
-Now, you might think, he **did** knew how to do it. Again, no, I didn't, I just googled it. Am I cheating at programming? **No!**
+Et oui, il était temps ! Après quelques mois de relâchement dans le web, me voilà remotivé à faire de l’open-source.
 
-_Well, you googled it, sure, but you know what `%` it's doing_. Flash news, no, I don't. I have absolutely no idea what it's doing.
+J’ai fini mes plus gros contrats Freelance, j’ai pris des vacances ces derniers mois. J’ai donc plus d’excuse !
 
-And again, that's OK.
+> Le seul endroit où le succès vient avant le travail, c’est dans le dictionnaire.
 
----
+Bien que je ne cherche pas le succès, j’estime qu’il faut travailler pour avoir ce que tu souhaites dans n’importe quel domaine. Ce que je recherche maintenant, c’est d’être actif une à trois heures par jour sur [GitHub]("https://github.com/brandonsueur/") afin d’aider les personnes en difficultés et puis réaliser mes projets personnels.
 
-Want another example? Sure.
+Pouvoir apporter mes compétences sur des librairies, projets ou même sur de la documentation, c’est un pur plaisir ! Crois moi, je me sens utile et je pense que beaucoup devrait faire la même chose.
 
-_"Hey, you know how to use `useState` in React?"_
+_Je le faisais, mais j’ai arrêté il y a quelques mois…_
 
-```js
-const [published, setPublished] = useState(false);
+### Pourquoi j’ai arrêté ?
 
-// [...]
+C’est un tout… Je passais plus de dix sept heures par jour sur mon ordinateur tout les jours, week-end inclus.
 
-setPublished(true);
+Avant d’être avec ma copine, je n’étais vraiment pas sociable, beaucoup dans ma sphère à forger mes compétences étant autodidacte.
 
-// [...]
+Je faisais que ça, j’étais très actif même beaucoup trop sur les communautés francophones du développement web. Je faisais énormément de projets… tellement de projets que je ne savais plus où tourner de la tête.
 
-published ? "Well, yes!" : "Not yet, sorry!";
-```
+Puis, un jour [j’ai nettoyé mon GitHub]("https://medium.com/@brandonsueur/jai-fait-du-tri-sur-mon-github-c259fc9bb94e"), j’ai compris que c’était pas le nombre de contributions, stars, followers qui allait me rendre plus heureux et avoir un profil GitHub correct face aux recruteurs. C’était pas les statistiques qui me motivaient et j’en ai pris conscience.
 
-## How useState works?
+Je me suis insulté, je disais que j’étais nul, que je savais rien faire dans mon domaine mise à part afficher du vent.
 
-No fucking idea, I know it updates a component's state, I know how to set it, to change it, when to use it, etc; What's happening behind the scenes? 🤷‍♂️
+### l’open-source = ❤️
 
----
+Si j’ai bien une chose à te dire dans cet article, c’est : **fais ce que tu aimes**!
 
-Most developers don't know a LOT of things, they just know how to un-shit themselves.
+Actuellement, je fais des petits projets, j’ai pour but de contribuer sur des projets qui me plaisent, mais aussi suivre les tickets, répondre et comprendre ce qu’il y a sous le moteur de **react** et **react-native**. 😁
 
-I know how to build things, I learn fast, but if you ask me what's a `function` I have no idea, I can explain what it does, I can explain how and when to use it. But the technical description of _"A JavaScript function is a block of code designed to perform a particular task."_, fuck that.
+> Le succès, c’est vous aimer vous-même, c’est aimer ce que vous faites et c’est aimer comment vous le faites.
 
----
+> — Maya Angelou
 
-I had to write this, I get a little frustrated when a lot of people think they must know everything. **You don't.**
+J’allais oublié un truc… forcément, n’hésite surtout pas à suivre [mes dépôts]("https://github.com/brandonsueur?tab=repositories"), à contribuer. 🙂
+
+👋

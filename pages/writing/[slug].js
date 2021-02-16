@@ -62,6 +62,25 @@ const Post = (props) => {
             },
           }}
         />
+
+        <p
+          style={{
+            borderTop: "1px solid #e2e8f0",
+            marginTop: "2em",
+            paddingTop: "1em",
+          }}
+        >
+          Merci de m'avoir lu jusqu'au bout ! 😊 N'hésitez pas à partager
+          l'article sur {` `}
+          <a
+            href={`https://twitter.com/share?text=${encodeURI(
+              post.header.title
+            )}&url=${encodeURI(window.location.href)}`}
+          >
+            Twitter
+          </a>
+          .
+        </p>
       </div>
     )
   );
