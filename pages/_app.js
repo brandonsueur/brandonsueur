@@ -57,7 +57,7 @@ const App = ({ Component, pageProps }) => {
         <meta name="twitter:domain" content="https://brandonsueur.fr" />
         <meta
           name="twitter:image:src"
-          content="https://brandonsueur.fr/og/default.png"
+          content="https://brandonsueur.fr/_next/image?url=%2Ffavicon%2Fapple-icon.png&w=256&q=100"
         />
 
         {/* Open Graph Data */}
@@ -72,7 +72,11 @@ const App = ({ Component, pageProps }) => {
         />
         <meta
           property="og:image"
-          content={og ? og.image : `https://telmo.im/og/default.png`}
+          content={
+            og
+              ? og.image
+              : `https://brandonsueur.fr/_next/image?url=%2Ffavicon%2Fapple-icon.png&w=256&q=100`
+          }
         />
 
         <title>
