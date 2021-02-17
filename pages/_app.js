@@ -1,6 +1,8 @@
 import Head from "next/head";
+
 import "../styles/globals.css";
 import "../styles/markdown-styles.css";
+
 const App = ({ Component, pageProps }) => {
   const og = pageProps.data?.og;
   const title = pageProps.data?.title;
@@ -18,7 +20,7 @@ const App = ({ Component, pageProps }) => {
         <meta name="subject" content="website" />
         <meta
           name="description"
-          content="Développeur, Designer et créateur de choses."
+          content="Entrepreneur, développeur et designer."
         />
 
         {/* Rating level and Langage */}
@@ -52,7 +54,7 @@ const App = ({ Component, pageProps }) => {
         <meta name="twitter:title" content="Brandon Sueur" />
         <meta
           name="twitter:description"
-          content="Développeur, Designer et créateur de choses."
+          content="Entrepreneur, développeur et designer."
         />
         <meta name="twitter:domain" content="https://brandonsueur.fr" />
         <meta
@@ -67,7 +69,7 @@ const App = ({ Component, pageProps }) => {
         <meta
           property="og:description"
           content={
-            og ? og.description : `Développeur, Designer et créateur de choses.`
+            og ? og.description : `Entrepreneur, développeur et designer.`
           }
         />
         <meta

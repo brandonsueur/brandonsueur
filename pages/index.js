@@ -1,10 +1,8 @@
 import React from "react";
 import Link from "next/link";
-
-import { parseISO, formatDistance } from "date-fns";
-import { fr } from "date-fns/locale";
 import Banner from "../components/Banner";
 import usePosts from "../utils/getPosts";
+import { dateAgo } from "../utils/dateUtils";
 
 const Homepage = (props) => {
   const { data, loading } = usePosts();
@@ -40,10 +38,7 @@ const Homepage = (props) => {
                   </Link>
 
                   <span className="text-gray-500 text-base">
-                    Il y a{" "}
-                    {formatDistance(parseISO(post.header.date), new Date(), {
-                      locale: fr,
-                    })}
+                    {dateAgo(post.header.date)}
                   </span>
                 </div>
               );
