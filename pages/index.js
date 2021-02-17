@@ -34,7 +34,7 @@ const Homepage = (props) => {
                     }}
                     key={i}
                   >
-                    <a className="text-xl leading-relaxed text-indigo-600 border-b-2 border-white hover:border-indigo-600 w-max">
+                    <a className="text-xl leading-relaxed text-indigo-600 hover:text-indigo-500 w-max">
                       {title}
                     </a>
                   </Link>
