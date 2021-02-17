@@ -10,7 +10,7 @@ Il y a moins de deux mois, avec ma conjointe, nous recherchions désespérément
 
 Le fait de ne pas avoir un espace dédié à mon activité, d'être dans mon salon en face de la télévision et parfois à côté de ma conjointe ne faisait que de me distraire et d'être partout, mais nul part dans mon travail.
 
-Suite au deuxième confinement, j'étais moi-même confiné... Ma conjointe travaillée dans un hôpital en contact avec les patients ayant les suspicions du covid-19. C'est donc à partir de là, que j'ai vraiment disjoncté et voulu changé d'appartement.
+Suite au deuxième confinement, j'étais moi-même confiné... Ma conjointe travaillais dans un hôpital en contact avec les patients ayant les suspicions du covid-19. C'est donc à partir de là, que j'ai vraiment disjoncté et voulu changé d'appartement.
 
 ## J'ai fait une pause
 
