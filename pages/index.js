@@ -19,9 +19,9 @@ const Homepage = (props) => {
 
           <div>
             {data.map((post, i) => {
-              const { title } = post.header;
+              const { title, visibility } = post.header;
 
-              console.log(post.header.date);
+              if (visibility === false) return;
 
               return (
                 <div className="grid my-5" key={i}>

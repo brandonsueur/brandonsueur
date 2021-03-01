@@ -1,6 +1,7 @@
 ---
 title: "J'ai déménagé ! Mon nouvel environnement de travail"
 date: "2021-02-16"
+visibility: true
 og:
   description: "J'ai déménagé, mon nouvel environnement de travail"
   image: https://raw.githubusercontent.com/brandonsueur/brandonsueur.fr/master/public/images/IMG_1977.JPG
