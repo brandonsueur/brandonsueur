@@ -22,9 +22,9 @@ Si vous faites des recherches vous verrez des tonnes d'articles à ce sujet trè
 
 Combien de fois, on vous a dit "_Redresse toi sur ta chaise, ce n'est pas bon pour ton dos_" ? Moi, énormément de fois. 😂
 
-Il y a maintenant plusieurs mois, j'ai vraiment eu mal au dos et bloqué à la nuque. Mais j'ai cherché la casse, en me mettant mal dans mon siège, mettant les pieds sur le bureau ou bosser des journées entières dans le canapé.
+Il y a maintenant plusieurs mois, j'ai vraiment eu mal au dos et beaucoup de tension au niveau de la nuque. Mais j'ai cherché la casse, en me mettant mal dans mon siège, mettant les pieds sur le bureau ou bosser des journées entières dans le canapé.
 
-C'est quelque chose que nous prenons à la légère(encore un peu aujourd'hui me concernant) concernant notre posture, notre chaise, notre temps d'écrans concernant nos yeux ou encore le fait de ne pas trop bouger. Étant jeune, je risque de le payer dans les années.
+C'est quelque chose que nous prenons à la légère(encore un peu aujourd'hui me concernant) concernant notre posture, notre chaise, notre temps d'écrans concernant nos yeux ou encore le fait de ne pas trop bouger. Étant jeune, je risque de le payer dans quelques années.
 
 J'ai donc investi (Car **oui** ! J'insiste, c'est un vrai **investissement** pour ma santé, mon corps) dans un **bureau assis/debout**, une **chaise**, **tabouret ergonomique** et un superbe **écran**. Vous trouverez les références dans l'article que j'ai écrit il y a quelques semaines, ici.
 
@@ -32,7 +32,7 @@ J'ai donc investi (Car **oui** ! J'insiste, c'est un vrai **investissement** pou
 
 C'est indirectement lié à l'anxiété, nous le connaissons tous aussi ! Dès que nous sommes à la fin d'un sprint, que nous finissons la fin d'un appel s'avoir si nous allons avoir la mission ou encore quand nous ne sommes pas dans les clous ou fini notre journée comme nous l'aurions aimé.
 
-Le stress à plusieurs niveaux, degrés et sera néfaste dans notre cas sur notre productivité, notre corps ou infliger cela à nos proches.
+Le stress à plusieurs niveaux, degrés sera néfaste dans notre cas sur notre productivité, notre corps ou sur la relations avec nos proches.
 
 Je suis, je pense, très stressé et très nerveux, deux fois plus depuis que je suis indépendant. Cela est dû à énormément de choses, mais je dirais que notre métier n'arrange pas les choses et nous faisons que l'augmenter indirectement en voulant toujours se dépasser technologiquement, à apprendre toujours des nouvelles choses(je vais d'ailleurs en parler dans le point ci-dessous, c'est un point primaire dû à mon stress).
 
@@ -42,7 +42,7 @@ Ce que nous devons retenir du stress, c'est que techniquement parlant, c'est une
 
 C'est lorsqu'on est à peu près sûr que tous les autres développeurs avec lesquels on travaille sont plus intelligents, plus talentueux et plus compétents que nous.
 
-- J'ai fait qu'un seul projet en Freelance, j'suis nul.
+- J'ai fait qu'un seul projet en Freelance, je suis nul.
 - Je n'ai pas de diplôme, alors je ne suis pas un vrai développeur.
 - Je vais jamais réussir à gagner 500€ TJM en ayant moins de 3 années d'expériences.
 - Je vais jamais réussir à faire comme lui, il est beaucoup plus fort que moi.
@@ -89,6 +89,6 @@ Mais voici les gros points importants :
 - J'ai ma propre pièce pour mon bureau.
 - Je ne travaille plus le week-end pour mes clients.
 
-Sinon, voici quelques conseils en général, mais manger des bonnes choses, sortir au moins cinq minutes par jour et parlé avec d'autres personnes, car c'est aussi s'ouvrir au monde.
+Sinon, voici quelques conseils en général, mais manger des bonnes choses, sortir au moins cinq minutes par jour et parler avec d'autres personnes, car c'est aussi s'ouvrir au monde.
 
 > Quand vous êtes bloqué, la meilleure façon de repartir, c’est de bouger. Courrez. Marchez. Ecrivez. Faites la vaisselle. Ou quoi que ce soit d’autre.
