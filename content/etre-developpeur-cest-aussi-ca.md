@@ -26,7 +26,7 @@ Il y a maintenant plusieurs mois, j'ai vraiment eu mal au dos et beaucoup de ten
 
 C'est quelque chose que nous prenons à la légère(encore un peu aujourd'hui me concernant) concernant notre posture, notre chaise, notre temps d'écrans concernant nos yeux ou encore le fait de ne pas trop bouger. Étant jeune, je risque de le payer dans quelques années.
 
-J'ai donc investi (Car **oui** ! J'insiste, c'est un vrai **investissement** pour ma santé, mon corps) dans un **bureau assis/debout**, une **chaise**, **tabouret ergonomique** et un superbe **écran**. Vous trouverez les références dans l'article que j'ai écrit il y a quelques semaines, ici.
+J'ai donc investi (Car **oui** ! J'insiste, c'est un vrai **investissement** pour ma santé, mon corps) dans un **bureau assis/debout**, une **chaise**, **tabouret ergonomique** et un superbe **écran**. Vous trouverez les références dans l'article que j'ai écrit il y a quelques semaines, [ici](https://brandonsueur.fr/writing/jai-demenage-mon-nouvel-environnement-de-travail).
 
 ## Le stress
 
