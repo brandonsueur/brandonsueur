@@ -1,7 +1,7 @@
 ---
 title: "Être développeur c'est aussi ça ..."
-date: ""
-visibility: false
+date: "2021-04-07"
+visibility: true
 og:
   description: "Être développeur c'est aussi ça ..."
 ---
