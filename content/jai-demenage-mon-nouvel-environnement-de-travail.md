@@ -86,4 +86,4 @@ D'autres choses arrivent, des décorations pour mettre sur des étagères, des c
 
 Ce que j'ai pu acquérir ses derniers jours/mois, c'est des jours et nuits de travail et je suis conscient qu'il y a énormément de personnes qui aimerait avoir ce genre d'environnement de travail. Jamais, je n'aurais pu imaginer arriver où j'en suis aujourd'hui. C'est en étant patient que nous pouvons se faire plaisir par la suite.
 
-> Avec amour et patience, rien n'est impossible.
+> Avec amour et patience, rien n'est impossible.  # Clément Denis (GodOfMacro)
