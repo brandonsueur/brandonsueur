@@ -1,20 +1,23 @@
 import React, { useState, useEffect } from "react";
-import { useRouter } from "next/router";
-
-import matter from "gray-matter";
-
 import ReactMarkdown from "react-markdown";
+import matter from "gray-matter";
+import { useRouter } from "next/router";
+import Head from "next/head";
+
 import CodeBlock from "../../components/CodeBlock";
 import { dateAgo } from "../../utils/dateUtils";
 
 const Post = (props) => {
   const router = useRouter();
   const [post, setPost] = useState(null);
+  const [description, setDescription] = useState(null);
 
   useEffect(async () => {
     const slug = window.location.pathname.replace("/writing/", "");
     const mdContent = await import(`../../content/${slug}.md`);
     const { data, content } = matter(mdContent.default);
+
+    setDescription(content.toString().substring(0, 155) + "...");
 
     setPost({
       header: data,
@@ -23,8 +26,59 @@ const Post = (props) => {
   }, []);
 
   return (
-    post && (
+    post &&
+    description && (
       <>
+        <Head>
+          {/* Content SEO */}
+          <meta name="description" content={description} />
+
+          {/* Twitter */}
+          <meta
+            name="twitter:title"
+            content={`Brandon Sueur — ${post.header.title.substring(0, 30)}...`}
+          />
+          <meta name="twitter:description" content={description} />
+          <meta
+            name="twitter:domain"
+            content={`https://brandonsueur.fr/writing/${window.location.pathname.replace(
+              "/writing/",
+              ""
+            )}`}
+          />
+          <meta
+            name="twitter:image:src"
+            content="https://brandonsueur.fr/_next/image?url=%2Ffavicon%2Fapple-icon.png&w=256&q=100"
+          />
+
+          {/* Open Graph Data */}
+          <meta property="og:type" content="article" />
+          <meta
+            property="og:title"
+            content={`Brandon Sueur — ${post.header.title.substring(0, 30)}...`}
+          />
+          <meta property="og:locale" content="fr_FR" />
+          <meta property="og:site_name" content="Brandon Sueur" />
+          <meta property="og:description" content={description} />
+          <meta
+            property="og:url"
+            content={`https://brandonsueur.fr/writing/${window.location.pathname.replace(
+              "/writing/",
+              ""
+            )}`}
+          />
+          <meta
+            property="og:image"
+            content={`https://brandonsueur.fr/_next/image?url=%2Ffavicon%2Fapple-icon.png&w=256&q=100`}
+          />
+
+          <link rel="canonical" href="https://brandonsueur.fr" />
+
+          <title>
+            {`Brandon Sueur — ${post.header.title.substring(0, 30)}...`}
+          </title>
+        </Head>
+
         <header className=" mt-28 mb-32 text-center">
           <span
             className="cursor-pointer text-indigo-600 hover:text-indigo-500"

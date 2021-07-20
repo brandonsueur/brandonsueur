@@ -20,7 +20,7 @@ const App = ({ Component, pageProps }) => {
         <meta name="subject" content="website" />
         <meta
           name="description"
-          content="Entrepreneur, développeur et designer."
+          content={`Entrepreneur, développeur et designer.`}
         />
 
         {/* Rating level and Langage */}
@@ -54,7 +54,7 @@ const App = ({ Component, pageProps }) => {
         <meta name="twitter:title" content="Brandon Sueur" />
         <meta
           name="twitter:description"
-          content="Entrepreneur, développeur et designer."
+          content={`Entrepreneur, développeur et designer.`}
         />
         <meta name="twitter:domain" content="https://brandonsueur.fr" />
         <meta
@@ -63,27 +63,13 @@ const App = ({ Component, pageProps }) => {
         />
 
         {/* Open Graph Data */}
-        <meta property="og:title" content={title || `Brandon Sueur`} />
+        <meta property="og:title" content={"Brandon Sueur"} />
         <meta property="og:locale" content="fr_FR" />
         <meta property="og:site_name" content="Brandon Sueur" />
-        <meta
-          property="og:description"
-          content={
-            og ? og.description : `Entrepreneur, développeur et designer.`
-          }
-        />
-        <meta
-          property="og:image"
-          content={
-            og
-              ? og.image
-              : `https://brandonsueur.fr/_next/image?url=%2Ffavicon%2Fapple-icon.png&w=256&q=100`
-          }
-        />
 
-        <title>
-          {(title && title + " • Brandon Sueur") || `Brandon Sueur`}
-        </title>
+        <link rel="canonical" href="https://brandonsueur.fr" />
+
+        <title>{"Brandon Sueur"}</title>
       </Head>
 
       <div className="container mx-auto">
