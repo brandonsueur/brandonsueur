@@ -58,10 +58,9 @@ Ayant eu un mal de dos pendant plusieurs jours/semaines, j'ai regardé énormém
 - Un dos droit comme vous ne l'avez jamais eu durant toute votre expérience sur une chaise(même à 700 euros la chaise).
 - Une troisième manière d'alterner avec la position assise avec un dossier et debout.
 
-Alors, encore une fois le tabouret ne fera pas des magies. 
+Alors, encore une fois le tabouret ne fera pas des magies.
 
 Changez vos positions, prenez une chaise et alterner avec le tabouret. Si vous avez un bureau standingdesk, alterner avec la position debout votre dos vous en remerciera.
-
 
 ### Écran 4K
 
@@ -86,4 +85,4 @@ D'autres choses arrivent, des décorations pour mettre sur des étagères, des c
 
 Ce que j'ai pu acquérir ses derniers jours/mois, c'est des jours et nuits de travail et je suis conscient qu'il y a énormément de personnes qui aimerait avoir ce genre d'environnement de travail. Jamais, je n'aurais pu imaginer arriver où j'en suis aujourd'hui. C'est en étant patient que nous pouvons se faire plaisir par la suite.
 
-> Avec amour et patience, rien n'est impossible.  # Clément Denis (GodOfMacro)
+> Avec amour et patience, rien n'est impossible. # Clément Denis (GodOfMacro)

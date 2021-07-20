@@ -7,6 +7,8 @@ import Head from "next/head";
 import CodeBlock from "../../components/CodeBlock";
 import { dateAgo } from "../../utils/dateUtils";
 
+// import pictureMe from "public/me.png";
+
 const Post = (props) => {
   const router = useRouter();
   const [post, setPost] = useState(null);
@@ -17,7 +19,9 @@ const Post = (props) => {
     const mdContent = await import(`../../content/${slug}.md`);
     const { data, content } = matter(mdContent.default);
 
-    setDescription(content.toString().substring(0, 155) + "...");
+    setDescription(
+      data?.og?.description || content.toString().substring(0, 155) + "..."
+    );
 
     setPost({
       header: data,
@@ -48,7 +52,7 @@ const Post = (props) => {
           />
           <meta
             name="twitter:image:src"
-            content="https://brandonsueur.fr/_next/image?url=%2Ffavicon%2Fapple-icon.png&w=256&q=100"
+            content={post?.header?.og?.image || "/me.png"}
           />
 
           {/* Open Graph Data */}
@@ -69,7 +73,7 @@ const Post = (props) => {
           />
           <meta
             property="og:image"
-            content={`https://brandonsueur.fr/_next/image?url=%2Ffavicon%2Fapple-icon.png&w=256&q=100`}
+            content={post?.header?.og?.image || "/me.png"}
           />
 
           <link rel="canonical" href="https://brandonsueur.fr" />
