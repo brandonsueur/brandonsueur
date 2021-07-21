@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Head from "next/head";
 import Banner from "../components/Banner";
 import usePosts from "../utils/getPosts";
 import { dateAgo } from "../utils/dateUtils";
@@ -9,6 +10,39 @@ const Homepage = (props) => {
 
   return (
     <>
+      <Head>
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@_brandonsueur" />
+        <meta name="twitter:creator" content="@_brandonsueur" />
+        <meta name="twitter:title" content="Brandon Sueur" />
+        <meta
+          name="twitter:description"
+          content={`Entrepreneur, développeur et designer.`}
+        />
+        <meta name="twitter:domain" content="https://brandonsueur.fr" />
+        <meta
+          name="twitter:image"
+          content="https://brandonsueur.fr/_next/image?url=%2Ffavicon%2Fapple-icon.png&w=256&q=100"
+        />
+
+        {/* Open Graph Data */}
+        <meta property="og:type" content={"website"} />
+        <meta property="og:title" content={"Brandon Sueur"} />
+        <meta property="og:locale" content="fr_FR" />
+        <meta property="og:site_name" content="Brandon Sueur" />
+        <meta property="og:url" content="https://brandonsueur.fr" />
+        <meta property="og:image" content="/me.png" />
+        <meta
+          property="og:description"
+          content={`Entrepreneur, développeur et designer.`}
+        />
+
+        <link rel="canonical" href="https://brandonsueur.fr" />
+
+        <title>{"Brandon Sueur"}</title>
+      </Head>
+
       <Banner />
 
       {!loading && data.length >= 1 && (

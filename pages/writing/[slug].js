@@ -7,8 +7,6 @@ import Head from "next/head";
 import CodeBlock from "../../components/CodeBlock";
 import { dateAgo } from "../../utils/dateUtils";
 
-// import pictureMe from "public/me.png";
-
 const Post = (props) => {
   const router = useRouter();
   const [post, setPost] = useState(null);
@@ -49,10 +47,6 @@ const Post = (props) => {
               "/writing/",
               ""
             )}`}
-          />
-          <meta
-            name="twitter:image:src"
-            content={post?.header?.og?.image || "/me.png"}
           />
 
           {/* Open Graph Data */}
