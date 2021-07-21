@@ -44,7 +44,7 @@ const App = ({ Component, pageProps }) => {
       </Head>
 
       <div className="container mx-auto">
-        <Component />
+        <Component {...pageProps} />
       </div>
     </>
   );
