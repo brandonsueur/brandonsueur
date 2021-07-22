@@ -61,7 +61,7 @@ const Post = ({ post }) => {
       <header className=" mt-28 mb-32 text-center">
         <span
           className="cursor-pointer text-indigo-600 hover:text-indigo-500"
-          onClick={() => router.back()}
+          onClick={() => router.push("/")}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
