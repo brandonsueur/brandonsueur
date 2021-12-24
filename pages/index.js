@@ -18,7 +18,7 @@ const Homepage = (props) => {
         <meta name="twitter:title" content="Brandon Sueur" />
         <meta
           name="twitter:description"
-          content={`Entrepreneur, développeur et designer.`}
+          content={`Mon expertise couvre l'ensemble du processus de conception de produits numériques pour les Sites web et les Applications mobiles, y compris la communication visuelle et de marque.`}
         />
         <meta name="twitter:domain" content="https://brandonsueur.fr" />
         <meta
@@ -35,7 +35,7 @@ const Homepage = (props) => {
         <meta property="og:image" content="/me.png" />
         <meta
           property="og:description"
-          content={`Entrepreneur, développeur et designer.`}
+          content={`Mon expertise couvre l'ensemble du processus de conception de produits numériques pour les Sites web et les Applications mobiles, y compris la communication visuelle et de marque.`}
         />
 
         <link rel="canonical" href="https://brandonsueur.fr" />

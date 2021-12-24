@@ -31,7 +31,7 @@ const Post = ({ post }) => {
         {/* Twitter */}
         <meta
           name="twitter:title"
-          content={`Brandon Sueur — ${post.header.title.substring(0, 30)}...`}
+          content={`Brandon Sueur — ${post.header.title}`}
         />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:domain" content={url} />
@@ -40,7 +40,7 @@ const Post = ({ post }) => {
         <meta property="og:type" content="article" />
         <meta
           property="og:title"
-          content={`Brandon Sueur — ${post.header.title.substring(0, 30)}...`}
+          content={`Brandon Sueur — ${post.header.title}`}
         />
         <meta property="og:locale" content="fr_FR" />
         <meta property="og:site_name" content="Brandon Sueur" />
@@ -53,12 +53,10 @@ const Post = ({ post }) => {
 
         <link rel="canonical" href="https://brandonsueur.fr" />
 
-        <title>
-          {`Brandon Sueur — ${post.header.title.substring(0, 30)}...`}
-        </title>
+        <title>{`Brandon Sueur — ${post.header.title}`}</title>
       </Head>
 
-      <header className=" mt-28 mb-32 text-center">
+      <header className="mt-28 mb-32">
         <span
           className="cursor-pointer text-indigo-600 hover:text-indigo-500"
           onClick={() => router.push("/")}
