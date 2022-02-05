@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
-import Banner from "../components/Banner";
-import Button from "../components/Button";
+
+import { Banner, Button, SectionTitle } from "../components";
 
 const TITLE = "Brandon Sueur — Expert React.js, React Native";
 
@@ -43,6 +43,11 @@ const Homepage = props => (
     <section className="relative" id="header">
       <div className="container mx-auto">
         <Banner />
+
+        <SectionTitle
+          title="Prestations de service"
+          paragraph="Nécessaire pour une entreprise numérique prospère"
+        />
       </div>
 
       {/*<div className="fixed top-96 right-[-380px] xl:right-[-210px]  w-[420px] h-[523px]">*/}

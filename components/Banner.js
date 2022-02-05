@@ -19,13 +19,13 @@ const Banner = () => (
       Apportez l’idée, je la développe.
     </h1>
 
-    <p className="max-w-4xl font-body text-blue-gray mt-5 text-sm md:text-lg font-light text-gray-500 leading-8">
+    <p className="max-w-4xl font-body text-blue-gray mt-5 md:text-lg font-light leading-8">
       Mon expertise couvre l'ensemble du processus de conception de produits
       numériques pour les sites web et les applications mobiles, y compris la
       communication visuelle et de marque.
     </p>
 
-    <div className="mt-16">
+    <div className="mt-10 md:mt-16">
       <Button hasArrow>Mes réalisations</Button>
     </div>
   </div>
