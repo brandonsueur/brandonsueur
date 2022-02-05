@@ -20,7 +20,7 @@ const Homepage = props => (
       <meta name="twitter:domain" content="https://brandonsueur.fr" />
       <meta
         name="twitter:image"
-        content="https://brandonsueur.fr/_next/image?url=%2Ftwitter.jpg&w=1200&h=630"
+        content="https://brandonsueur.fr/twitter.jpg"
       />
 
       {/* Open Graph Data */}
@@ -29,10 +29,7 @@ const Homepage = props => (
       <meta property="og:locale" content="fr_FR" />
       <meta property="og:site_name" content="Brandon Sueur" />
       <meta property="og:url" content="https://brandonsueur.fr" />
-      <meta
-        property="og:image"
-        content="https://brandonsueur.fr/_next/image?url=%2Ftwitter.jpg&w=1200&h=630"
-      />
+      <meta property="og:image" content="https://brandonsueur.fr/twitter.jpg" />
       <meta
         property="og:description"
         content={`Mon expertise couvre l'ensemble du processus de conception de produits numériques pour les sites web et les applications mobiles.`}
