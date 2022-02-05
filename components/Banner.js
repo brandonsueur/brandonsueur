@@ -1,41 +1,28 @@
-import Link from "./Link";
-import Image from "next/image";
-
-const Langage = ({ lang }) => <span className="text-gray-700">{lang}</span>;
-
 const Banner = () => (
-  <div className="mt-24 mb-28">
-    <img width={70} height={70} src="/favicon/apple-icon.png" />
+  <div className="mt-32 md:mt-44 mb-28">
+    <div>
+      <img
+        src="/avatar.png"
+        className="inline rounded-full border-4 border-primary mr-8"
+        width={86}
+        height={86}
+      />
 
-    <h1 className="tracking-tight font-bold xl:text-5xl lg:text-4xl md:text-5xl text-4xl">
-      Entrepreneur et développeur Front-End
+      <div className="inline bg-[#1C212D] border-2 border-[#262D3A] rounded-tl-3xl rounded-md p-6">
+        <span className="inline font-body font-light text-[#9196A1] text-lg select-none">
+          Bonjour, je suis Brandon <span className="wave">👋</span>
+        </span>
+      </div>
+    </div>
+
+    <h1 className="mt-24 font-body font-semibold text-white tracking-tight text-4xl xl:text-5xl">
+      Apportez l’idée, je la développe.
     </h1>
 
-    <p className="mt-5 text-xl text-gray-500 leading-8">
+    <p className="max-w-4xl font-body text-blue-gray mt-5 text-lg font-light text-gray-500 leading-8">
       Mon expertise couvre l'ensemble du processus de conception de produits
-      numériques pour les Sites web et les Applications mobiles, y compris la
+      numériques pour les sites web et les applications mobiles, y compris la
       communication visuelle et de marque.
-      <br />
-      <br />
-      Si tu souhaites me suivre, tu peux me trouver sur{" "}
-      <Link
-        title="Twitter"
-        href="https://twitter.com/_brandonsueur"
-        target="_blank"
-      />
-      ,{" "}
-      <Link
-        title="Twitch"
-        href="https://twitch.tv/brandonsueur"
-        target="_blank"
-      />{" "}
-      ou{" "}
-      <Link
-        title="GitHub"
-        href="https://github.com/brandonsueur"
-        target="_blank"
-      />
-      .
     </p>
   </div>
 );

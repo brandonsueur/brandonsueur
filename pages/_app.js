@@ -4,11 +4,11 @@ import "../styles/globals.css";
 import "../styles/markdown-styles.css";
 
 const App = ({ Component, pageProps }) => {
-  const og = pageProps.data?.og;
-  const title = pageProps.data?.title;
+  // const og = pageProps.data?.og;
+  // const title = pageProps.data?.title;
 
   return (
-    <>
+    <div className="bg-blue-dark">
       <Head>
         <meta charSet="utf-8" />
         <meta
@@ -43,10 +43,8 @@ const App = ({ Component, pageProps }) => {
         <link rel="canonical" href="https://brandonsueur.fr" />
       </Head>
 
-      <div className="container mx-auto">
-        <Component {...pageProps} />
-      </div>
-    </>
+      <Component {...pageProps} />
+    </div>
   );
 };
 
