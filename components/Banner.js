@@ -1,3 +1,5 @@
+import Button from "@components/Button";
+
 const Banner = () => (
   <div className="mt-32 md:mt-44 mb-28">
     <div>
@@ -22,6 +24,10 @@ const Banner = () => (
       numériques pour les sites web et les applications mobiles, y compris la
       communication visuelle et de marque.
     </p>
+
+    <div className="mt-16">
+      <Button hasArrow>Mes réalisations</Button>
+    </div>
   </div>
 );
 

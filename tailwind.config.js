@@ -10,10 +10,8 @@ module.exports = {
         "blue-gray": "#C3C8D4"
       },
       boxShadow: {
-        big:
-          "0px 0px 20px 2px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 0%)",
-        "big-active":
-          "0px 0px 20px 2px rgb(0 0 0 / 13%), 0 2px 4px -1px rgb(0 0 0 / 0%)"
+        btn: "0px 4px 4px rgba(0, 0, 0, 0.25)",
+        btnHover: "0px 7px 32px -13px #33A0FF"
       },
       fontFamily: {
         body: ["Poppins", "sans-serif"],

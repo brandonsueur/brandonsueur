@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Banner from "../components/Banner";
+import Button from "../components/Button";
 
 const TITLE = "Brandon Sueur — Expert React.js, React Native";
 
