@@ -38,7 +38,7 @@ const App = ({ Component, pageProps }) => {
         {/* Mobile Data */}
         <meta name="apple-mobile-web-app-title" content="Brandon Sueur" />
         <meta name="application-name" content="Brandon Sueur" />
-        <meta name="theme-color" content="#6366f1" />
+        <meta name="theme-color" content="#11131E" />
 
         <link rel="canonical" href="https://brandonsueur.fr" />
       </Head>
