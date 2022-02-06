@@ -2,7 +2,7 @@ import Button from "@components/Button";
 
 const Banner = () => (
   <div className="mt-32 md:mt-44 mb-28">
-    <div>
+    <div className="mb-32">
       <img
         src="/avatar.png"
         className="w-[68px] md:w-[86px] inline rounded-full border-4 border-primary mr-8"
@@ -15,7 +15,7 @@ const Banner = () => (
       </div>
     </div>
 
-    <h1 className="font-body font-semibold leading-4 md:leading-normal text-white tracking-tight text-xl md:text-4xl xl:text-5xl">
+    <h1 className="font-body font-semibold text-white text-xl md:text-4xl xl:text-5xl">
       Apportez l’idée, je la développe.
     </h1>
 
