@@ -3,6 +3,7 @@ import Head from "next/head";
 
 import { Banner } from "../components";
 import Services from "@sections/services";
+import Me from "@sections/me";
 
 const TITLE = "Brandon Sueur — Expert React.js, React Native";
 
@@ -41,11 +42,15 @@ const Homepage = props => (
       <title>{TITLE}</title>
     </Head>
 
-    <div className="container mx-auto">
+    <div className="container mx-auto space-y-48">
       <Banner />
 
       <section id="services">
         <Services />
+      </section>
+
+      <section id="services">
+        <Me />
       </section>
     </div>
   </>

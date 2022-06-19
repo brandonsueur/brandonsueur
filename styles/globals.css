@@ -1,3 +1,5 @@
+@import url('tailwindcss/dist/tailwind.min.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -85,36 +87,31 @@ body{
 
 h2 {
   font-size: 1.6em;
-  @apply font-semibold mb-8 mt-20;
-  @apply tracking-tight;
+  @apply font-semibold;
   @apply text-black;
 }
 
 h1 {
   @apply text-4xl;
-  @apply font-semibold mb-8 mt-20;
-  @apply tracking-tight;
+  @apply font-semibold;
   @apply text-black;
 }
 
 h2 {
   @apply text-3xl;
-  @apply font-semibold mb-8 mt-16;
-  @apply tracking-tight;
+  @apply font-semibold;
   @apply text-black;
 }
 
 h3 {
   @apply text-2xl;
-  @apply font-semibold mb-4 mt-20;
-  @apply tracking-tight;
+  @apply font-semibold;
   @apply text-black;
 }
 
 h4 {
   @apply text-xl;
-  @apply font-semibold mb-4 mt-20;
-  @apply tracking-tight;
+  @apply font-semibold;
   @apply text-black;
 }
 

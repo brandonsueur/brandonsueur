@@ -6,8 +6,9 @@ const ITEMS = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
+        width="26"
+        height="26"
         fill="none"
-        className="inline w-[22px]"
         viewBox="0 0 26 26">
         <path
           stroke="#fff"
@@ -75,18 +76,20 @@ const Services = () => {
         paragraph="Nécessaire pour une entreprise numérique prospère"
       />
 
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-1 gap-12 md:grid-cols-3">
         {ITEMS.map(item => (
           <div>
-            <div className=" inline-flex rounded-2xl bg-[#1C212D] mb-8 p-5">
+            <div className="mb-4 inline-flex rounded-2xl bg-grey-light p-5">
               {item.icon}
             </div>
 
-            <h3 className="font-body font-semibold text-1xl md:text-3xl text-white">
+            <h3 className="md:text-1xl font-body text-xl font-semibold text-white md:text-3xl">
               {item.label}
             </h3>
 
-            <p className="font-body text-blue-gray mt-6">{item.description}</p>
+            <p className="mt-2 font-body text-blue-gray md:mt-6">
+              {item.description}
+            </p>
           </div>
         ))}
       </div>

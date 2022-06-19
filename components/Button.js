@@ -1,21 +1,21 @@
 const Button = ({ children, hasArrow = false, ...restProps }) => {
   return (
     <button
-      className={`flex bg-primary rounded-full ${
+      className={`flex rounded-full bg-primary ${
         hasArrow ? "p-4" : "p-4 px-6"
-      } items-center shadow-btn hover:shadow-btnHover transition-shadow transition`}
+      } items-center shadow-btn transition-shadow transition hover:shadow-btnHover`}
       {...restProps}>
       <span
-        className={`font-body font-semibold text-white w-full ${
+        className={`w-full font-body font-semibold text-white ${
           hasArrow ? "ml-2" : ""
         }`}>
         {children}
       </span>
 
       {hasArrow && (
-        <div className="p-3 ml-4 rounded-full bg-[#2982CE] bg-opacity-40">
+        <div className="ml-4 rounded-full bg-blue-grey bg-opacity-40 p-3">
           <svg
-            className="w-[12px]"
+            className="w-3"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 14 12">

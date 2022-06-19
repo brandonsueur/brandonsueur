@@ -1,13 +1,22 @@
 module.exports = {
-  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  // contents: [
+  //   "./pages/**/*.{js,ts,jsx,tsx}",
+  //   "./sections/**/*.{js,ts,jsx,tsx}",
+  //   "./components/**/*.{js,ts,jsx,tsx}"
+  // ],
+  purge: ["./public/**/*.html", "./src/**/*.{js,jsx,ts,tsx,vue}"],
+  jit: true,
   darkMode: false,
-  mode: "jit",
   theme: {
     extend: {
       colors: {
         "blue-dark": "#11131E",
+        "blue-grey": "#2982CE",
         primary: "#33A0FF",
-        "blue-gray": "#C3C8D4"
+        "blue-gray": "#C3C8D4",
+        "grey-light": "#1C212D",
+        "grey-light2": "#262D3A",
+        "grey-light3": "#9196A1"
       },
       boxShadow: {
         btn: "0px 4px 4px rgba(0, 0, 0, 0.25)",
@@ -16,6 +25,10 @@ module.exports = {
       fontFamily: {
         body: ["Poppins", "sans-serif"],
         display: ["Poppins", "sans-serif"]
+      },
+      width: {
+        68: "68px",
+        86: "86px"
       }
     },
     container: {
@@ -23,7 +36,7 @@ module.exports = {
         sm: "100%",
         md: "100%",
         lg: "900px",
-        xl: "1100px"
+        xl: "1050px"
       },
       padding: {
         DEFAULT: "1rem",
@@ -32,9 +45,5 @@ module.exports = {
         xl: "0rem"
       }
     }
-  },
-  variants: {
-    extend: {}
-  },
-  plugins: []
+  }
 };
