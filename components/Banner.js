@@ -26,7 +26,9 @@ const Banner = () => (
     </p>
 
     <div className="mt-10 md:mt-16">
-      <Button hasArrow>Mes réalisations</Button>
+      <Button hasArrow>
+        <a href="#projects">Mes réalisations</a>
+      </Button>
     </div>
   </div>
 );
