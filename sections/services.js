@@ -79,11 +79,11 @@ const Services = () => {
       <div className="grid grid-cols-1 gap-12 md:grid-cols-3">
         {ITEMS.map(item => (
           <div>
-            <div className="mb-4 inline-flex rounded-2xl bg-grey-light p-5">
+            <div className="mb-5 inline-flex rounded-2xl bg-grey-light p-5">
               {item.icon}
             </div>
 
-            <h3 className="md:text-1xl font-body text-xl font-semibold text-white md:text-3xl">
+            <h3 className="font-body text-xl font-semibold text-white md:text-2xl">
               {item.label}
             </h3>
 
