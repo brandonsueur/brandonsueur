@@ -4,7 +4,7 @@ module.exports = {
     "./sections/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}"
   ],
-  purge: ["./public/**/*.html", "./src/**/*.{js,jsx,ts,tsx,vue}"],
+  // purge: ["./public/**/*.html", "./src/**/*.{js,jsx,ts,tsx,vue}"],
   jit: true,
   darkMode: false,
   theme: {
