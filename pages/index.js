@@ -5,6 +5,7 @@ import { Banner } from "../components";
 import Services from "@sections/services";
 import Me from "@sections/me";
 import Projects from "@sections/projects";
+import Contact from "@sections/contact";
 
 const TITLE = "Brandon Sueur — Expert React.js, React Native";
 
@@ -56,6 +57,10 @@ const Homepage = props => (
 
       <section id="projects">
         <Projects />
+      </section>
+
+      <section id="contact">
+        <Contact />
       </section>
     </div>
   </>

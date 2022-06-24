@@ -191,9 +191,10 @@ const Me = () => {
             l'entreprise.
             <br />
             <br />
-            J'aime créer de nouveaux produits de zéro ou optimiser les produits
-            existants afin qu'ils fonctionnent mieux du point de vue de
-            l'utilisateur et de l'entreprise.
+            Ce que j'aime dans mon métier, c'est que nous pouvons travailler
+            dans des endroits insolites, ne pas être dérangé en début de
+            journée(5h à 9h) et surtout éviter les transports afin de faire du
+            télé-travail.
             <br />
             <br />
           </p>
