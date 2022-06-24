@@ -1,4 +1,5 @@
 import Button from "@components/Button";
+import { Link } from "react-scroll";
 
 const Banner = () => (
   <div className="mt-32 md:mt-44">
@@ -26,9 +27,15 @@ const Banner = () => (
     </p>
 
     <div className="mt-10 md:mt-16">
-      <Button hasArrow>
-        <a href="#projects">Mes réalisations</a>
-      </Button>
+      <Link
+        key="projects"
+        to="projects"
+        offset={-80}
+        delay={100}
+        spy={true}
+        smooth={true}>
+        <Button hasArrow>Mes réalisations</Button>
+      </Link>
     </div>
   </div>
 );
