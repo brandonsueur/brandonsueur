@@ -22,10 +22,10 @@
     "react-syntax-highlighter": "^15.4.3",
     "remark-parse": "^9.0.0",
     "remark-react": "^8.0.0",
-    "tailwindcss": "^2.0.2",
     "unified": "^9.2.0"
   },
   "devDependencies": {
+    "tailwindcss": "^2.0.2",
     "eslint": "^7.21.0",
     "eslint-config-next": "^11.0.1",
     "eslint-config-prettier": "^8.1.0",
