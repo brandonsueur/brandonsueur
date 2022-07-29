@@ -19,7 +19,7 @@ const Homepage = props => (
       <meta name="twitter:title" content={TITLE} />
       <meta
         name="twitter:description"
-        content={`Mon expertise couvre l'ensemble du processus de conception de produits numériques pour les sites web et les applications mobiles.`}
+        content={`Expert React.js, React Native. Mon expertise couvre l'ensemble du processus de conception de produits numériques pour les sites web et les applications mobiles.`}
       />
       <meta name="twitter:domain" content="https://brandonsueur.fr" />
       <meta
@@ -36,7 +36,7 @@ const Homepage = props => (
       <meta property="og:image" content="https://brandonsueur.fr/twitter.jpg" />
       <meta
         property="og:description"
-        content={`Mon expertise couvre l'ensemble du processus de conception de produits numériques pour les sites web et les applications mobiles.`}
+        content={`Expert React.js, React Native. Mon expertise couvre l'ensemble du processus de conception de produits numériques pour les sites web et les applications mobiles.`}
       />
 
       <link rel="canonical" href="https://brandonsueur.fr" />

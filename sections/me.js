@@ -183,12 +183,12 @@ const Me = () => {
           <p
             style={{ height: showMore ? "100%" : "316px" }}
             className="mt-8 overflow-hidden font-body font-light leading-8 text-blue-gray">
-            Mon expertise couvre l'ensemble du processus de conception de
-            produits numériques pour les sites web et les applications mobiles,
-            y compris la communication visuelle et de marque. J'aime créer de
-            nouveaux produits de zéro ou optimiser les produits existants afin
-            qu'ils fonctionnent mieux du point de vue de l'utilisateur et de
-            l'entreprise.
+            Expert React.js, React Native. Mon expertise couvre l'ensemble du
+            processus de conception de produits numériques pour les sites web et
+            les applications mobiles, y compris la communication visuelle et de
+            marque. J'aime créer de nouveaux produits de zéro ou optimiser les
+            produits existants afin qu'ils fonctionnent mieux du point de vue de
+            l'utilisateur et de l'entreprise.
             <br />
             <br />
             Ce que j'aime dans mon métier, c'est que nous pouvons travailler
