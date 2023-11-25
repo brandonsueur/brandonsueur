@@ -183,18 +183,19 @@ const Me = () => {
           <p
             style={{ height: showMore ? "100%" : "316px" }}
             className="mt-8 overflow-hidden font-body font-light leading-8 text-blue-gray">
-            Expert React.js, React Native. Mon expertise couvre l'ensemble du
-            processus de conception de produits numériques pour les sites web et
-            les applications mobiles, y compris la communication visuelle et de
-            marque. J'aime créer de nouveaux produits de zéro ou optimiser les
-            produits existants afin qu'ils fonctionnent mieux du point de vue de
-            l'utilisateur et de l'entreprise.
+            Mon expertise couvre l'ensemble du processus de conception de
+            produits numériques pour les sites web et les applications mobiles,
+            y compris la communication visuelle et de marque. J'aime créer de
+            nouveaux produits de zéro ou optimiser les produits existants afin
+            qu'ils fonctionnent mieux du point de vue de l'utilisateur et de
+            l'entreprise.
             <br />
             <br />
-            Ce que j'aime dans mon métier, c'est que nous pouvons travailler
-            dans des endroits insolites, ne pas être dérangé en début de
-            journée(5h à 9h) et surtout éviter les transports afin de faire du
-            télé-travail.
+            Aujourd'hui, je travaille principalement avec React.js, React
+            Native. Je préfère utiliser TypeScript pour les projets de grande
+            envergure et JavaScript pour les projets plus petits. J'ai une bonne
+            expérience avec les frameworks CSS tels que TailwindCSS et
+            Material-UI.
             <br />
             <br />
           </p>
@@ -208,7 +209,7 @@ const Me = () => {
               <div className="mb-8 grid grid-cols-2 gap-8 lg:grid-cols-3">
                 {INTERESTS.map(item => (
                   <div className="inline-flex items-center space-x-4">
-                    <div className="relative inline-flex h-12 w-12 items-center justify-center rounded-2xl border-2 border-grey-light2 bg-grey-light bg-grey-light">
+                    <div className="relative inline-flex h-12 w-12 items-center justify-center rounded-2xl border-2 border-grey-light2 bg-grey-light">
                       {item.icon}
                     </div>
 
@@ -238,7 +239,7 @@ const Me = () => {
         {!showMore && (
           <button
             onClick={() => setShowMore(!showMore)}
-            className="mt-2 mb-8 text-left font-bold text-white underline opacity-100 transition transition-opacity ease-in-out hover:opacity-80">
+            className="mt-2 mb-8 text-left font-bold text-white underline opacity-100 transition ease-in-out hover:opacity-80">
             En savoir {showMore ? "moins" : "plus"}
           </button>
         )}

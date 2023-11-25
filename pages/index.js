@@ -44,7 +44,7 @@ const Homepage = props => (
       <title>{TITLE}</title>
     </Head>
 
-    <div className="container mx-auto mb-48 space-y-48">
+    <div className="container mx-auto mb-48 space-y-48 px-4 lg:px-0">
       <Banner />
 
       <section id="services">

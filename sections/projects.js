@@ -12,7 +12,8 @@ const ITEMS = [
     title: "Diagoriente",
     description:
       "Diagoriente est une plateforme gratuite et ouverte à tous pour trouver le métier fait pour soi.",
-    image: "diagoriente.jpg"
+    image: "diagoriente.jpg",
+    skills: ["React.js", "TypeScript", "TailwindCSS"]
   },
   {
     visible: true,
@@ -20,7 +21,8 @@ const ITEMS = [
     title: "Lyveat",
     description:
       "Application française de livraison de restaurants, qui livre même les campagnes !",
-    image: "lyveat.jpg"
+    image: "lyveat.jpg",
+    skills: ["Next.js", "TypeScript", "TailwindCSS"]
   },
   {
     visible: true,
@@ -28,15 +30,17 @@ const ITEMS = [
     title: "Notiplus",
     description:
       "Notiplus est la solution notariale qui simplifie la gestion des ventes immobilières.",
-    image: "notiplus.jpg"
+    image: "notiplus.jpg",
+    skills: ["React.js", "TypeScript", "Material-UI"]
   },
   {
-    visible: false,
+    visible: true,
     color: "#A7AAC2",
     title: "Coliveri",
     description:
       "La livraison par coursier dans l'heure, là où les autres ne vont pas.",
-    image: "coliveri.jpg"
+    image: "coliveri.jpg",
+    skills: ["Expo", "TypeScript", "TailwindCSS"]
   }
 ];
 
@@ -64,9 +68,23 @@ const Projects = () => {
               />
 
               <div className="mt-8">
-                <h3 className="mb-2 font-body font-bold text-white">
-                  {item.title}
-                </h3>
+                <div className="flex justify-between items-center justify-center">
+                  <h3 className="mb-2 font-body font-bold text-white">
+                    {item.title}
+                  </h3>
+                  <div className="mb-4">
+                    {item.skills.map(skill => (
+                      <span
+                        style={{
+                          backgroundColor: item.color
+                        }}
+                        className="mr-2 text-xs font-body font-light text-white px-2 py-1 rounded-full">
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
                 <p className="font-body font-light leading-8 text-blue-gray">
                   {item.description}
                 </p>

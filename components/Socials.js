@@ -36,7 +36,7 @@ const SOCIALS = [
   },
   {
     title: "Twitter",
-    link: "https://twitter.com/_brandonsueur",
+    link: "https://twitter.com/sueur_brandon",
     svg: (
       <svg
         width="34"
@@ -93,7 +93,7 @@ const SOCIALS = [
 
 const Socials = () => {
   return (
-    <div className="flex inline-flex space-x-6">
+    <div className="inline-flex space-x-6">
       {SOCIALS.map(social => (
         <div>
           <a href={social.link} target="_blank">

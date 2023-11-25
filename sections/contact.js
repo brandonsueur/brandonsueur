@@ -13,7 +13,7 @@ const Contact = () => {
 
       <div className="space-y-16 md:space-y-32">
         <a
-          className="text-2xl md:text-6xl font-body text-white font-bold underline"
+          className="text-2xl md:text-5xl lg:text-6xl font-body text-white font-bold underline"
           href="mailto:contact@brandonsueur.fr">
           contact@brandonsueur.fr
         </a>
