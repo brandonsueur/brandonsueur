@@ -5,6 +5,7 @@ const Banner = () => (
   <div className="mt-32 md:mt-44">
     <div className="mb-32">
       <img
+        alt="Brandon Sueur"
         src="/avatar.png"
         className="mr-8 inline w-68 rounded-full border-4 border-primary md:w-86"
       />
