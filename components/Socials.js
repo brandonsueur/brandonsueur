@@ -96,7 +96,11 @@ const Socials = () => {
     <div className="inline-flex space-x-6">
       {SOCIALS.map(social => (
         <div>
-          <a href={social.link} target="_blank">
+          <a
+            href={social.link}
+            aria-label={social.title}
+            target="_blank"
+            rel="noopener">
             {social.svg}
           </a>
         </div>
