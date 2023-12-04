@@ -7,13 +7,31 @@ import { SectionTitle } from "@components/index";
 
 const ITEMS = [
   {
+    visible: false,
+    color: "#97bffd",
+    title: "Carnet de compétences",
+    description:
+      "Plateforme d'identification de compétences pour personnes avec troubles cognitifs et mentaux.",
+    image: "diagoriente-carnet-de-compétences.png",
+    skills: ["React.js", "A11y"]
+  },
+  {
+    visible: false,
+    color: "#265955",
+    title: "Polia Immo",
+    description:
+      "La meilleur plateforme dédié aux entrepreneurs, investisseurs et artisans pour l’immobilier !",
+    image: "polia-immo.png",
+    skills: ["Next.js", "TypeScript", "TailwindCSS"]
+  },
+  {
     visible: true,
     color: "#F09776",
     title: "Diagoriente",
     description:
       "Diagoriente est une plateforme gratuite et ouverte à tous pour trouver le métier fait pour soi.",
     image: "diagoriente.jpg",
-    skills: ["React.js", "TypeScript", "TailwindCSS"]
+    skills: ["React.js", "TypeScript", "TailwindCSS", "A11y"]
   },
   {
     visible: true,
@@ -52,7 +70,7 @@ const Projects = () => {
         paragraph="Ils m’ont fait confiances"
       />
 
-      <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
+      <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
         {ITEMS.filter(_ => _.visible).map(item => {
           return (
             <div>
