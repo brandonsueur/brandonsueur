@@ -87,7 +87,7 @@ const Services = () => {
               {item.label}
             </h3>
 
-            <p className="mt-2 font-body text-blue-gray md:mt-6">
+            <p className="mt-2 font-body text-blue-gray md:mt-6 leading-8">
               {item.description}
             </p>
           </div>
