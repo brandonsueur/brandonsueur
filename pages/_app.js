@@ -15,6 +15,14 @@ const App = ({ Component, pageProps }) => {
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"
         />
+        <meta
+          name="news_keywords"
+          content="Brandon Sueur, react.js, react native, expo, flutter, développeur, développeur web, développeur mobile, développeur react"
+        />
+        <meta
+          name="description"
+          content="Brandon Sueur — React.js, React Native. Mon expertise couvre l'ensemble du processus de conception de produits numériques pour les sites web et les applications mobiles, y compris la communication visuelle et de marque."
+        />
 
         {/* Rating level and Langage */}
         <meta name="rating" content="General" />

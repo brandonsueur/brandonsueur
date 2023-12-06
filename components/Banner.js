@@ -22,7 +22,7 @@ const Banner = () => (
     </h1>
 
     <p className="mt-5 max-w-4xl font-body font-light leading-8 text-blue-gray md:text-lg">
-      Expert React.js, React Native. Mon expertise couvre l'ensemble du
+      <b>Expert React.js, React Native.</b> Mon expertise couvre l'ensemble du
       processus de conception de produits numériques pour les sites web et les
       applications mobiles, y compris la communication visuelle et de marque.
     </p>
