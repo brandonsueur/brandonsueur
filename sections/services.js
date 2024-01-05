@@ -77,8 +77,8 @@ const Services = () => {
       />
 
       <div className="grid grid-cols-1 gap-12 md:grid-cols-3">
-        {ITEMS.map(item => (
-          <div>
+        {ITEMS.map((item, i) => (
+          <div key={i}>
             <div className="mb-5 inline-flex rounded-2xl bg-grey-light p-5">
               {item.icon}
             </div>

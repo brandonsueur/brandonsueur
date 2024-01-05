@@ -207,8 +207,8 @@ const Me = () => {
               </h2>
 
               <div className="mb-8 grid grid-cols-2 gap-8 lg:grid-cols-3">
-                {INTERESTS.map(item => (
-                  <div className="inline-flex items-center space-x-4">
+                {INTERESTS.map((item, i) => (
+                  <div key={i} className="inline-flex items-center space-x-4">
                     <div className="relative inline-flex h-12 w-12 items-center justify-center rounded-2xl border-2 border-grey-light2 bg-grey-light">
                       {item.icon}
                     </div>

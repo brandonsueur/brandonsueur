@@ -1,8 +1,5 @@
 import React from "react";
 
-import DiagorienteScreenShot from "public/projects/diagoriente.jpg";
-import LyveatScreenShot from "public/projects/lyveat.jpg";
-import NotiplusScreenShot from "public/projects/notiplus.jpg";
 import { SectionTitle } from "@components/index";
 
 const ITEMS = [
@@ -71,15 +68,17 @@ const Projects = () => {
       />
 
       <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
-        {ITEMS.filter(_ => _.visible).map(item => {
+        {ITEMS.filter(_ => _.visible).map((item, i) => {
           return (
-            <div>
+            <div key={i}>
               <div
                 className="w-full rounded-2xl"
                 style={{
                   width: "100%",
                   height: "303px",
-                  backgroundImage: `url(./projects/${item.image})`,
+                  backgroundImage: item.image
+                    ? `url(./projects/${item.image})`
+                    : "",
                   backgroundSize: "cover",
                   boxShadow: `0px 30px 49px -40px ${item.color}`
                 }}
@@ -91,8 +90,9 @@ const Projects = () => {
                     {item.title}
                   </h3>
                   <div className="mb-4">
-                    {item.skills.map(skill => (
+                    {item?.skills?.map((skill, k) => (
                       <span
+                        key={k}
                         style={{
                           backgroundColor: item.color
                         }}

@@ -94,8 +94,8 @@ const SOCIALS = [
 const Socials = () => {
   return (
     <div className="inline-flex space-x-6">
-      {SOCIALS.map(social => (
-        <div>
+      {SOCIALS.map((social, i) => (
+        <div key={i}>
           <a
             href={social.link}
             aria-label={social.title}
