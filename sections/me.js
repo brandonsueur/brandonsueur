@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Button, SectionTitle } from "@components/index";
-
+import axios from "axios";
+import cheerio from "cheerio";
 import Socials from "@components/Socials";
 
 const INTERESTS = [
@@ -144,6 +145,21 @@ const INTERESTS = [
 ];
 
 const Me = () => {
+  const [maltPrice, setMaltPrice] = useState(null);
+  const [maltLoading, setMaltLoading] = useState(true);
+
+  useEffect(async () => {
+    const maltUrl = "https://www.malt.fr/profile/brandonsueur";
+    const response = await axios(maltUrl);
+    const htmlString = await response.data;
+    const $ = cheerio.load(htmlString);
+
+    const searchText = $(".block-list__price").text();
+
+    setMaltPrice(searchText);
+    setMaltLoading(false);
+  });
+
   const [showMore, setShowMore] = useState(false);
 
   return (
@@ -168,9 +184,34 @@ const Me = () => {
           }}>
           <Button>
             <a target="_blank" href="https://www.malt.fr/profile/brandonsueur">
-              <div className="mx-4">
-                600€ <span className="text-xs font-normal">/ jour</span>
-              </div>
+              {maltLoading && (
+                <div className="mx-4">
+                  {/* circle rounded loading */}
+                  <svg
+                    className="animate-spin h-5 w-5 mr-3"
+                    viewBox="0 0 24 24">
+                    <circle
+                      className="opacity-25"
+                      cx="12"
+                      cy="12"
+                      r="10"
+                      stroke="white"
+                      strokeWidth="4"
+                    />
+                    <path
+                      className="opacity-75"
+                      fill="white"
+                      d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
+                    />
+                  </svg>
+                </div>
+              )}
+              {!maltLoading && (
+                <div className="mx-4">
+                  {maltPrice}{" "}
+                  <span className="text-xs font-normal">/ jour</span>
+                </div>
+              )}
             </a>
           </Button>
         </div>
