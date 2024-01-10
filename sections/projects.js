@@ -85,7 +85,7 @@ const Projects = () => {
               />
 
               <div className="mt-8">
-                <div className="flex justify-between items-center">
+                <div className="flex flex-col md:flex-row justify-between items-center">
                   <h3 className="mb-2 font-body font-bold text-white">
                     {item.title}
                   </h3>
