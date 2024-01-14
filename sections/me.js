@@ -206,12 +206,7 @@ const Me = () => {
                   </svg>
                 </div>
               )}
-              {!maltLoading && (
-                <div className="mx-4">
-                  {maltPrice}{" "}
-                  <span className="text-xs font-normal">/ jour</span>
-                </div>
-              )}
+              {!maltLoading && <div className="mx-4">Mon profil Malt</div>}
             </a>
           </Button>
         </div>
