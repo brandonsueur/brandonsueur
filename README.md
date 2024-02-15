@@ -5,5 +5,3 @@ I specialize in web technologies and have developed expertise in 𝗥𝗲𝗮�
 - 💬 Ping me about **integration**, **design**, **branding**, **react.js**, **business**.
 - 📫 Reach me: [twitter.com/sueur_brandon](https://twitter.com/sueur_brandon).
 ⏤ Learn more about me, on [LinkedIn](https://www.linkedin.com/in/brandonsueur/)
-
-![](https://komarev.com/ghpvc/?username=brandonsueur&style=flat-square)
